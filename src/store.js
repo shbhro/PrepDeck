@@ -77,9 +77,8 @@ export const useStore = create(
             setMode: (mode) => set({ gameMode: mode }),
         }),
         {
-            name: 'hsk-storage', // Key for localStorage
+            name: 'hsk-storage', // Saves to localStorage
             partialize: (state) => ({ 
-                // We only want to save these fields
                 score: state.score, 
                 streak: state.streak, 
                 userProgress: state.userProgress,

@@ -4,17 +4,56 @@ import confetti from 'canvas-confetti';
 import { Play, BookOpen, RotateCcw, Check, X, Trophy, Moon, Sun, Volume2 } from 'lucide-react';
 import { useStore } from './store';
 
-// --- HELPER: TEXT TO SPEECH ---
+// --- SMART AUDIO ENGINE ---
+let voiceCache = null;
+
+const getBestVoice = () => {
+    if (voiceCache) return voiceCache; 
+
+    const voices = window.speechSynthesis.getVoices();
+    if (voices.length === 0) return null;
+
+    const priorityList = [
+        "Xiaoxiao",        // Edge (Natural - Best)
+        "Yunxi",           // Edge (Natural)
+        "Google 普通话",    // Chrome (Google Neural)
+        "Google Chinese",  // Chrome Fallback
+        "Lili",            // macOS (Natural)
+        "Ting-Ting",       // macOS
+        "Microsoft Huihui Online (Natural)", // Windows
+        "Microsoft Yaoyao Online",            // Windows Fallback
+        "Zhiyu",           // Android
+        "Sin-Ji",          // iOS
+    ];
+
+    for (const name of priorityList) {
+        const found = voices.find(v => v.name.includes(name) || v.lang === name);
+        if (found) {
+            console.log(`🎤 Voice Locked: ${found.name}`);
+            voiceCache = found;
+            return found;
+        }
+    }
+    return null;
+};
+
 const speak = (text) => {
     if (!text) return;
-    // Cancel any ongoing speech
-    window.speechSynthesis.cancel();
-    
+    const synth = window.speechSynthesis;
+    if (synth.speaking) synth.cancel();
+
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'zh-CN'; // Set to Chinese
-    utterance.rate = 0.8; // Slightly slower for clarity
-    
-    window.speechSynthesis.speak(utterance);
+    const bestVoice = getBestVoice();
+
+    if (bestVoice) {
+        utterance.voice = bestVoice;
+        utterance.lang = bestVoice.lang;
+    } else {
+        utterance.lang = 'zh-CN';
+    }
+
+    utterance.rate = 0.8; 
+    synth.speak(utterance);
 };
 
 // --- THEME TOGGLE ---
@@ -30,6 +69,15 @@ const ThemeToggle = () => {
     );
 };
 
+// --- FOOTER COMPONENT ---
+const Footer = () => (
+    <footer className="absolute bottom-4 w-full text-center z-10 pointer-events-none">
+        <p className="text-xs font-mono text-gray-400 dark:text-gray-600 flex items-center justify-center gap-1 opacity-60">
+            Powered by <span className="font-bold text-blue-500 dark:text-blue-400">Laddu</span>
+        </p>
+    </footer>
+);
+
 // --- MENU SCREEN ---
 const Menu = () => {
     const { startQuiz, startFlashcards, vocab } = useStore();
@@ -38,7 +86,6 @@ const Menu = () => {
     return (
         <div className="flex flex-col items-center justify-center h-screen p-6 relative overflow-hidden">
             
-            {/* AMBIENT BACKGROUND GLOW */}
             <div className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] bg-blue-500/10 dark:bg-blue-500/5 rounded-full blur-[120px] pointer-events-none" />
             <div className="absolute bottom-[-20%] right-[-10%] w-[500px] h-[500px] bg-emerald-500/10 dark:bg-emerald-500/5 rounded-full blur-[100px] pointer-events-none" />
 
@@ -53,7 +100,6 @@ const Menu = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl w-full relative z-10">
                 
-                {/* QUIZ CARD */}
                 <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-white dark:border-gray-700 transition-all hover:shadow-blue-500/20 hover:border-blue-500/30 group">
                     <div className="mb-6 inline-flex p-3 rounded-2xl bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400">
                         <Play size={32} />
@@ -61,7 +107,6 @@ const Menu = () => {
                     <h2 className="text-3xl font-bold mb-2 text-gray-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Speed Quiz</h2>
                     <p className="text-gray-500 dark:text-gray-400 text-sm mb-8">Test your memory against the clock.</p>
                     
-                    {/* Range Slider */}
                     <div className="mb-8">
                         <div className="flex justify-between mb-2">
                             <span className="text-sm font-bold text-gray-600 dark:text-gray-300">Words:</span>
@@ -86,7 +131,6 @@ const Menu = () => {
                     </button>
                 </div>
 
-                {/* FLASHCARD CARD */}
                 <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-white dark:border-gray-700 transition-all hover:shadow-emerald-500/20 hover:border-emerald-500/30 group flex flex-col">
                     <div className="mb-6 inline-flex p-3 rounded-2xl bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 w-fit">
                         <BookOpen size={32} />
@@ -133,6 +177,8 @@ const QuizMode = () => {
         if (showResult) return;
 
         const isCorrect = selectedCard.id === currentCard.id;
+        if (isCorrect) speak(currentCard.front); 
+
         setShowResult(isCorrect ? 'correct' : 'wrong');
         submitAnswer(currentCard.id, isCorrect);
 
@@ -202,7 +248,7 @@ const QuizMode = () => {
     );
 };
 
-// --- FLASHCARD MODE ---
+// --- FLASHCARD MODE (FIXED) ---
 const FlashcardMode = () => {
     const { currentDeck, setMode } = useStore();
     const [index, setIndex] = useState(0);
@@ -251,39 +297,38 @@ const FlashcardMode = () => {
                 </button>
             </div>
 
-            <div className="relative w-96 h-[550px] perspective-1000 group">
+            {/* FIXED: Explicit Perspective on Container */}
+            <div className="relative w-96 h-[550px] group" style={{ perspective: "1000px" }}>
                 <motion.div
                     initial={false}
                     animate={{ rotateX: isFlipped ? 180 : 0 }}
-                    transition={{ duration: 0.6, type: "spring" }}
+                    transition={{ duration: 0.6, type: "spring", stiffness: 260, damping: 20 }}
                     className="w-full h-full relative"
                     style={{ transformStyle: 'preserve-3d' }}
                 >
-                    {/* FRONT */}
-                    <div className="absolute w-full h-full bg-white dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 border border-gray-200 dark:border-gray-700 rounded-3xl flex flex-col items-center justify-center shadow-2xl relative" style={{ backfaceVisibility: 'hidden' }}>
-                        {/* Audio Button on Front too */}
+                    {/* FRONT: Removed 'relative' from classes, added 'absolute' */}
+                    <div className="absolute w-full h-full bg-white dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 border border-gray-200 dark:border-gray-700 rounded-3xl flex flex-col items-center justify-center shadow-2xl" style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>
+                        
                         <button 
                             onClick={(e) => {
                                 e.stopPropagation();
                                 speak(current.front);
                             }}
-                            className="absolute top-4 right-4 p-3 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-600 hover:text-blue-600 dark:bg-gray-700 dark:hover:bg-cyan-900/50 dark:text-gray-300 dark:hover:text-cyan-400 transition-colors z-20"
+                            className="absolute top-6 right-6 p-3 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-600 hover:text-blue-600 dark:bg-gray-700 dark:hover:bg-cyan-900/50 dark:text-gray-300 dark:hover:text-cyan-400 transition-colors z-20 shadow-sm"
                         >
-                            <Volume2 size={24} />
+                            <Volume2 size={28} />
                         </button>
 
                         <h2 className="text-9xl font-bold text-gray-800 dark:text-white mb-2 drop-shadow-sm">{current.front}</h2>
                         <p className="text-gray-400 text-sm mt-8 uppercase tracking-[0.3em] font-bold">Tap to flip</p>
                     </div>
 
-                    {/* BACK */}
+                    {/* BACK: Added 'absolute' */}
                     <div 
                         className="absolute w-full h-full bg-blue-50 dark:bg-gradient-to-br dark:from-cyan-950 dark:to-slate-900 border border-blue-100 dark:border-cyan-800 rounded-3xl flex flex-col p-6 shadow-2xl overflow-y-auto"
-                        style={{ transform: 'rotateX(180deg)', backfaceVisibility: 'hidden' }}
+                        style={{ transform: 'rotateX(180deg)', backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}
                     >
-                        {/* Header */}
                         <div className="text-center border-b border-blue-200 dark:border-cyan-800 pb-4 mb-4 relative">
-                            {/* Audio Button */}
                             <button 
                                 onClick={(e) => {
                                     e.stopPropagation();
@@ -300,14 +345,12 @@ const FlashcardMode = () => {
                             </span>
                         </div>
 
-                        {/* Meaning */}
                         <div className="mb-6 text-center flex-grow flex items-center justify-center">
                             <p className="text-gray-700 dark:text-gray-100 text-xl leading-relaxed font-medium">
                                 {current.back.meaning}
                             </p>
                         </div>
 
-                        {/* Measure Word */}
                         {current.back.measure_word && (
                             <div className="bg-white/60 dark:bg-black/20 rounded-xl p-3 mb-4 flex justify-between items-center border border-white/50 dark:border-white/5">
                                 <span className="text-xs text-gray-500 dark:text-cyan-500/80 uppercase font-bold tracking-wide">Measure Word</span>
@@ -317,9 +360,11 @@ const FlashcardMode = () => {
                             </div>
                         )}
 
-                        {/* Example */}
                         {current.back.example && (
-                            <div className="mt-auto bg-blue-100/50 dark:bg-black/30 rounded-xl p-4 text-left border border-blue-200/50 dark:border-white/5 relative overflow-hidden group/ex" onClick={(e) => { e.stopPropagation(); speak(exampleObj.hanzi.replace('~', current.front)); }}>
+                            <div 
+                                className="mt-auto bg-blue-100/50 dark:bg-black/30 rounded-xl p-4 text-left border border-blue-200/50 dark:border-white/5 relative overflow-hidden group/ex cursor-pointer hover:bg-blue-100/70 dark:hover:bg-black/40 transition-colors" 
+                                onClick={(e) => { e.stopPropagation(); speak(exampleObj.hanzi.replace('～', current.front)); }}
+                            >
                                 <div className="absolute top-1 right-2 text-6xl text-blue-200/50 dark:text-white/5 font-serif select-none pointer-events-none">”</div>
                                 <div className="flex justify-between items-center mb-1">
                                     <p className="text-xs text-blue-500 dark:text-cyan-500/80 uppercase font-bold tracking-wider">Context</p>
@@ -400,6 +445,21 @@ export default function App() {
             .then(res => res.json())
             .then(data => setVocab(data))
             .catch(err => console.error("Failed to load vocab", err));
+
+        // FORCE LOAD VOICES
+        const loadVoices = () => {
+            const voices = window.speechSynthesis.getVoices();
+            if (voices.length > 0) {
+                console.log(`Loaded ${voices.length} voices.`);
+                getBestVoice(); 
+            }
+        };
+
+        loadVoices();
+        if (window.speechSynthesis.onvoiceschanged !== undefined) {
+            window.speechSynthesis.onvoiceschanged = loadVoices;
+        }
+        
     }, []);
 
     return (
@@ -410,6 +470,7 @@ export default function App() {
                 {gameMode === 'quiz' && <QuizMode />}
                 {gameMode === 'flashcards' && <FlashcardMode />}
                 {gameMode === 'summary' && <Summary />}
+                <Footer />
             </div>
         </div>
     );
