@@ -25,7 +25,6 @@ const getBestVoice = () => {
         "Zhiyu",           // Android
         "Sin-Ji",          // iOS
     ];
-
     for (const name of priorityList) {
         const found = voices.find(v => v.name.includes(name) || v.lang === name);
         if (found) {
@@ -96,7 +95,7 @@ const Menu = () => {
             >
                 PrepDeck
             </motion.h1>
-            <p className="text-gray-600 dark:text-gray-400 mb-12 relative z-10 font-medium tracking-wide">Master HSK Vocab</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-12 relative z-10 font-medium tracking-wide">Master HSK Vocab • {vocab.length} Words Loaded</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl w-full relative z-10">
                 
@@ -297,7 +296,6 @@ const FlashcardMode = () => {
                 </button>
             </div>
 
-            {/* FIXED: Explicit Perspective on Container */}
             <div className="relative w-96 h-[550px] group" style={{ perspective: "1000px" }}>
                 <motion.div
                     initial={false}
@@ -363,7 +361,7 @@ const FlashcardMode = () => {
                         {current.back.example && (
                             <div 
                                 className="mt-auto bg-blue-100/50 dark:bg-black/30 rounded-xl p-4 text-left border border-blue-200/50 dark:border-white/5 relative overflow-hidden group/ex cursor-pointer hover:bg-blue-100/70 dark:hover:bg-black/40 transition-colors" 
-                                onClick={(e) => { e.stopPropagation(); speak(exampleObj.hanzi.replace('～', current.front)); }}
+                                onClick={(e) => { e.stopPropagation(); speak(exampleObj.hanzi.replace('~', current.front)); }}
                             >
                                 <div className="absolute top-1 right-2 text-6xl text-blue-200/50 dark:text-white/5 font-serif select-none pointer-events-none">”</div>
                                 <div className="flex justify-between items-center mb-1">
@@ -464,7 +462,7 @@ export default function App() {
 
     return (
         <div className={darkMode ? 'dark' : ''}>
-            <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 font-sans selection:bg-blue-200 dark:selection:bg-cyan-900">
+            <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 font-sans selection:bg-blue-200 dark:selection:bg-cyan-900 relative">
                 <ThemeToggle />
                 {gameMode === 'menu' && <Menu />}
                 {gameMode === 'quiz' && <QuizMode />}
