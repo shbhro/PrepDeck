@@ -20,7 +20,9 @@ const getBestVoice = () => {
         "Google Chinese",  // Chrome Fallback
         "Lili",            // macOS (Natural)
         "Ting-Ting",       // macOS
+        "zh-CN"            // Generic System Fallback
     ];
+
     for (const name of priorityList) {
         const found = voices.find(v => v.name.includes(name) || v.lang === name);
         if (found) {
@@ -65,8 +67,9 @@ const ThemeToggle = () => {
 };
 
 // --- FOOTER COMPONENT ---
+// Fixed: Added padding and proper spacing
 const Footer = () => (
-    <footer className="absolute bottom-4 w-full text-center z-10 pointer-events-none">
+    <footer className="w-full text-center py-8 mt-auto z-10">
         <p className="text-xs font-mono text-gray-400 dark:text-gray-600 flex items-center justify-center gap-1 opacity-60">
             Powered by <span className="font-bold text-blue-500 dark:text-blue-400">Laddu</span>
         </p>
@@ -79,22 +82,17 @@ const Menu = () => {
     const [quizCount, setQuizCount] = useState(10);
     
     return (
-        <div className="flex flex-col items-center justify-center h-screen p-6 relative overflow-hidden">
-            
-            <div className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] bg-blue-500/10 dark:bg-blue-500/5 rounded-full blur-[120px] pointer-events-none" />
-            <div className="absolute bottom-[-20%] right-[-10%] w-[500px] h-[500px] bg-emerald-500/10 dark:bg-emerald-500/5 rounded-full blur-[100px] pointer-events-none" />
-
+        <div className="flex-grow flex flex-col items-center justify-center w-full max-w-5xl mx-auto p-6 relative z-10">
             <motion.h1 
                 initial={{ y: -50, opacity: 0 }} 
                 animate={{ y: 0, opacity: 1 }} 
-                className="text-7xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-cyan-400 dark:to-blue-500 text-center relative z-10"
+                className="text-7xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-cyan-400 dark:to-blue-500 text-center"
             >
                 PrepDeck
             </motion.h1>
-            <p className="text-gray-600 dark:text-gray-400 mb-12 relative z-10 font-medium tracking-wide">Master HSK Vocab</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-12 font-medium tracking-wide">Master HSK Vocab</p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl w-full relative z-10">
-                
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
                 <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-white dark:border-gray-700 transition-all hover:shadow-blue-500/20 hover:border-blue-500/30 group">
                     <div className="mb-6 inline-flex p-3 rounded-2xl bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400">
                         <Play size={32} />
@@ -156,6 +154,14 @@ const QuizMode = () => {
 
     const currentCard = currentDeck[index];
 
+    // Dynamic Sizing for Quiz Question
+    const getFontSize = (text) => {
+        if (!text) return "text-8xl";
+        if (text.length > 3) return "text-6xl";
+        if (text.length === 3) return "text-7xl";
+        return "text-9xl";
+    };
+
     useEffect(() => {
         if (!currentCard) return;
         const { vocab } = useStore.getState();
@@ -194,8 +200,8 @@ const QuizMode = () => {
     const progress = (quizLog.length / currentDeck.length) * 100;
 
     return (
-        <div className="h-screen flex flex-col items-center justify-center p-6 relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-2 bg-gray-200 dark:bg-gray-800">
+        <div className="flex-grow flex flex-col items-center justify-center p-6 relative w-full max-w-4xl mx-auto">
+            <div className="absolute top-0 left-0 w-full h-2 bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
                 <motion.div 
                     className="h-full bg-blue-500 dark:bg-cyan-400 shadow-[0_0_10px_rgba(59,130,246,0.5)]"
                     initial={{ width: 0 }}
@@ -204,25 +210,24 @@ const QuizMode = () => {
                 />
             </div>
 
-            <div className="absolute top-6 left-6 font-mono text-gray-800 dark:text-white font-bold">
-                <div>SCORE: {score}</div>
-                <div>STREAK: {streak}x</div>
-            </div>
-            <div className="absolute top-6 right-20 font-mono text-gray-800 dark:text-white font-bold">
-                {index + 1} / {currentDeck.length}
+            <div className="w-full flex justify-between items-center mb-12 mt-8 font-mono text-gray-800 dark:text-white font-bold">
+                <div>SCORE: {score} <span className="mx-2 text-gray-300">|</span> STREAK: {streak}x</div>
+                <div>{index + 1} / {currentDeck.length}</div>
             </div>
 
             <motion.div 
                 key={currentCard.id}
                 initial={{ scale: 0.8, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
-                className="mb-12 text-center"
+                className="mb-12 text-center w-full"
             >
-                <div className="text-9xl font-bold mb-6 font-sans text-gray-900 dark:text-white drop-shadow-xl">{currentCard.front}</div>
+                <div className={`${getFontSize(currentCard.front)} font-bold mb-6 font-sans text-gray-900 dark:text-white drop-shadow-xl transition-all duration-300`}>
+                    {currentCard.front}
+                </div>
                 <div className="text-xl font-mono tracking-[0.2em] uppercase text-blue-500 dark:text-cyan-400 font-bold">Select Meaning</div>
             </motion.div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-4xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
                 {options.map((opt) => (
                     <motion.button
                         key={opt.id}
@@ -243,7 +248,7 @@ const QuizMode = () => {
     );
 };
 
-// --- FLASHCARD MODE (FIXED) ---
+// --- FLASHCARD MODE (FIXED 3D) ---
 const FlashcardMode = () => {
     const { currentDeck, setMode } = useStore();
     const [index, setIndex] = useState(0);
@@ -280,28 +285,38 @@ const FlashcardMode = () => {
         return "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200 border-gray-200 dark:border-gray-600";
     };
 
+    // FIXED: Dynamic Font Sizing for Flashcard
+    const getFontSize = (text) => {
+        if (!text) return "text-8xl";
+        if (text.length > 3) return "text-6xl"; 
+        if (text.length === 3) return "text-7xl";
+        return "text-9xl"; 
+    };
+
     if (!current) return <div className="text-center mt-20 text-gray-500 dark:text-white">Loading Deck...</div>;
 
     const exampleObj = parseExample(current.back.example);
 
     return (
-        <div className="h-screen flex flex-col items-center justify-center p-6 cursor-pointer" onClick={() => setIsFlipped(!isFlipped)}>
-            <div className="absolute top-6 left-6">
-                <button onClick={(e) => { e.stopPropagation(); setMode('menu'); }} className="flex items-center gap-2 hover:text-cyan-600 text-gray-600 dark:text-white dark:hover:text-cyan-400 font-bold">
+        <div className="flex-grow flex flex-col items-center justify-center p-6 cursor-pointer w-full relative z-10" onClick={() => setIsFlipped(!isFlipped)}>
+            <div className="absolute top-6 left-6 z-20">
+                <button onClick={(e) => { e.stopPropagation(); setMode('menu'); }} className="flex items-center gap-2 hover:text-cyan-600 text-gray-600 dark:text-white dark:hover:text-cyan-400 font-bold bg-white/50 dark:bg-black/20 p-2 rounded-lg backdrop-blur-sm">
                     <RotateCcw size={20} /> Exit
                 </button>
             </div>
 
-            <div className="relative w-96 h-[550px] group" style={{ perspective: "1000px" }}>
+            {/* CARD CONTAINER - Height increased to 600px */}
+            <div className="relative w-full max-w-sm h-[600px] group" style={{ perspective: "1000px" }}>
                 <motion.div
                     initial={false}
                     animate={{ rotateX: isFlipped ? 180 : 0 }}
                     transition={{ duration: 0.6, type: "spring", stiffness: 260, damping: 20 }}
-                    className="w-full h-full relative"
+                    className="w-full h-full relative" // 'relative' here is for the flipper wrapper itself
                     style={{ transformStyle: 'preserve-3d' }}
                 >
-                    {/* FRONT: Removed 'relative' from classes, added 'absolute' */}
-                    <div className="absolute w-full h-full bg-white dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 border border-gray-200 dark:border-gray-700 rounded-3xl flex flex-col items-center justify-center shadow-2xl" style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>
+                    {/* FRONT - FIXED: Removed 'relative', now 'absolute' to prevent collision */}
+                    <div className="absolute top-0 left-0 w-full h-full bg-white dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 border border-gray-200 dark:border-gray-700 rounded-3xl flex flex-col items-center justify-center shadow-2xl overflow-hidden" 
+                         style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>
                         
                         <button 
                             onClick={(e) => {
@@ -313,13 +328,16 @@ const FlashcardMode = () => {
                             <Volume2 size={28} />
                         </button>
 
-                        <h2 className="text-9xl font-bold text-gray-800 dark:text-white mb-2 drop-shadow-sm">{current.front}</h2>
+                        <h2 className={`${getFontSize(current.front)} font-bold text-gray-800 dark:text-white mb-2 drop-shadow-sm text-center px-4 transition-all duration-300`}>
+                            {current.front}
+                        </h2>
+                        
                         <p className="text-gray-400 text-sm mt-8 uppercase tracking-[0.3em] font-bold">Tap to flip</p>
                     </div>
 
-                    {/* BACK: Added 'absolute' */}
+                    {/* BACK - FIXED: Strictly 'absolute' */}
                     <div 
-                        className="absolute w-full h-full bg-blue-50 dark:bg-gradient-to-br dark:from-cyan-950 dark:to-slate-900 border border-blue-100 dark:border-cyan-800 rounded-3xl flex flex-col p-6 shadow-2xl overflow-y-auto"
+                        className="absolute top-0 left-0 w-full h-full bg-blue-50 dark:bg-gradient-to-br dark:from-cyan-950 dark:to-slate-900 border border-blue-100 dark:border-cyan-800 rounded-3xl flex flex-col p-6 shadow-2xl overflow-y-auto"
                         style={{ transform: 'rotateX(180deg)', backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}
                     >
                         <div className="text-center border-b border-blue-200 dark:border-cyan-800 pb-4 mb-4 relative">
@@ -376,9 +394,9 @@ const FlashcardMode = () => {
                 </motion.div>
             </div>
             
-            <div className="mt-8 flex gap-4">
-                <button onClick={(e) => { e.stopPropagation(); setIndex((prev) => Math.max(0, prev - 1)); setIsFlipped(false); }} className="px-6 py-3 bg-white text-gray-800 border border-gray-300 hover:bg-gray-50 dark:bg-gray-700 dark:text-white dark:border-transparent rounded-xl shadow-sm font-bold">Prev</button>
-                <button onClick={(e) => { e.stopPropagation(); setIndex((prev) => (prev + 1) % currentDeck.length); setIsFlipped(false); }} className="px-6 py-3 bg-blue-600 text-white hover:bg-blue-500 dark:bg-cyan-600 dark:hover:bg-cyan-500 rounded-xl shadow-lg font-bold">Next</button>
+            <div className="mt-8 flex gap-4 w-full max-w-sm">
+                <button onClick={(e) => { e.stopPropagation(); setIndex((prev) => Math.max(0, prev - 1)); setIsFlipped(false); }} className="flex-1 py-3 bg-white text-gray-800 border border-gray-300 hover:bg-gray-50 dark:bg-gray-700 dark:text-white dark:border-transparent rounded-xl shadow-sm font-bold">Prev</button>
+                <button onClick={(e) => { e.stopPropagation(); setIndex((prev) => (prev + 1) % currentDeck.length); setIsFlipped(false); }} className="flex-1 py-3 bg-blue-600 text-white hover:bg-blue-500 dark:bg-cyan-600 dark:hover:bg-cyan-500 rounded-xl shadow-lg font-bold">Next</button>
             </div>
         </div>
     );
@@ -389,14 +407,14 @@ const Summary = () => {
     const { score, setMode, quizLog } = useStore();
     
     return (
-        <div className="h-screen flex flex-col items-center justify-center text-gray-800 dark:text-white p-6 overflow-hidden">
+        <div className="flex-grow flex flex-col items-center justify-center p-6 relative w-full max-w-4xl mx-auto overflow-hidden">
             <div className="text-center mb-8">
                 <Trophy size={60} className="text-yellow-500 dark:text-yellow-400 mb-4 mx-auto drop-shadow-lg" />
                 <h1 className="text-5xl font-bold mb-2 tracking-tight">Quiz Complete!</h1>
                 <p className="text-2xl text-gray-600 dark:text-gray-400 font-medium">Final Score: <span className="text-blue-600 dark:text-cyan-400">{score}</span></p>
             </div>
 
-            <div className="w-full max-w-4xl bg-white dark:bg-gray-800 rounded-3xl shadow-2xl overflow-hidden flex-1 mb-8 flex flex-col border border-gray-200 dark:border-gray-700">
+            <div className="w-full bg-white dark:bg-gray-800 rounded-3xl shadow-2xl overflow-hidden flex-1 mb-8 flex flex-col border border-gray-200 dark:border-gray-700 max-h-[50vh]">
                 <div className="p-5 bg-gray-50 dark:bg-gray-700/50 border-b border-gray-200 dark:border-gray-600 font-bold text-gray-500 dark:text-gray-300 flex justify-between uppercase tracking-wider text-sm">
                     <span>Review Sheet</span>
                     <span>{quizLog.filter(x => x.isCorrect).length} / {quizLog.length} Correct</span>
@@ -440,13 +458,9 @@ export default function App() {
             .then(data => setVocab(data))
             .catch(err => console.error("Failed to load vocab", err));
 
-        // FORCE LOAD VOICES
         const loadVoices = () => {
             const voices = window.speechSynthesis.getVoices();
-            if (voices.length > 0) {
-                console.log(`Loaded ${voices.length} voices.`);
-                getBestVoice(); 
-            }
+            if (voices.length > 0) getBestVoice(); 
         };
 
         loadVoices();
@@ -456,14 +470,25 @@ export default function App() {
         
     }, []);
 
+    // FIX: Main container is now Flex Column with min-h-screen
     return (
         <div className={darkMode ? 'dark' : ''}>
-            <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 font-sans selection:bg-blue-200 dark:selection:bg-cyan-900 relative">
+            <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 font-sans selection:bg-blue-200 dark:selection:bg-cyan-900 flex flex-col relative overflow-hidden">
+                
+                {/* Background Glows (Fixed Position) */}
+                <div className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] bg-blue-500/10 dark:bg-blue-500/5 rounded-full blur-[120px] pointer-events-none" />
+                <div className="absolute bottom-[-20%] right-[-10%] w-[500px] h-[500px] bg-emerald-500/10 dark:bg-emerald-500/5 rounded-full blur-[100px] pointer-events-none" />
+
                 <ThemeToggle />
-                {gameMode === 'menu' && <Menu />}
-                {gameMode === 'quiz' && <QuizMode />}
-                {gameMode === 'flashcards' && <FlashcardMode />}
-                {gameMode === 'summary' && <Summary />}
+                
+                {/* Content Area (Grows to push footer down) */}
+                <main className="flex-grow flex flex-col items-center justify-center w-full z-10">
+                    {gameMode === 'menu' && <Menu />}
+                    {gameMode === 'quiz' && <QuizMode />}
+                    {gameMode === 'flashcards' && <FlashcardMode />}
+                    {gameMode === 'summary' && <Summary />}
+                </main>
+
                 <Footer />
             </div>
         </div>
