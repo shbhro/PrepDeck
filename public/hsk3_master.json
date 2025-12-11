@@ -1,0 +1,5942 @@
+[
+  {
+    "front": "爱",
+    "back": {
+      "hanzi_pinyin": "爱 (ài)",
+      "meaning": "love",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "妈妈，我～你。\n(mā mā ， wǒ ～ nǐ 。)"
+    }
+  },
+  {
+    "front": "八",
+    "back": {
+      "hanzi_pinyin": "八 (bā)",
+      "meaning": "eight",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "他儿子今年～岁了。\n(tā ér zi jīn nián ～ suì le 。)"
+    }
+  },
+  {
+    "front": "爸爸",
+    "back": {
+      "hanzi_pinyin": "爸爸 (bà ba)",
+      "meaning": "father; dad; daddy",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi)",
+      "example": "我～是医生。\n(wǒ ～ shì yī shēng 。)"
+    }
+  },
+  {
+    "front": "杯子",
+    "back": {
+      "hanzi_pinyin": "杯子 (bēi zi)",
+      "meaning": "cup; glass",
+      "part_of_speech": "Noun",
+      "measure_word": "只 (zhǐ), 个 (gè)",
+      "example": "～里有茶。\n(～ lǐ yǒu chá 。)"
+    }
+  },
+  {
+    "front": "北京",
+    "back": {
+      "hanzi_pinyin": "北京 (Běi jīng)",
+      "meaning": "Beijing",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我住在～。\n(wǒ zhù zài ～。)"
+    }
+  },
+  {
+    "front": "本",
+    "back": {
+      "hanzi_pinyin": "本 (běn)",
+      "meaning": "copy; issue (used for counting books and other bound items)",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "桌子上有一～书。\n(zhuō zi shàng yǒu yī ～ shū 。)"
+    }
+  },
+  {
+    "front": "不客气",
+    "back": {
+      "hanzi_pinyin": "不客气 (bù kè qi)",
+      "meaning": "You’re welcome.",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "甲：谢谢你！乙：～。\n(jiǎ ： xiè xiè nǐ ！ yǐ ：～。)"
+    }
+  },
+  {
+    "front": "不",
+    "back": {
+      "hanzi_pinyin": "不 (bù)",
+      "meaning": "not; no",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我～是学生。\n(wǒ ～ shì xué shēng 。)"
+    }
+  },
+  {
+    "front": "菜",
+    "back": {
+      "hanzi_pinyin": "菜 (cài)",
+      "meaning": "vegetable",
+      "part_of_speech": "Noun",
+      "measure_word": "盘 (pán), 道 (dào)",
+      "example": "我去超市买点儿～。\n(wǒ qù chāo shì mǎi diǎn ér ～。)"
+    }
+  },
+  {
+    "front": "茶",
+    "back": {
+      "hanzi_pinyin": "茶 (chá)",
+      "meaning": "tea (liquid drink/tea leaves)",
+      "part_of_speech": "Noun",
+      "measure_word": "壶 (hú), 杯 (bēi)",
+      "example": "请喝杯～吧。\n(qǐng hē bēi ～ ba 。)"
+    }
+  },
+  {
+    "front": "吃",
+    "back": {
+      "hanzi_pinyin": "吃 (chī)",
+      "meaning": "eat",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "请～点儿米饭。\n(qǐng ～ diǎn ér mǐ fàn 。)"
+    }
+  },
+  {
+    "front": "出租车",
+    "back": {
+      "hanzi_pinyin": "出租车 (chū zū chē)",
+      "meaning": "taxi",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我们坐～去火车站。\n(wǒ men zuò ～ qù huǒ chē zhàn 。)"
+    }
+  },
+  {
+    "front": "打电话",
+    "back": {
+      "hanzi_pinyin": "打电话 (dǎ diàn huà)",
+      "meaning": "make a phone call",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "他在～呢。\n(tā zài ～ ne 。)"
+    }
+  },
+  {
+    "front": "大",
+    "back": {
+      "hanzi_pinyin": "大 (dà)",
+      "meaning": "big; large; huge; great",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这个苹果很～。\n(zhè ge píng guǒ hěn ～。)"
+    }
+  },
+  {
+    "front": "的",
+    "back": {
+      "hanzi_pinyin": "的 (de)",
+      "meaning": "of (marker of attributive)",
+      "part_of_speech": "sa.",
+      "measure_word": "",
+      "example": "这是我～书。\n(zhè shì wǒ ～ shū 。)"
+    }
+  },
+  {
+    "front": "点",
+    "back": {
+      "hanzi_pinyin": "点 (diǎn)",
+      "meaning": "o’clock",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "现在是下午3～20。\n(xiàn zài shì xià wǔ 3～20。)"
+    }
+  },
+  {
+    "front": "电脑",
+    "back": {
+      "hanzi_pinyin": "电脑 (diàn nǎo)",
+      "meaning": "computer",
+      "part_of_speech": "Noun",
+      "measure_word": "台 (tái)",
+      "example": "我买了个～。\n(wǒ mǎi le gè ～。)"
+    }
+  },
+  {
+    "front": "电视",
+    "back": {
+      "hanzi_pinyin": "电视 (diàn shì)",
+      "meaning": "television",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 台 (tái)",
+      "example": "妈妈在看～。\n(mā mā zài kàn ～。)"
+    }
+  },
+  {
+    "front": "电影",
+    "back": {
+      "hanzi_pinyin": "电影 (diàn yǐng)",
+      "meaning": "motion picture; movie; film",
+      "part_of_speech": "Noun",
+      "measure_word": "幕 (mù), 部 (bù), 片 (piàn), 场 (chǎng)",
+      "example": "我喜欢看～。\n(wǒ xǐ huān kàn ～。)"
+    }
+  },
+  {
+    "front": "东西",
+    "back": {
+      "hanzi_pinyin": "东西 (dōng xī)",
+      "meaning": "thing; object",
+      "part_of_speech": "Noun",
+      "measure_word": "件 (jiàn), 个 (gè)",
+      "example": "我在商店买了很多～。\n(wǒ zài shāng diàn mǎi le hěn duō ～。)"
+    }
+  },
+  {
+    "front": "都",
+    "back": {
+      "hanzi_pinyin": "都 (Dū)",
+      "meaning": "all",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我们～来了。\n(wǒ men ～ lái le 。)"
+    }
+  },
+  {
+    "front": "读",
+    "back": {
+      "hanzi_pinyin": "读 (dòu)",
+      "meaning": "read",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你会～这个汉字吗？ 你喜欢～书吗？\n(nǐ huì ～ zhè ge hàn zì ma ？  nǐ xǐ huān ～ shū ma ？)"
+    }
+  },
+  {
+    "front": "对不起",
+    "back": {
+      "hanzi_pinyin": "对不起 (duì bu qǐ)",
+      "meaning": "I’m sorry.",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "甲：～。乙：没关系。\n(jiǎ ：～。 yǐ ： méi guān xì 。)"
+    }
+  },
+  {
+    "front": "多",
+    "back": {
+      "hanzi_pinyin": "多 (duō)",
+      "meaning": "a lot of",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这里的人很～。\n(zhè lǐ de rén hěn ～。)"
+    }
+  },
+  {
+    "front": "多少",
+    "back": {
+      "hanzi_pinyin": "多少 (duō shǎo)",
+      "meaning": "how many; how much",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "你们学校有～学生？\n(nǐ men xué xiào yǒu ～ xué shēng ？)"
+    }
+  },
+  {
+    "front": "儿子",
+    "back": {
+      "hanzi_pinyin": "儿子 (ér zi)",
+      "meaning": "son",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我～三岁了。\n(wǒ ～ sān suì le 。)"
+    }
+  },
+  {
+    "front": "二",
+    "back": {
+      "hanzi_pinyin": "二 (èr)",
+      "meaning": "two",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "现在十～点了。\n(xiàn zài shí ～ diǎn le 。)"
+    }
+  },
+  {
+    "front": "饭店",
+    "back": {
+      "hanzi_pinyin": "饭店 (fàndiàn)",
+      "meaning": "restaurant,eatery;(large) hotel",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "中午我们去～吃吧。\n(zhōng wǔ wǒ men qù ～ chī ba 。)"
+    }
+  },
+  {
+    "front": "飞机",
+    "back": {
+      "hanzi_pinyin": "飞机 (fēi jī)",
+      "meaning": "plane",
+      "part_of_speech": "Noun",
+      "measure_word": "架 (jià)",
+      "example": "我坐～去北京。\n(wǒ zuò ～ qù běi jīng 。)"
+    }
+  },
+  {
+    "front": "分钟",
+    "back": {
+      "hanzi_pinyin": "分钟 (fēn zhōng)",
+      "meaning": "minute",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我想休息几～。\n(wǒ xiǎng xiū xī jǐ ～。)"
+    }
+  },
+  {
+    "front": "高兴",
+    "back": {
+      "hanzi_pinyin": "高兴 (gāo xìng)",
+      "meaning": "happy; glad; cheerful; pleased",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "今天我很～。\n(jīn tiān wǒ hěn ～。)"
+    }
+  },
+  {
+    "front": "个",
+    "back": {
+      "hanzi_pinyin": "个 (gě)",
+      "meaning": "used with nouns without specific measure words",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "我是一～学生。\n(wǒ shì yī ～ xué shēng 。)"
+    }
+  },
+  {
+    "front": "工作",
+    "back": {
+      "hanzi_pinyin": "工作 (gōng zuò)",
+      "meaning": "job; work",
+      "part_of_speech": "Noun",
+      "measure_word": "项 (xiàng), 个 (gè), 份 (fèn)",
+      "example": "我很喜欢现在的～。\n(wǒ hěn xǐ huān xiàn zài de ～。)"
+    }
+  },
+  {
+    "front": "汉语",
+    "back": {
+      "hanzi_pinyin": "汉语 (Hàn yǔ)",
+      "meaning": "Chinese language",
+      "part_of_speech": "Noun",
+      "measure_word": "门 (mén)",
+      "example": "他在学习～。\n(tā zài xué xí ～。)"
+    }
+  },
+  {
+    "front": "好",
+    "back": {
+      "hanzi_pinyin": "好 (hǎo)",
+      "meaning": "good; nice; well; fine",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "今天天气很～。\n(jīn tiān tiān qì hěn ～。)"
+    }
+  },
+  {
+    "front": "号",
+    "back": {
+      "hanzi_pinyin": "号 (háo)",
+      "meaning": "date",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "今天是2002年1月1～。\n(jīn tiān shì 2002 nián 1 yuè 1～。)"
+    }
+  },
+  {
+    "front": "喝",
+    "back": {
+      "hanzi_pinyin": "喝 (hē)",
+      "meaning": "drink",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我想～水。\n(wǒ xiǎng ～ shuǐ 。)"
+    }
+  },
+  {
+    "front": "和",
+    "back": {
+      "hanzi_pinyin": "和 (hé)",
+      "meaning": "and",
+      "part_of_speech": "Conjunction",
+      "measure_word": "",
+      "example": "爸爸～妈妈都在家。\n(bà bà ～ mā mā dōu zài jiā 。)"
+    }
+  },
+  {
+    "front": "很",
+    "back": {
+      "hanzi_pinyin": "很 (hěn)",
+      "meaning": "very",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "李小姐～漂亮。\n(lǐ xiǎo jiě ～ piào liàng 。)"
+    }
+  },
+  {
+    "front": "后面",
+    "back": {
+      "hanzi_pinyin": "后面 (hòu mian)",
+      "meaning": "at the back; in the rear; behind",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "商店在学校～。\n(shāng diàn zài xué xiào ～。)"
+    }
+  },
+  {
+    "front": "回",
+    "back": {
+      "hanzi_pinyin": "回 (huí)",
+      "meaning": "go back",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我八点～家。\n(wǒ bā diǎn ～ jiā 。)"
+    }
+  },
+  {
+    "front": "会",
+    "back": {
+      "hanzi_pinyin": "会 (huì)",
+      "meaning": "can; be capable of",
+      "part_of_speech": "Auxiliary Verb",
+      "measure_word": "",
+      "example": "我～开车。\n(wǒ ～ kāi chē 。)"
+    }
+  },
+  {
+    "front": "几",
+    "back": {
+      "hanzi_pinyin": "几 (jī)",
+      "meaning": "how many",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "你有～个儿子？\n(nǐ yǒu ～ gè ér zi ？)"
+    }
+  },
+  {
+    "front": "家",
+    "back": {
+      "hanzi_pinyin": "家 (jiā)",
+      "meaning": "home; family; household",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我～在北京。\n(wǒ ～ zài běi jīng 。)"
+    }
+  },
+  {
+    "front": "叫",
+    "back": {
+      "hanzi_pinyin": "叫 (jiào)",
+      "meaning": "call(ed) (followed by a name)",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我的名字～李明。\n(wǒ de míng zì ～ lǐ míng 。)"
+    }
+  },
+  {
+    "front": "今天",
+    "back": {
+      "hanzi_pinyin": "今天 (jīn tiān)",
+      "meaning": "today",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我～去北京。\n(wǒ ～ qù běi jīng 。)"
+    }
+  },
+  {
+    "front": "九",
+    "back": {
+      "hanzi_pinyin": "九 (jiǔ)",
+      "meaning": "nine",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "今天是八月～日。\n(jīn tiān shì bā yuè ～ rì 。)"
+    }
+  },
+  {
+    "front": "开",
+    "back": {
+      "hanzi_pinyin": "开 (kāi)",
+      "meaning": "drive",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～了三年出租车了。\n(wǒ ～ le sān nián chū zū chē le 。)"
+    }
+  },
+  {
+    "front": "看",
+    "back": {
+      "hanzi_pinyin": "看 (kān)",
+      "meaning": "look; watch",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你～，那本书在桌子上呢。\n(nǐ ～， nà běn shū zài zhuō zi shàng ne 。)"
+    }
+  },
+  {
+    "front": "看见",
+    "back": {
+      "hanzi_pinyin": "看见 (kàn jiàn)",
+      "meaning": "see",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我没～他。\n(wǒ méi ～ tā 。)"
+    }
+  },
+  {
+    "front": "块",
+    "back": {
+      "hanzi_pinyin": "块 (kuài)",
+      "meaning": "RMB Yuan",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "这本书三十～钱。\n(zhè běn shū sān shí ～ qián 。)"
+    }
+  },
+  {
+    "front": "来",
+    "back": {
+      "hanzi_pinyin": "来 (lái)",
+      "meaning": "come",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "他是昨天～这儿的。\n(tā shì zuó tiān ～ zhè ér de 。)"
+    }
+  },
+  {
+    "front": "老师",
+    "back": {
+      "hanzi_pinyin": "老师 (lǎo shī)",
+      "meaning": "teacher",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi)",
+      "example": "他就是我们的汉语～。\n(tā jiù shì wǒ men de hàn yǔ ～。)"
+    }
+  },
+  {
+    "front": "了",
+    "back": {
+      "hanzi_pinyin": "了 (le)",
+      "meaning": "used at the end of a senence to indicate change in status",
+      "part_of_speech": "mp.",
+      "measure_word": "",
+      "example": "昨天下雨～。\n(zuó tiān xià yǔ ～。)"
+    }
+  },
+  {
+    "front": "冷",
+    "back": {
+      "hanzi_pinyin": "冷 (Lěng)",
+      "meaning": "cold",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "今天太～了。\n(jīn tiān tài ～ le 。)"
+    }
+  },
+  {
+    "front": "里",
+    "back": {
+      "hanzi_pinyin": "里 (lǐ)",
+      "meaning": "interior; inside",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我们都在学校～。\n(wǒ men dōu zài xué xiào ～。)"
+    }
+  },
+  {
+    "front": "零",
+    "back": {
+      "hanzi_pinyin": "零 (líng)",
+      "meaning": "zero",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "今年是二～一二年。\n(jīn nián shì èr ～ yī èr nián 。)"
+    }
+  },
+  {
+    "front": "六",
+    "back": {
+      "hanzi_pinyin": "六 (liù)",
+      "meaning": "six",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "桌子上有～个杯子。\n(zhuō zi shàng yǒu ～ gè bēi zi 。)"
+    }
+  },
+  {
+    "front": "妈妈",
+    "back": {
+      "hanzi_pinyin": "妈妈 (mā ma)",
+      "meaning": "mother; ma; mamma;mum",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi)",
+      "example": "我～不在家。\n(wǒ ～ bù zài jiā 。)"
+    }
+  },
+  {
+    "front": "吗",
+    "back": {
+      "hanzi_pinyin": "吗 (má)",
+      "meaning": "used at the end of a sentence, indicating a question",
+      "part_of_speech": "mp.",
+      "measure_word": "",
+      "example": "你是中国人～？\n(nǐ shì zhōng guó rén ～？)"
+    }
+  },
+  {
+    "front": "买",
+    "back": {
+      "hanzi_pinyin": "买 (mǎi)",
+      "meaning": "buy",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～了一些苹果。\n(wǒ ～ le yī xiē píng guǒ 。)"
+    }
+  },
+  {
+    "front": "没关系",
+    "back": {
+      "hanzi_pinyin": "没关系 (méi guān xi)",
+      "meaning": "That’s all right. You are welcome.",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "甲：对不起！乙：～。\n(jiǎ ： duì bù qǐ ！ yǐ ：～。)"
+    }
+  },
+  {
+    "front": "没有",
+    "back": {
+      "hanzi_pinyin": "没有 (méiyǒu)",
+      "meaning": "have nothing or nobody; can’t compare with others",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我家里～人。 我～他高。\n(wǒ jiā lǐ ～ rén 。  wǒ ～ tā gāo 。)"
+    }
+  },
+  {
+    "front": "米饭",
+    "back": {
+      "hanzi_pinyin": "米饭 (mǐ fàn)",
+      "meaning": "cooked rice",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我爱吃～。\n(wǒ ài chī ～。)"
+    }
+  },
+  {
+    "front": "明天",
+    "back": {
+      "hanzi_pinyin": "明天 (míng tiān)",
+      "meaning": "tomorrow",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "今天星期日，～是星期一。\n(jīn tiān xīng qī rì ，～ shì xīng qī yī 。)"
+    }
+  },
+  {
+    "front": "名字",
+    "back": {
+      "hanzi_pinyin": "名字 (míng zi)",
+      "meaning": "name; title",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我的～叫李明。\n(wǒ de ～ jiào lǐ míng 。)"
+    }
+  },
+  {
+    "front": "哪",
+    "back": {
+      "hanzi_pinyin": "哪 (nǎ)",
+      "meaning": "which ( used in front of a measure word)",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "～个杯子是你的？\n(～ gè bēi zi shì nǐ de ？)"
+    }
+  },
+  {
+    "front": "哪儿",
+    "back": {
+      "hanzi_pinyin": "哪儿 (nǎr)",
+      "meaning": "where",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "你家在～？\n(nǐ jiā zài ～？)"
+    }
+  },
+  {
+    "front": "那（那儿）",
+    "back": {
+      "hanzi_pinyin": "那（那儿） (nà（nàr）)",
+      "meaning": "that",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "我不认识～个人。\n(wǒ bù rèn shí ～ gè rén 。)"
+    }
+  },
+  {
+    "front": "呢",
+    "back": {
+      "hanzi_pinyin": "呢 (ne)",
+      "meaning": "used at the end of a sentence, indicating an interrogative statement",
+      "part_of_speech": "mp.",
+      "measure_word": "",
+      "example": "你们家有几个人～？\n(nǐ men jiā yǒu jǐ gè rén ～？)"
+    }
+  },
+  {
+    "front": "能",
+    "back": {
+      "hanzi_pinyin": "能 (Néng)",
+      "meaning": "can; may",
+      "part_of_speech": "Auxiliary Verb",
+      "measure_word": "",
+      "example": "我～坐在这儿吗？\n(wǒ ～ zuò zài zhè ér ma ？)"
+    }
+  },
+  {
+    "front": "你",
+    "back": {
+      "hanzi_pinyin": "你 (nǐ)",
+      "meaning": "you",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "～认识这个人吗？\n(～ rèn shí zhè ge rén ma ？)"
+    }
+  },
+  {
+    "front": "年",
+    "back": {
+      "hanzi_pinyin": "年 (Nián)",
+      "meaning": "year",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我在中国住了三～。\n(wǒ zài zhōng guó zhù le sān ～。)"
+    }
+  },
+  {
+    "front": "女儿",
+    "back": {
+      "hanzi_pinyin": "女儿 (nu:3 ér)",
+      "meaning": "daughter",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我有两个～。\n(wǒ yǒu liǎng gè ～。)"
+    }
+  },
+  {
+    "front": "朋友",
+    "back": {
+      "hanzi_pinyin": "朋友 (péng you)",
+      "meaning": "friend",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi)",
+      "example": "他是我的好～。\n(tā shì wǒ de hǎo ～。)"
+    }
+  },
+  {
+    "front": "漂亮",
+    "back": {
+      "hanzi_pinyin": "漂亮 (piào liang)",
+      "meaning": "good-looking; pretty; beautiful",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "你的衣服真～。\n(nǐ de yī fú zhēn ～。)"
+    }
+  },
+  {
+    "front": "苹果",
+    "back": {
+      "hanzi_pinyin": "苹果 (píng guǒ)",
+      "meaning": "apple",
+      "part_of_speech": "Noun",
+      "measure_word": "颗 (kē), 个 (gè)",
+      "example": "你想不想吃个～？\n(nǐ xiǎng bù xiǎng chī gè ～？)"
+    }
+  },
+  {
+    "front": "七",
+    "back": {
+      "hanzi_pinyin": "七 (qī)",
+      "meaning": "seven",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "一个星期有～天。\n(yí gè xīng qī yǒu ～ tiān 。)"
+    }
+  },
+  {
+    "front": "钱",
+    "back": {
+      "hanzi_pinyin": "钱 (Qián)",
+      "meaning": "money",
+      "part_of_speech": "Noun",
+      "measure_word": "笔 (bǐ)",
+      "example": "一个苹果三块～。\n(yí gè píng guǒ sān kuài ～。)"
+    }
+  },
+  {
+    "front": "前面",
+    "back": {
+      "hanzi_pinyin": "前面 (qián miàn)",
+      "meaning": "before; in front; at the head; ahead",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "～那个人是我的同学。\n(～ nà ge rén shì wǒ de tóng xué 。)"
+    }
+  },
+  {
+    "front": "请",
+    "back": {
+      "hanzi_pinyin": "请 (qǐng)",
+      "meaning": "please",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "～坐在椅子上。\n(～ zuò zài yǐ zi shàng 。)"
+    }
+  },
+  {
+    "front": "去",
+    "back": {
+      "hanzi_pinyin": "去 (qù)",
+      "meaning": "go; leave",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我星期三～中国。\n(wǒ xīng qī sān ～ zhōng guó 。)"
+    }
+  },
+  {
+    "front": "热",
+    "back": {
+      "hanzi_pinyin": "热 (rè)",
+      "meaning": "hot; high in temperature",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "今天很～。\n(jīn tiān hěn ～。)"
+    }
+  },
+  {
+    "front": "人",
+    "back": {
+      "hanzi_pinyin": "人 (rén)",
+      "meaning": "human being; person; people",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi)",
+      "example": "商店里有很多～。\n(shāng diàn lǐ yǒu hěn duō ～。)"
+    }
+  },
+  {
+    "front": "认识",
+    "back": {
+      "hanzi_pinyin": "认识 (rèn shi)",
+      "meaning": "get to know; get acquainted with",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "～你很高兴。\n(～ nǐ hěn gāo xìng 。)"
+    }
+  },
+  {
+    "front": "三",
+    "back": {
+      "hanzi_pinyin": "三 (Sān)",
+      "meaning": "three",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "我有～本书。\n(wǒ yǒu ～ běn shū 。)"
+    }
+  },
+  {
+    "front": "商店",
+    "back": {
+      "hanzi_pinyin": "商店 (shāng diàn)",
+      "meaning": "shop; store",
+      "part_of_speech": "Noun",
+      "measure_word": "家 (jiā), 个 (gè)",
+      "example": "她去～买东西了。\n(tā qù ～ mǎi dōng xī le 。)"
+    }
+  },
+  {
+    "front": "上",
+    "back": {
+      "hanzi_pinyin": "上 (shǎng)",
+      "meaning": "upper; up; on; upward",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "水果在桌子～。\n(shuǐ guǒ zài zhuō zi ～。)"
+    }
+  },
+  {
+    "front": "上午",
+    "back": {
+      "hanzi_pinyin": "上午 (shàng wǔ)",
+      "meaning": "morning",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "现在是～10点。\n(xiàn zài shì ～10 diǎn 。)"
+    }
+  },
+  {
+    "front": "少",
+    "back": {
+      "hanzi_pinyin": "少 (shǎo)",
+      "meaning": "not much / many",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "杯子里的水很～。\n(bēi zi lǐ de shuǐ hěn ～。)"
+    }
+  },
+  {
+    "front": "谁",
+    "back": {
+      "hanzi_pinyin": "谁 (shéi)",
+      "meaning": "who(m)",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "那个人是～？\n(nà ge rén shì ～？)"
+    }
+  },
+  {
+    "front": "什么",
+    "back": {
+      "hanzi_pinyin": "什么 (shén me)",
+      "meaning": "what",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "你看见了～？\n(nǐ kàn jiàn le ～？)"
+    }
+  },
+  {
+    "front": "十",
+    "back": {
+      "hanzi_pinyin": "十 (shí)",
+      "meaning": "ten",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "现在是～月。\n(xiàn zài shì ～ yuè 。)"
+    }
+  },
+  {
+    "front": "时候",
+    "back": {
+      "hanzi_pinyin": "时候 (shí hou)",
+      "meaning": "moment; time; period",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我回家的～，他在睡觉。\n(wǒ huí jiā de ～， tā zài shuì jiào 。)"
+    }
+  },
+  {
+    "front": "是",
+    "back": {
+      "hanzi_pinyin": "是 (shì)",
+      "meaning": "be",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "他不～学生。\n(tā bù ～ xué shēng 。)"
+    }
+  },
+  {
+    "front": "书",
+    "back": {
+      "hanzi_pinyin": "书 (Shū)",
+      "meaning": "book",
+      "part_of_speech": "Noun",
+      "measure_word": "册 (cè), 部 (bù), 本 (běn)",
+      "example": "我喜欢读～。\n(wǒ xǐ huān dú ～。)"
+    }
+  },
+  {
+    "front": "水",
+    "back": {
+      "hanzi_pinyin": "水 (Shuǐ)",
+      "meaning": "water",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "杯子里还有～吗？\n(bēi zi lǐ hái yǒu ～ ma ？)"
+    }
+  },
+  {
+    "front": "水果",
+    "back": {
+      "hanzi_pinyin": "水果 (shuǐ guǒ)",
+      "meaning": "fruit",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我想去商店买～。\n(wǒ xiǎng qù shāng diàn mǎi ～。)"
+    }
+  },
+  {
+    "front": "睡觉",
+    "back": {
+      "hanzi_pinyin": "睡觉 (shuì jiào)",
+      "meaning": "sleep; go to bed",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "儿子在～呢。\n(ér zi zài ～ ne 。)"
+    }
+  },
+  {
+    "front": "说",
+    "back": {
+      "hanzi_pinyin": "说 (shuō)",
+      "meaning": "speak; talk; say",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你在～什么？\n(nǐ zài ～ shén me ？)"
+    }
+  },
+  {
+    "front": "说话",
+    "back": {
+      "hanzi_pinyin": "说话 (shuō huà)",
+      "meaning": "speak; talk; say",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "他们在～。\n(tā men zài ～。)"
+    }
+  },
+  {
+    "front": "四",
+    "back": {
+      "hanzi_pinyin": "四 (sì)",
+      "meaning": "four",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "我们～个人去看电影。\n(wǒ men ～ gè rén qù kàn diàn yǐng 。)"
+    }
+  },
+  {
+    "front": "岁",
+    "back": {
+      "hanzi_pinyin": "岁 (suì)",
+      "meaning": "year (of age)",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "李医生今年40～。\n(lǐ yī shēng jīn nián 40～。)"
+    }
+  },
+  {
+    "front": "他",
+    "back": {
+      "hanzi_pinyin": "他 (tā)",
+      "meaning": "he; him",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "～是我们的老师。\n(～ shì wǒ men de lǎo shī 。)"
+    }
+  },
+  {
+    "front": "她",
+    "back": {
+      "hanzi_pinyin": "她 (tā)",
+      "meaning": "she; her",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "我认识～的妈妈。\n(wǒ rèn shí ～ de mā mā 。)"
+    }
+  },
+  {
+    "front": "太",
+    "back": {
+      "hanzi_pinyin": "太 (tài)",
+      "meaning": "(in expressing approval or compliment) very much or extremely",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "这个学校～大了。\n(zhè ge xué xiào ～ dà le 。)"
+    }
+  },
+  {
+    "front": "天气",
+    "back": {
+      "hanzi_pinyin": "天气 (tiān qì)",
+      "meaning": "weather",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "今天的～非常好。\n(jīn tiān de ～ fēi cháng hǎo 。)"
+    }
+  },
+  {
+    "front": "听",
+    "back": {
+      "hanzi_pinyin": "听 (yǐn)",
+      "meaning": "hear; listen",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你～，谁来了？\n(nǐ ～， shuí lái le ？)"
+    }
+  },
+  {
+    "front": "同学",
+    "back": {
+      "hanzi_pinyin": "同学 (tóng xué)",
+      "meaning": "student; classmate",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi)",
+      "example": "～们，你们好！\n(～ men ， nǐ men hǎo ！)"
+    }
+  },
+  {
+    "front": "喂",
+    "back": {
+      "hanzi_pinyin": "喂 (wéi)",
+      "meaning": "hello; hey;hi",
+      "part_of_speech": "Interjection",
+      "measure_word": "",
+      "example": "～，李老师在吗？\n(～， lǐ lǎo shī zài ma ？)"
+    }
+  },
+  {
+    "front": "我",
+    "back": {
+      "hanzi_pinyin": "我 (wǒ)",
+      "meaning": "I; me",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "～是一个学生。\n(～ shì yí gè xué shēng 。)"
+    }
+  },
+  {
+    "front": "我们",
+    "back": {
+      "hanzi_pinyin": "我们 (wǒ men)",
+      "meaning": "we; us",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "～都是学生。\n(～ dōu shì xué shēng 。)"
+    }
+  },
+  {
+    "front": "五",
+    "back": {
+      "hanzi_pinyin": "五 (wǔ)",
+      "meaning": "five",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "今天星期～。\n(jīn tiān xīng qī ～。)"
+    }
+  },
+  {
+    "front": "喜欢",
+    "back": {
+      "hanzi_pinyin": "喜欢 (xǐ huan)",
+      "meaning": "like or be interested in (sb. or sth.)",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～学汉语。\n(wǒ ～ xué hàn yǔ 。)"
+    }
+  },
+  {
+    "front": "下",
+    "back": {
+      "hanzi_pinyin": "下 (xià)",
+      "meaning": "under; below",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "小猫在桌子～面。\n(xiǎo māo zài zhuō zi ～ miàn 。)"
+    }
+  },
+  {
+    "front": "下午",
+    "back": {
+      "hanzi_pinyin": "下午 (xià wǔ)",
+      "meaning": "afternoon",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我今天～不去学校了。\n(wǒ jīn tiān ～ bù qù xué xiào le 。)"
+    }
+  },
+  {
+    "front": "下雨",
+    "back": {
+      "hanzi_pinyin": "下雨 (xià yǔ)",
+      "meaning": "rain",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "昨天～了。\n(zuó tiān ～ le 。)"
+    }
+  },
+  {
+    "front": "先生",
+    "back": {
+      "hanzi_pinyin": "先生 (xiān sheng)",
+      "meaning": "(addressing) Mr.; Mister; sir",
+      "part_of_speech": "Noun",
+      "measure_word": "位 (wèi)",
+      "example": "你也认识王～？\n(nǐ yě rèn shí wáng ～？)"
+    }
+  },
+  {
+    "front": "现在",
+    "back": {
+      "hanzi_pinyin": "现在 (xiàn zài)",
+      "meaning": "now; nowadays; today; at present",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "～是12点。\n(～ shì 12 diǎn 。)"
+    }
+  },
+  {
+    "front": "想",
+    "back": {
+      "hanzi_pinyin": "想 (xiǎng)",
+      "meaning": "want to; be going to; would like to",
+      "part_of_speech": "Auxiliary Verb",
+      "measure_word": "",
+      "example": "我～星期六去北京。\n(wǒ ～ xīng qī liù qù běi jīng 。)"
+    }
+  },
+  {
+    "front": "小",
+    "back": {
+      "hanzi_pinyin": "小 (xiǎo)",
+      "meaning": "small; little",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这个苹果太小了。\n(zhè ge píng guǒ tài xiǎo le 。)"
+    }
+  },
+  {
+    "front": "小姐",
+    "back": {
+      "hanzi_pinyin": "小姐 (xiǎo jie)",
+      "meaning": "Miss",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi)",
+      "example": "～，你叫什么名字？\n(～， nǐ jiào shén me míng zì ？)"
+    }
+  },
+  {
+    "front": "些",
+    "back": {
+      "hanzi_pinyin": "些 (xiē)",
+      "meaning": "some",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "我买了～苹果。\n(wǒ mǎi le ～ píng guǒ 。)"
+    }
+  },
+  {
+    "front": "写",
+    "back": {
+      "hanzi_pinyin": "写 (xiě)",
+      "meaning": "write",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你～的字很漂亮。\n(nǐ ～ de zì hěn piào liàng 。)"
+    }
+  },
+  {
+    "front": "谢谢",
+    "back": {
+      "hanzi_pinyin": "谢谢 (xiè xie)",
+      "meaning": "thank",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "甲：～你。乙：不客气！\n(jiǎ ：～ nǐ 。 yǐ ： bú kè qì ！)"
+    }
+  },
+  {
+    "front": "星期",
+    "back": {
+      "hanzi_pinyin": "星期 (xīng qī)",
+      "meaning": "week",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "一个～有七天。\n(yí gè ～ yǒu qī tiān 。)"
+    }
+  },
+  {
+    "front": "学生",
+    "back": {
+      "hanzi_pinyin": "学生 (xué sheng)",
+      "meaning": "student",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我们学校里的～很多。\n(wǒ men xué xiào lǐ de ～ hěn duō 。)"
+    }
+  },
+  {
+    "front": "学习",
+    "back": {
+      "hanzi_pinyin": "学习 (xué xí)",
+      "meaning": "study; learn",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你喜欢～汉语吗？\n(nǐ xǐ huān ～ hàn yǔ ma ？)"
+    }
+  },
+  {
+    "front": "学校",
+    "back": {
+      "hanzi_pinyin": "学校 (xué xiào)",
+      "meaning": "school",
+      "part_of_speech": "Noun",
+      "measure_word": "所 (suǒ)",
+      "example": "我们～很大。\n(wǒ men ～ hěn dà 。)"
+    }
+  },
+  {
+    "front": "一",
+    "back": {
+      "hanzi_pinyin": "一 (yī)",
+      "meaning": "one",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "这儿～个人都没有。\n(zhè ér ～ gè rén dōu méi yǒu 。)"
+    }
+  },
+  {
+    "front": "一点儿",
+    "back": {
+      "hanzi_pinyin": "一点儿 (yìdiǎnr)",
+      "meaning": "a little",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "我只有～钱。\n(wǒ zhǐ yǒu ～ qián 。)"
+    }
+  },
+  {
+    "front": "衣服",
+    "back": {
+      "hanzi_pinyin": "衣服 (yī fu)",
+      "meaning": "clothing; clothes; dress",
+      "part_of_speech": "Noun",
+      "measure_word": "件 (jiàn), 套 (tào)",
+      "example": "我在商店买了很多～。\n(wǒ zài shāng diàn mǎi le hěn duō ～。)"
+    }
+  },
+  {
+    "front": "医生",
+    "back": {
+      "hanzi_pinyin": "医生 (yī shēng)",
+      "meaning": "doctor; surgeon",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi), 名 (míng)",
+      "example": "他是这个医院里的～。\n(tā shì zhè ge yī yuàn lǐ de ～。)"
+    }
+  },
+  {
+    "front": "医院",
+    "back": {
+      "hanzi_pinyin": "医院 (yī yuàn)",
+      "meaning": "hospital",
+      "part_of_speech": "Noun",
+      "measure_word": "家 (jiā), 座 (zuò), 所 (suǒ)",
+      "example": "这是一个大～。\n(zhè shì yí gè dà ～。)"
+    }
+  },
+  {
+    "front": "椅子",
+    "back": {
+      "hanzi_pinyin": "椅子 (yǐ zi)",
+      "meaning": "chair",
+      "part_of_speech": "Noun",
+      "measure_word": "套 (tào), 把 (bǎ)",
+      "example": "小狗在～下面呢。\n(xiǎo gǒu zài ～ xià miàn ne 。)"
+    }
+  },
+  {
+    "front": "有",
+    "back": {
+      "hanzi_pinyin": "有 (yǒu)",
+      "meaning": "have",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～一个女儿。\n(wǒ ～ yí gè nǚ ér 。)"
+    }
+  },
+  {
+    "front": "月",
+    "back": {
+      "hanzi_pinyin": "月 (yuè)",
+      "meaning": "month",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 轮 (lún)",
+      "example": "一年有12个～。\n(yī nián yǒu 12 gè ～。)"
+    }
+  },
+  {
+    "front": "再见",
+    "back": {
+      "hanzi_pinyin": "再见 (zài jiàn)",
+      "meaning": "goodbye",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "妈妈，我去学校了，～。\n(mā mā ， wǒ qù xué xiào le ，～。)"
+    }
+  },
+  {
+    "front": "在",
+    "back": {
+      "hanzi_pinyin": "在 (zài)",
+      "meaning": "exist; lie; be at; be on",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "书～桌子上。\n(shū ～ zhuō zi shàng 。)"
+    }
+  },
+  {
+    "front": "怎么",
+    "back": {
+      "hanzi_pinyin": "怎么 (zěn me)",
+      "meaning": "inquiring for property, condition, way, and cause, etc.",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "你～去北京？\n(nǐ ～ qù běi jīng ？)"
+    }
+  },
+  {
+    "front": "怎么样",
+    "back": {
+      "hanzi_pinyin": "怎么样 (zěn me yàng)",
+      "meaning": "How about it? What do you think? (inquiring for comments and suggestions as an independent sentence)",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "我们去看电影，～？\n(wǒ men qù kàn diàn yǐng ，～？)"
+    }
+  },
+  {
+    "front": "这（这儿）",
+    "back": {
+      "hanzi_pinyin": "这（这儿） (zhè（zhèr）)",
+      "meaning": "this; here",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "～个人是我的同学。 我能坐在～儿吗？\n(～ gè rén shì wǒ de tóng xué 。  wǒ néng zuò zài ～ ér ma ？)"
+    }
+  },
+  {
+    "front": "中国",
+    "back": {
+      "hanzi_pinyin": "中国 (Zhōng guó)",
+      "meaning": "China",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我在～学汉语。\n(wǒ zài ～ xué hàn yǔ 。)"
+    }
+  },
+  {
+    "front": "中午",
+    "back": {
+      "hanzi_pinyin": "中午 (zhōng wǔ)",
+      "meaning": "noon; midday; noonday",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我今天～去火车站。\n(wǒ jīn tiān ～ qù huǒ chē zhàn 。)"
+    }
+  },
+  {
+    "front": "住",
+    "back": {
+      "hanzi_pinyin": "住 (zhù)",
+      "meaning": "live; stay; dwell",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "他在北京～了很多年。\n(tā zài běi jīng ～ le hěn duō nián 。)"
+    }
+  },
+  {
+    "front": "桌子",
+    "back": {
+      "hanzi_pinyin": "桌子 (zhuō zi)",
+      "meaning": "desk; table",
+      "part_of_speech": "Noun",
+      "measure_word": "张 (zhāng), 套 (tào)",
+      "example": "电脑在～上。\n(diàn nǎo zài ～ shàng 。)"
+    }
+  },
+  {
+    "front": "字",
+    "back": {
+      "hanzi_pinyin": "字 (zì)",
+      "meaning": "written Chinese character",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "这个～你认识吗？\n(zhè ge ～ nǐ rèn shí ma ？)"
+    }
+  },
+  {
+    "front": "昨天",
+    "back": {
+      "hanzi_pinyin": "昨天 (zuó tiān)",
+      "meaning": "yesterday",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "他～没去学校。\n(tā ～ méi qù xué xiào 。)"
+    }
+  },
+  {
+    "front": "坐",
+    "back": {
+      "hanzi_pinyin": "坐 (Zuò)",
+      "meaning": "sit",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "他一个下午都～在电视前。\n(tā yí gè xià wǔ dōu ～ zài diàn shì qián 。)"
+    }
+  },
+  {
+    "front": "做",
+    "back": {
+      "hanzi_pinyin": "做 (zuò)",
+      "meaning": "make; produce",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "今天妈妈～了很多菜。\n(jīn tiān mā mā ～ le hěn duō cài 。)"
+    }
+  },
+  {
+    "front": "吧",
+    "back": {
+      "hanzi_pinyin": "吧 (bā)",
+      "meaning": "used at the end of a sentence to express speculative interrogation",
+      "part_of_speech": "mp.",
+      "measure_word": "",
+      "example": "你是个学生～？\n(nǐ shì gè xué shēng ～？)"
+    }
+  },
+  {
+    "front": "白",
+    "back": {
+      "hanzi_pinyin": "白 (Bái)",
+      "meaning": "white",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我很爱穿那件～衣服。\n(wǒ hěn ài chuān nà jiàn ～ yī fú 。)"
+    }
+  },
+  {
+    "front": "百",
+    "back": {
+      "hanzi_pinyin": "百 (Bǎi)",
+      "meaning": "one hundred",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "这个自行车五～多元。\n(zhè ge zì xíng chē wǔ ～ duō yuán 。)"
+    }
+  },
+  {
+    "front": "帮助",
+    "back": {
+      "hanzi_pinyin": "帮助 (bāng zhù)",
+      "meaning": "help; assist; aid; support",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "请～我找一家搬家公司，好吗？\n(qǐng ～ wǒ zhǎo yī jiā bān jiā gōng sī ， hǎo ma ？)"
+    }
+  },
+  {
+    "front": "报纸",
+    "back": {
+      "hanzi_pinyin": "报纸 (bào zhǐ)",
+      "meaning": "newspaper",
+      "part_of_speech": "Noun",
+      "measure_word": "张 (zhāng), 份 (fèn), 期 (qī)",
+      "example": "我每天早上都要读～。\n(wǒ měi tiān zǎo shàng dōu yào dú ～。)"
+    }
+  },
+  {
+    "front": "比",
+    "back": {
+      "hanzi_pinyin": "比 (Bǐ)",
+      "meaning": "used to make comparison",
+      "part_of_speech": "Preposition",
+      "measure_word": "",
+      "example": "我的孩子～我高。\n(wǒ de hái zi ～ wǒ gāo 。)"
+    }
+  },
+  {
+    "front": "别",
+    "back": {
+      "hanzi_pinyin": "别 (Bié)",
+      "meaning": "don’t",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "太晚了，～看电视了。\n(tài wǎn le ，～ kàn diàn shì le 。)"
+    }
+  },
+  {
+    "front": "长",
+    "back": {
+      "hanzi_pinyin": "长 (cháng)",
+      "meaning": "long",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "姐姐的腿～，跑得快。\n(jiě jiě de tuǐ ～， pǎo dé kuài 。)"
+    }
+  },
+  {
+    "front": "唱歌",
+    "back": {
+      "hanzi_pinyin": "唱歌 (chàng gē)",
+      "meaning": "sing",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我最爱～了，我给你们唱一个。\n(wǒ zuì ài ～ le ， wǒ gěi nǐ men chàng yí gè 。)"
+    }
+  },
+  {
+    "front": "出",
+    "back": {
+      "hanzi_pinyin": "出 (chū)",
+      "meaning": "exit; go out",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我已经走～火车站了。\n(wǒ yǐ jīng zǒu ～ huǒ chē zhàn le 。)"
+    }
+  },
+  {
+    "front": "穿",
+    "back": {
+      "hanzi_pinyin": "穿 (chuān)",
+      "meaning": "wear; put on",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "天冷了，多～些衣服吧。\n(tiān lěng le ， duō ～ xiē yī fú ba 。)"
+    }
+  },
+  {
+    "front": "次",
+    "back": {
+      "hanzi_pinyin": "次 (cì)",
+      "meaning": "number of times",
+      "part_of_speech": "nm./vm.",
+      "measure_word": "",
+      "example": "我去过一～北京。\n(wǒ qù guò yī ～ běi jīng 。)"
+    }
+  },
+  {
+    "front": "从",
+    "back": {
+      "hanzi_pinyin": "从 (cóng)",
+      "meaning": "from; since",
+      "part_of_speech": "Preposition",
+      "measure_word": "",
+      "example": "～我家到公司，开车要20分钟。\n(～ wǒ jiā dào gōng sī ， kāi chē yào 20 fēn zhōng 。)"
+    }
+  },
+  {
+    "front": "错",
+    "back": {
+      "hanzi_pinyin": "错 (Cuò)",
+      "meaning": "wrong; incorrect",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "对不起，我～了。\n(duì bù qǐ ， wǒ ～ le 。)"
+    }
+  },
+  {
+    "front": "打篮球",
+    "back": {
+      "hanzi_pinyin": "打篮球 (dǎ lán qiú)",
+      "meaning": "play basketball",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "我每天下午都去～。\n(wǒ měi tiān xià wǔ dōu qù ～。)"
+    }
+  },
+  {
+    "front": "大家",
+    "back": {
+      "hanzi_pinyin": "大家 (dà jiā)",
+      "meaning": "everyone;everybody",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "请～不要等我了。\n(qǐng ～ bú yào děng wǒ le 。)"
+    }
+  },
+  {
+    "front": "到",
+    "back": {
+      "hanzi_pinyin": "到 (dào)",
+      "meaning": "arrive; reach",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我早上9点～公司。\n(wǒ zǎo shàng 9 diǎn ～ gōng sī 。)"
+    }
+  },
+  {
+    "front": "得",
+    "back": {
+      "hanzi_pinyin": "得 (dé)",
+      "meaning": "marker of complement",
+      "part_of_speech": "sa.",
+      "measure_word": "",
+      "example": "你走～太快了。\n(nǐ zǒu ～ tài kuài le 。)"
+    }
+  },
+  {
+    "front": "等",
+    "back": {
+      "hanzi_pinyin": "等 (děng)",
+      "meaning": "wait",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你还要再～我10分钟。\n(nǐ hái yào zài ～ wǒ 10 fēn zhōng 。)"
+    }
+  },
+  {
+    "front": "弟弟",
+    "back": {
+      "hanzi_pinyin": "弟弟 (dì di)",
+      "meaning": "younger brother",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi)",
+      "example": "在我们家，我最大，我下面还有两个～。\n(zài wǒ men jiā ， wǒ zuì dà ， wǒ xià miàn hái yǒu liǎng gè ～。)"
+    }
+  },
+  {
+    "front": "第一",
+    "back": {
+      "hanzi_pinyin": "第一 (dì yī)",
+      "meaning": "first",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "这是我～次见到他。\n(zhè shì wǒ ～ cì jiàn dào tā 。)"
+    }
+  },
+  {
+    "front": "懂",
+    "back": {
+      "hanzi_pinyin": "懂 (dǒng)",
+      "meaning": "understand",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你的意思我～了。\n(nǐ de yì si wǒ ～ le 。)"
+    }
+  },
+  {
+    "front": "对",
+    "back": {
+      "hanzi_pinyin": "对 (duì)",
+      "meaning": "right; correct",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "你是～的，我错了。\n(nǐ shì ～ de ， wǒ cuò le 。)"
+    }
+  },
+  {
+    "front": "房间",
+    "back": {
+      "hanzi_pinyin": "房间 (fáng jiān)",
+      "meaning": "room",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 间 (jiān)",
+      "example": "我们两个人住一个～。\n(wǒ men liǎng gè rén zhù yí gè ～。)"
+    }
+  },
+  {
+    "front": "非常",
+    "back": {
+      "hanzi_pinyin": "非常 (fēi cháng)",
+      "meaning": "very",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "奶奶～喜欢我们送的礼物。\n(nǎi nǎi ～ xǐ huān wǒ men sòng de lǐ wù 。)"
+    }
+  },
+  {
+    "front": "服务员",
+    "back": {
+      "hanzi_pinyin": "服务员 (fú wù yuán)",
+      "meaning": "attendant; waiter; waitress",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi)",
+      "example": "我在饭馆做～。\n(wǒ zài fàn guǎn zuò ～。)"
+    }
+  },
+  {
+    "front": "高",
+    "back": {
+      "hanzi_pinyin": "高 (Gāo)",
+      "meaning": "tall; high",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我比爸爸还～。\n(wǒ bǐ bà bà hái ～。)"
+    }
+  },
+  {
+    "front": "告诉",
+    "back": {
+      "hanzi_pinyin": "告诉 (gào sù)",
+      "meaning": "tell",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你能～我学校怎么走吗？\n(nǐ néng ～ wǒ xué xiào zěn me zǒu ma ？)"
+    }
+  },
+  {
+    "front": "哥哥",
+    "back": {
+      "hanzi_pinyin": "哥哥 (gē ge)",
+      "meaning": "elder brother",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi)",
+      "example": "我～比我大三岁。\n(wǒ ～ bǐ wǒ dà sān suì 。)"
+    }
+  },
+  {
+    "front": "给",
+    "back": {
+      "hanzi_pinyin": "给 (gěi)",
+      "meaning": "hand over",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "请把这本书～他。\n(qǐng bǎ zhè běn shū ～ tā 。)"
+    }
+  },
+  {
+    "front": "公共汽车",
+    "back": {
+      "hanzi_pinyin": "公共汽车 (gōng gòng qì chē)",
+      "meaning": "bus",
+      "part_of_speech": "Noun",
+      "measure_word": "辆 (liàng), 班 (bān)",
+      "example": "坐～去，要20分钟。\n(zuò ～ qù ， yào 20 fēn zhōng 。)"
+    }
+  },
+  {
+    "front": "公司",
+    "back": {
+      "hanzi_pinyin": "公司 (gōng sī)",
+      "meaning": "company; firm",
+      "part_of_speech": "Noun",
+      "measure_word": "家 (jiā)",
+      "example": "我在一个～上班。\n(wǒ zài yí gè ～ shàng bān 。)"
+    }
+  },
+  {
+    "front": "狗",
+    "back": {
+      "hanzi_pinyin": "狗 (gǒu)",
+      "meaning": "dog",
+      "part_of_speech": "Noun",
+      "measure_word": "只 (zhǐ), 条 (tiáo)",
+      "example": "女儿很喜欢小～。\n(nǚ ér hěn xǐ huān xiǎo ～。)"
+    }
+  },
+  {
+    "front": "贵",
+    "back": {
+      "hanzi_pinyin": "贵 (guì)",
+      "meaning": "expensive; costly",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这块手表很～。\n(zhè kuài shǒu biǎo hěn ～。)"
+    }
+  },
+  {
+    "front": "过",
+    "back": {
+      "hanzi_pinyin": "过 (guo)",
+      "meaning": "used after a verb, referring to sth. that happened previously",
+      "part_of_speech": "sa.",
+      "measure_word": "",
+      "example": "我没看～这本书。\n(wǒ méi kàn ～ zhè běn shū 。)"
+    }
+  },
+  {
+    "front": "还",
+    "back": {
+      "hanzi_pinyin": "还 (Huán)",
+      "meaning": "still; yet",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "他～没来呢。\n(tā ～ méi lái ne 。)"
+    }
+  },
+  {
+    "front": "孩子",
+    "back": {
+      "hanzi_pinyin": "孩子 (hái zi)",
+      "meaning": "son or daughter",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我有三个～。\n(wǒ yǒu sān gè ～。)"
+    }
+  },
+  {
+    "front": "好吃",
+    "back": {
+      "hanzi_pinyin": "好吃 (hǎo chī)",
+      "meaning": "delicious",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "您做的米饭真～。\n(nín zuò de mǐ fàn zhēn ～。)"
+    }
+  },
+  {
+    "front": "黑",
+    "back": {
+      "hanzi_pinyin": "黑 (Hēi)",
+      "meaning": "black; dark",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我不喜欢～颜色的衣服。\n(wǒ bù xǐ huān ～ yán sè de yī fú 。)"
+    }
+  },
+  {
+    "front": "红",
+    "back": {
+      "hanzi_pinyin": "红 (Hóng)",
+      "meaning": "red",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我的自行车是～色的。\n(wǒ de zì xíng chē shì ～ sè de 。)"
+    }
+  },
+  {
+    "front": "欢迎",
+    "back": {
+      "hanzi_pinyin": "欢迎 (huān yíng)",
+      "meaning": "welcome",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "～你们来我们家。\n(～ nǐ men lái wǒ men jiā 。)"
+    }
+  },
+  {
+    "front": "回答",
+    "back": {
+      "hanzi_pinyin": "回答 (huí dá)",
+      "meaning": "answer; reply; respond",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我能～这个问题。\n(wǒ néng ～ zhè ge wèn tí 。)"
+    }
+  },
+  {
+    "front": "火车站",
+    "back": {
+      "hanzi_pinyin": "火车站 (huǒ chē zhàn)",
+      "meaning": "railway station",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我下午3点去～。\n(wǒ xià wǔ 3 diǎn qù ～。)"
+    }
+  },
+  {
+    "front": "机场",
+    "back": {
+      "hanzi_pinyin": "机场 (jī chǎng)",
+      "meaning": "airport",
+      "part_of_speech": "Noun",
+      "measure_word": "家 (jiā), 处 (chù)",
+      "example": "我在～工作了三年了。\n(wǒ zài ～ gōng zuò le sān nián le 。)"
+    }
+  },
+  {
+    "front": "鸡蛋",
+    "back": {
+      "hanzi_pinyin": "鸡蛋 (jī dàn)",
+      "meaning": "egg",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 打 (dǎ)",
+      "example": "我每天早上都要吃个～。\n(wǒ měi tiān zǎo shàng dōu yào chī gè ～。)"
+    }
+  },
+  {
+    "front": "件",
+    "back": {
+      "hanzi_pinyin": "件 (jiàn)",
+      "meaning": "used for clothes and things",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "这～衣服颜色非常好看。\n(zhè ～ yī fú yán sè fēi cháng hǎo kàn 。)"
+    }
+  },
+  {
+    "front": "教室",
+    "back": {
+      "hanzi_pinyin": "教室 (jiào shì)",
+      "meaning": "classroom",
+      "part_of_speech": "Noun",
+      "measure_word": "间 (jiān)",
+      "example": "请大家都到～去上课。\n(qǐng dà jiā dōu dào ～ qù shàng kè 。)"
+    }
+  },
+  {
+    "front": "姐姐",
+    "back": {
+      "hanzi_pinyin": "姐姐 (jiě jie)",
+      "meaning": "elder sister",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我有两个～。\n(wǒ yǒu liǎng gè ～。)"
+    }
+  },
+  {
+    "front": "介绍",
+    "back": {
+      "hanzi_pinyin": "介绍 (jiè shào)",
+      "meaning": "introduce sb. or sth.",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我来～一下我的朋友。\n(wǒ lái ～ yī xià wǒ de péng yǒu 。)"
+    }
+  },
+  {
+    "front": "进",
+    "back": {
+      "hanzi_pinyin": "进 (jìn)",
+      "meaning": "enter",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我马上要～机场了。\n(wǒ mǎ shàng yào ～ jī chǎng le 。)"
+    }
+  },
+  {
+    "front": "近",
+    "back": {
+      "hanzi_pinyin": "近 (jìn)",
+      "meaning": "close; near",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我们家离公司很～。\n(wǒ men jiā lí gōng sī hěn ～。)"
+    }
+  },
+  {
+    "front": "就",
+    "back": {
+      "hanzi_pinyin": "就 (jiù)",
+      "meaning": "indicating certainty; right on",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我～知道他会来的。\n(wǒ ～ zhī dào tā huì lái de 。)"
+    }
+  },
+  {
+    "front": "觉得",
+    "back": {
+      "hanzi_pinyin": "觉得 (jué de)",
+      "meaning": "feel; think",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你～这本书怎么样？\n(nǐ ～ zhè běn shū zěn me yàng ？)"
+    }
+  },
+  {
+    "front": "咖啡",
+    "back": {
+      "hanzi_pinyin": "咖啡 (kā fēi)",
+      "meaning": "coffee",
+      "part_of_speech": "Noun",
+      "measure_word": "杯 (bēi)",
+      "example": "您想喝～，还是茶？\n(nín xiǎng hē ～， hái shì chá ？)"
+    }
+  },
+  {
+    "front": "开始",
+    "back": {
+      "hanzi_pinyin": "开始 (kāi shǐ)",
+      "meaning": "start; begin",
+      "part_of_speech": "Verb",
+      "measure_word": "个 (gè)",
+      "example": "我们从第十课～学习。\n(wǒ men cóng dì shí kè ～ xué xí 。)"
+    }
+  },
+  {
+    "front": "考试",
+    "back": {
+      "hanzi_pinyin": "考试 (kǎo shì)",
+      "meaning": "examination / take a test",
+      "part_of_speech": "Noun",
+      "measure_word": "次 (cì)",
+      "example": "为了准备～，他每天都学习到很晚。\n(wèi le zhǔn bèi ～， tā měi tiān dōu xué xí dào hěn wǎn 。)"
+    }
+  },
+  {
+    "front": "可能",
+    "back": {
+      "hanzi_pinyin": "可能 (kě néng)",
+      "meaning": "may; can",
+      "part_of_speech": "Auxiliary Verb",
+      "measure_word": "个 (gè)",
+      "example": "我～不能去上班了。\n(wǒ ～ bù néng qù shàng bān le 。)"
+    }
+  },
+  {
+    "front": "可以",
+    "back": {
+      "hanzi_pinyin": "可以 (kě yǐ)",
+      "meaning": "can; may",
+      "part_of_speech": "Auxiliary Verb",
+      "measure_word": "",
+      "example": "你～开我的车去上班。\n(nǐ ～ kāi wǒ de chē qù shàng bān 。)"
+    }
+  },
+  {
+    "front": "课",
+    "back": {
+      "hanzi_pinyin": "课 (kè)",
+      "meaning": "lesson",
+      "part_of_speech": "Noun",
+      "measure_word": "节 (jié), 门 (mén), 堂 (táng)",
+      "example": "今天我们学习第一～。\n(jīn tiān wǒ men xué xí dì yī ～。)"
+    }
+  },
+  {
+    "front": "快",
+    "back": {
+      "hanzi_pinyin": "快 (kuài)",
+      "meaning": "fast",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "他跑得真～。\n(tā pǎo dé zhēn ～。)"
+    }
+  },
+  {
+    "front": "快乐",
+    "back": {
+      "hanzi_pinyin": "快乐 (kuài lè)",
+      "meaning": "happy; joyful; cheerful; glad",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "祝你生日～！\n(zhù nǐ shēng rì ～！)"
+    }
+  },
+  {
+    "front": "累",
+    "back": {
+      "hanzi_pinyin": "累 (lěi)",
+      "meaning": "tired; fatigued",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我～了，想休息。\n(wǒ ～ le ， xiǎng xiū xī 。)"
+    }
+  },
+  {
+    "front": "离",
+    "back": {
+      "hanzi_pinyin": "离 (chī)",
+      "meaning": "away from",
+      "part_of_speech": "Preposition",
+      "measure_word": "",
+      "example": "我家～学校很近。\n(wǒ jiā ～ xué xiào hěn jìn 。)"
+    }
+  },
+  {
+    "front": "两",
+    "back": {
+      "hanzi_pinyin": "两 (liǎng)",
+      "meaning": "two",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "苹果～块钱一斤。\n(píng guǒ ～ kuài qián yī jīn 。)"
+    }
+  },
+  {
+    "front": "路",
+    "back": {
+      "hanzi_pinyin": "路 (Lù)",
+      "meaning": "road",
+      "part_of_speech": "Noun",
+      "measure_word": "条 (tiáo)",
+      "example": "我每天走～去上学。\n(wǒ měi tiān zǒu ～ qù shàng xué 。)"
+    }
+  },
+  {
+    "front": "旅游",
+    "back": {
+      "hanzi_pinyin": "旅游 (lu:3 yóu)",
+      "meaning": "travel",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我们开车去～。\n(wǒ men kāi chē qù ～。)"
+    }
+  },
+  {
+    "front": "卖",
+    "back": {
+      "hanzi_pinyin": "卖 (mài)",
+      "meaning": "sell",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "这个商店～的东西比较便宜。\n(zhè ge shāng diàn ～ de dōng xī bǐ jiào pián yi 。)"
+    }
+  },
+  {
+    "front": "慢",
+    "back": {
+      "hanzi_pinyin": "慢 (màn)",
+      "meaning": "slow",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我们走得很～。\n(wǒ men zǒu dé hěn ～。)"
+    }
+  },
+  {
+    "front": "忙",
+    "back": {
+      "hanzi_pinyin": "忙 (máng)",
+      "meaning": "busy",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这个星期，我很～。\n(zhè ge xīng qī ， wǒ hěn ～。)"
+    }
+  },
+  {
+    "front": "猫",
+    "back": {
+      "hanzi_pinyin": "猫 (māo)",
+      "meaning": "cat",
+      "part_of_speech": "Noun",
+      "measure_word": "只 (zhǐ)",
+      "example": "你的小～去哪儿了？\n(nǐ de xiǎo ～ qù nǎ ér le ？)"
+    }
+  },
+  {
+    "front": "每",
+    "back": {
+      "hanzi_pinyin": "每 (měi)",
+      "meaning": "every; each",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "你～天都看报纸吗？\n(nǐ ～ tiān dōu kàn bào zhǐ ma ？)"
+    }
+  },
+  {
+    "front": "妹妹",
+    "back": {
+      "hanzi_pinyin": "妹妹 (mèi mei)",
+      "meaning": "younger sister",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我有两个～。\n(wǒ yǒu liǎng gè ～。)"
+    }
+  },
+  {
+    "front": "门",
+    "back": {
+      "hanzi_pinyin": "门 (Mén)",
+      "meaning": "exits and entrances; doorways",
+      "part_of_speech": "Noun",
+      "measure_word": "扇 (shàn), 个 (gè)",
+      "example": "我在～外等你。\n(wǒ zài ～ wài děng nǐ 。)"
+    }
+  },
+  {
+    "front": "男",
+    "back": {
+      "hanzi_pinyin": "男 (nán)",
+      "meaning": "man; male",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我不认识那个～人。\n(wǒ bù rèn shí nà ge ～ rén 。)"
+    }
+  },
+  {
+    "front": "您",
+    "back": {
+      "hanzi_pinyin": "您 (nín)",
+      "meaning": "you or your (used to address someone with respect)",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "老师，～好！\n(lǎo shī ，～ hǎo ！)"
+    }
+  },
+  {
+    "front": "牛奶",
+    "back": {
+      "hanzi_pinyin": "牛奶 (niú nǎi)",
+      "meaning": "milk",
+      "part_of_speech": "Noun",
+      "measure_word": "杯 (bēi), 瓶 (píng)",
+      "example": "睡觉前喝杯～吧。\n(shuì jiào qián hē bēi ～ ba 。)"
+    }
+  },
+  {
+    "front": "女",
+    "back": {
+      "hanzi_pinyin": "女 (nǚ)",
+      "meaning": "woman; female",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "那个～人你认识吗？\n(nà ge ～ rén nǐ rèn shí ma ？)"
+    }
+  },
+  {
+    "front": "旁边",
+    "back": {
+      "hanzi_pinyin": "旁边 (páng biān)",
+      "meaning": "side; by the side of; nearby",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "爸爸在我～。\n(bà bà zài wǒ ～。)"
+    }
+  },
+  {
+    "front": "跑步",
+    "back": {
+      "hanzi_pinyin": "跑步 (pǎo bù)",
+      "meaning": "run; jog",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我每天早上都～。\n(wǒ měi tiān zǎo shàng dōu ～。)"
+    }
+  },
+  {
+    "front": "便宜",
+    "back": {
+      "hanzi_pinyin": "便宜 (biàn yí)",
+      "meaning": "cheap; inexpensive",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "苹果很～，我们买点儿吧。\n(píng guǒ hěn ～， wǒ men mǎi diǎn ér ba 。)"
+    }
+  },
+  {
+    "front": "票",
+    "back": {
+      "hanzi_pinyin": "票 (piào)",
+      "meaning": "ticket",
+      "part_of_speech": "Noun",
+      "measure_word": "张 (zhāng)",
+      "example": "我要去火车站买车～。\n(wǒ yào qù huǒ chē zhàn mǎi chē ～。)"
+    }
+  },
+  {
+    "front": "妻子",
+    "back": {
+      "hanzi_pinyin": "妻子 (qī zǐ)",
+      "meaning": "wife",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我～上班去了。\n(wǒ ～ shàng bān qù le 。)"
+    }
+  },
+  {
+    "front": "起床",
+    "back": {
+      "hanzi_pinyin": "起床 (qǐ chuáng)",
+      "meaning": "rise (from bed); get up",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我早上七点～。\n(wǒ zǎo shàng qī diǎn ～。)"
+    }
+  },
+  {
+    "front": "千",
+    "back": {
+      "hanzi_pinyin": "千 (qiān)",
+      "meaning": "thousand",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "这个手机一～元。\n(zhè ge shǒu jī yī ～ yuán 。)"
+    }
+  },
+  {
+    "front": "铅笔",
+    "back": {
+      "hanzi_pinyin": "铅笔 (qiān bǐ)",
+      "meaning": "pencil",
+      "part_of_speech": "Noun",
+      "measure_word": "枝 (zhī), 杆 (gān), 支 (zhī)",
+      "example": "你看见我的～了吗？\n(nǐ kàn jiàn wǒ de ～ le ma ？)"
+    }
+  },
+  {
+    "front": "晴",
+    "back": {
+      "hanzi_pinyin": "晴 (qíng)",
+      "meaning": "fine; clear",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "今天是～天。\n(jīn tiān shì ～ tiān 。)"
+    }
+  },
+  {
+    "front": "去年",
+    "back": {
+      "hanzi_pinyin": "去年 (qù nián)",
+      "meaning": "last year",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我是～8月来北京的。\n(wǒ shì ～8 yuè lái běi jīng de 。)"
+    }
+  },
+  {
+    "front": "让",
+    "back": {
+      "hanzi_pinyin": "让 (ràng)",
+      "meaning": "let; allow; make; ask",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "他爸爸不～他来。\n(tā bà bà bù ～ tā lái 。)"
+    }
+  },
+  {
+    "front": "日",
+    "back": {
+      "hanzi_pinyin": "日 (Rì)",
+      "meaning": "day or date",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "今天是2012年2月26～。\n(jīn tiān shì 2012 nián 2 yuè 26～。)"
+    }
+  },
+  {
+    "front": "上班",
+    "back": {
+      "hanzi_pinyin": "上班 (shàng bān)",
+      "meaning": "go to work; start work",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我七点半去～。\n(wǒ qī diǎn bàn qù ～。)"
+    }
+  },
+  {
+    "front": "身体",
+    "back": {
+      "hanzi_pinyin": "身体 (shēn tǐ)",
+      "meaning": "body (of a human or animal)",
+      "part_of_speech": "Noun",
+      "measure_word": "具 (jù), 个 (gè)",
+      "example": "今天我的～不太舒服。\n(jīn tiān wǒ de ～ bù tài shū fú 。)"
+    }
+  },
+  {
+    "front": "生病",
+    "back": {
+      "hanzi_pinyin": "生病 (shēng bìng)",
+      "meaning": "fall sick;fall ill; get ill; be taken ill",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～了，不能去上班了。\n(wǒ ～ le ， bù néng qù shàng bān le 。)"
+    }
+  },
+  {
+    "front": "生日",
+    "back": {
+      "hanzi_pinyin": "生日 (shēng rì)",
+      "meaning": "birthday",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "祝你～快乐！\n(zhù nǐ ～ kuài lè ！)"
+    }
+  },
+  {
+    "front": "时间",
+    "back": {
+      "hanzi_pinyin": "时间 (shí jiān)",
+      "meaning": "time",
+      "part_of_speech": "Noun",
+      "measure_word": "段 (duàn)",
+      "example": "我没～去北京。\n(wǒ méi ～ qù běi jīng 。)"
+    }
+  },
+  {
+    "front": "事情",
+    "back": {
+      "hanzi_pinyin": "事情 (shì qing)",
+      "meaning": "matter; business; circumstance; event; affair; incident; occurrence",
+      "part_of_speech": "Noun",
+      "measure_word": "件 (jiàn), 桩 (zhuāng)",
+      "example": "你下午有什么～吗？\n(nǐ xià wǔ yǒu shén me ～ ma ？)"
+    }
+  },
+  {
+    "front": "手表",
+    "back": {
+      "hanzi_pinyin": "手表 (shǒu biǎo)",
+      "meaning": "wrist watch; watch",
+      "part_of_speech": "Noun",
+      "measure_word": "只 (zhǐ), 个 (gè), 块 (kuài)",
+      "example": "这块～非常漂亮。\n(zhè kuài ～ fēi cháng piào liàng 。)"
+    }
+  },
+  {
+    "front": "手机",
+    "back": {
+      "hanzi_pinyin": "手机 (shǒu jī)",
+      "meaning": "mobile phone",
+      "part_of_speech": "Noun",
+      "measure_word": "部 (bù), 支 (zhī)",
+      "example": "你看，我新买了一个～。\n(nǐ kàn ， wǒ xīn mǎi le yí gè ～。)"
+    }
+  },
+  {
+    "front": "送",
+    "back": {
+      "hanzi_pinyin": "送 (sòng)",
+      "meaning": "give sb. sth. as a gift",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～你一本书。\n(wǒ ～ nǐ yī běn shū 。)"
+    }
+  },
+  {
+    "front": "虽然……但是……",
+    "back": {
+      "hanzi_pinyin": "虽然……但是…… (suīrán…dànshì…)",
+      "meaning": "though;but; however",
+      "part_of_speech": "Conjunction",
+      "measure_word": "",
+      "example": "～下雨了，～我们还是想去看电影。\n(～ xià yǔ le ，～ wǒ men hái shì xiǎng qù kàn diàn yǐng 。)"
+    }
+  },
+  {
+    "front": "它",
+    "back": {
+      "hanzi_pinyin": "它 (tā)",
+      "meaning": "it; its",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "我知道小猫在哪儿，～在桌子下面。\n(wǒ zhī dào xiǎo māo zài nǎ ér ，～ zài zhuō zi xià miàn 。)"
+    }
+  },
+  {
+    "front": "踢足球",
+    "back": {
+      "hanzi_pinyin": "踢足球 (tī zúqiú)",
+      "meaning": "play soccer",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "我和同学们在～。\n(wǒ hé tóng xué men zài ～。)"
+    }
+  },
+  {
+    "front": "题",
+    "back": {
+      "hanzi_pinyin": "题 (Tí)",
+      "meaning": "questions, problems (in a test or a quiz)",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 道 (dào)",
+      "example": "这个～我不会做。\n(zhè ge ～ wǒ bú huì zuò 。)"
+    }
+  },
+  {
+    "front": "跳舞",
+    "back": {
+      "hanzi_pinyin": "跳舞 (tiào wǔ)",
+      "meaning": "dance",
+      "part_of_speech": "sv.",
+      "measure_word": "",
+      "example": "妹妹会唱歌，也会～。\n(mèi mèi huì chàng gē ， yě huì ～。)"
+    }
+  },
+  {
+    "front": "外",
+    "back": {
+      "hanzi_pinyin": "外 (wài)",
+      "meaning": "outer; outside",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "～面下雨了。\n(～ miàn xià yǔ le 。)"
+    }
+  },
+  {
+    "front": "完",
+    "back": {
+      "hanzi_pinyin": "完 (wán)",
+      "meaning": "indicating finished; be used up; run out",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "这本书我看～了。\n(zhè běn shū wǒ kàn ～ le 。)"
+    }
+  },
+  {
+    "front": "玩",
+    "back": {
+      "hanzi_pinyin": "玩 (wán)",
+      "meaning": "play",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "他在～，没有学习。\n(tā zài ～， méi yǒu xué xí 。)"
+    }
+  },
+  {
+    "front": "晚上",
+    "back": {
+      "hanzi_pinyin": "晚上 (wǎn shang)",
+      "meaning": "evening",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "今天～我不能看电视了。\n(jīn tiān ～ wǒ bù néng kàn diàn shì le 。)"
+    }
+  },
+  {
+    "front": "为什么",
+    "back": {
+      "hanzi_pinyin": "为什么 (wèi shén me)",
+      "meaning": "why",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "你～不喝点儿水呢？\n(nǐ ～ bù hē diǎn ér shuǐ ne ？)"
+    }
+  },
+  {
+    "front": "问",
+    "back": {
+      "hanzi_pinyin": "问 (wèn)",
+      "meaning": "ask; inquire after",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "老师，我可以～你一个问题吗？\n(lǎo shī ， wǒ kě yǐ ～ nǐ yí gè wèn tí ma ？)"
+    }
+  },
+  {
+    "front": "问题",
+    "back": {
+      "hanzi_pinyin": "问题 (wèn tí)",
+      "meaning": "question; problem",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "这个～太难了！\n(zhè ge ～ tài nán le ！)"
+    }
+  },
+  {
+    "front": "西瓜",
+    "back": {
+      "hanzi_pinyin": "西瓜 (xī guā)",
+      "meaning": "watermelon",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 颗 (kē)",
+      "example": "请吃块儿～。\n(qǐng chī kuài ér ～。)"
+    }
+  },
+  {
+    "front": "希望",
+    "back": {
+      "hanzi_pinyin": "希望 (xī wàng)",
+      "meaning": "hope; wish; want; be desirous of",
+      "part_of_speech": "Verb",
+      "measure_word": "个 (gè)",
+      "example": "我～你别走了。\n(wǒ ～ nǐ bié zǒu le 。)"
+    }
+  },
+  {
+    "front": "洗",
+    "back": {
+      "hanzi_pinyin": "洗 (xǐ)",
+      "meaning": "wash",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "今天我要～很多衣服。\n(jīn tiān wǒ yào ～ hěn duō yī fú 。)"
+    }
+  },
+  {
+    "front": "小时",
+    "back": {
+      "hanzi_pinyin": "小时 (xiǎo shí)",
+      "meaning": "hour",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我看了一～的书。\n(wǒ kàn le yī ～ de shū 。)"
+    }
+  },
+  {
+    "front": "笑",
+    "back": {
+      "hanzi_pinyin": "笑 (xiào)",
+      "meaning": "laugh; smile",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "听到他这么说，我们都～了。\n(tīng dào tā zhè me shuō ， wǒ men dōu ～ le 。)"
+    }
+  },
+  {
+    "front": "新",
+    "back": {
+      "hanzi_pinyin": "新 (Xīn)",
+      "meaning": "new; up-to-date",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这是我买的～衣服。\n(zhè shì wǒ mǎi de ～ yī fú 。)"
+    }
+  },
+  {
+    "front": "姓",
+    "back": {
+      "hanzi_pinyin": "姓 (xìng)",
+      "meaning": "surname",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "中国人的～在名字的前面。\n(zhōng guó rén de ～ zài míng zì de qián miàn 。)"
+    }
+  },
+  {
+    "front": "休息",
+    "back": {
+      "hanzi_pinyin": "休息 (xiū xi)",
+      "meaning": "relax; have a rest; take a break",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "太累了，让我～一下。\n(tài lèi le ， ràng wǒ ～ yī xià 。)"
+    }
+  },
+  {
+    "front": "雪",
+    "back": {
+      "hanzi_pinyin": "雪 (Xuě)",
+      "meaning": "snow",
+      "part_of_speech": "Noun",
+      "measure_word": "场 (chǎng)",
+      "example": "今年冬天下了几次大～。\n(jīn nián dōng tiān xià le jǐ cì dà ～。)"
+    }
+  },
+  {
+    "front": "颜色",
+    "back": {
+      "hanzi_pinyin": "颜色 (yán sè)",
+      "meaning": "color",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "你喜欢哪种～？\n(nǐ xǐ huān nǎ zhǒng ～？)"
+    }
+  },
+  {
+    "front": "眼睛",
+    "back": {
+      "hanzi_pinyin": "眼睛 (yǎn jing)",
+      "meaning": "eye",
+      "part_of_speech": "Noun",
+      "measure_word": "只 (zhǐ), 双 (shuāng)",
+      "example": "我的～是黑色的。\n(wǒ de ～ shì hēi sè de 。)"
+    }
+  },
+  {
+    "front": "羊肉",
+    "back": {
+      "hanzi_pinyin": "羊肉 (yáng ròu)",
+      "meaning": "mutton",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "有些人不爱吃～。\n(yǒu xiē rén bù ài chī ～。)"
+    }
+  },
+  {
+    "front": "药",
+    "back": {
+      "hanzi_pinyin": "药 (yào)",
+      "meaning": "medicine",
+      "part_of_speech": "Noun",
+      "measure_word": "味 (wèi), 服 (fú), 种 (zhǒng)",
+      "example": "这个～一天吃三次。\n(zhè ge ～ yī tiān chī sān cì 。)"
+    }
+  },
+  {
+    "front": "要",
+    "back": {
+      "hanzi_pinyin": "要 (yāo)",
+      "meaning": "hope; want; wish",
+      "part_of_speech": "Auxiliary Verb",
+      "measure_word": "",
+      "example": "我～去北京。\n(wǒ ～ qù běi jīng 。)"
+    }
+  },
+  {
+    "front": "也",
+    "back": {
+      "hanzi_pinyin": "也 (Yě)",
+      "meaning": "also; too; as well; either",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "你去，我～去。\n(nǐ qù ， wǒ ～ qù 。)"
+    }
+  },
+  {
+    "front": "一下",
+    "back": {
+      "hanzi_pinyin": "一下 (yíxià)",
+      "meaning": "once; in a short while",
+      "part_of_speech": "vm.",
+      "measure_word": "",
+      "example": "请等我～。\n(qǐng děng wǒ ～。)"
+    }
+  },
+  {
+    "front": "一起",
+    "back": {
+      "hanzi_pinyin": "一起 (yī qǐ)",
+      "meaning": "together",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我和你～去北京。\n(wǒ hé nǐ ～ qù běi jīng 。)"
+    }
+  },
+  {
+    "front": "已经",
+    "back": {
+      "hanzi_pinyin": "已经 (yǐ jīng)",
+      "meaning": "already; yet",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我们～吃完饭了。\n(wǒ men ～ chī wán fàn le 。)"
+    }
+  },
+  {
+    "front": "意思",
+    "back": {
+      "hanzi_pinyin": "意思 (yì si)",
+      "meaning": "meaning; content; indication; hint",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "这个词是什么～？\n(zhè ge cí shì shén me ～？)"
+    }
+  },
+  {
+    "front": "因为……所以……",
+    "back": {
+      "hanzi_pinyin": "因为……所以…… (yīnwèi…suǒyǐ…)",
+      "meaning": "on account of; because of",
+      "part_of_speech": "Conjunction",
+      "measure_word": "",
+      "example": "～下雨了，～我没去跑步。\n(～ xià yǔ le ，～ wǒ méi qù pǎo bù 。)"
+    }
+  },
+  {
+    "front": "阴",
+    "back": {
+      "hanzi_pinyin": "阴 (Yīn)",
+      "meaning": "cloudy; overcast",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "今天是～天。\n(jīn tiān shì ～ tiān 。)"
+    }
+  },
+  {
+    "front": "游泳",
+    "back": {
+      "hanzi_pinyin": "游泳 (yóu yǒng)",
+      "meaning": "swim",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我会～了。\n(wǒ huì ～ le 。)"
+    }
+  },
+  {
+    "front": "右边",
+    "back": {
+      "hanzi_pinyin": "右边 (yòu bian)",
+      "meaning": "right; right side",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "王医生～那个人是谁？\n(wáng yī shēng ～ nà ge rén shì shuí ？)"
+    }
+  },
+  {
+    "front": "鱼",
+    "back": {
+      "hanzi_pinyin": "鱼 (Yú)",
+      "meaning": "fish",
+      "part_of_speech": "Noun",
+      "measure_word": "条 (tiáo), 尾 (wěi)",
+      "example": "水里有很多～。\n(shuǐ lǐ yǒu hěn duō ～。)"
+    }
+  },
+  {
+    "front": "远",
+    "back": {
+      "hanzi_pinyin": "远 (yuǎn)",
+      "meaning": "far",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我家离公司很～。\n(wǒ jiā lí gōng sī hěn ～。)"
+    }
+  },
+  {
+    "front": "运动",
+    "back": {
+      "hanzi_pinyin": "运动 (yùn dòng)",
+      "meaning": "take exercise",
+      "part_of_speech": "Verb",
+      "measure_word": "场 (chǎng)",
+      "example": "我们都很喜欢～。\n(wǒ men dōu hěn xǐ huān ～。)"
+    }
+  },
+  {
+    "front": "再",
+    "back": {
+      "hanzi_pinyin": "再 (zài)",
+      "meaning": "again",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我吃完饭～去商店。\n(wǒ chī wán fàn ～ qù shāng diàn 。)"
+    }
+  },
+  {
+    "front": "早上",
+    "back": {
+      "hanzi_pinyin": "早上 (zǎo shang)",
+      "meaning": "morning",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我～看见过他。\n(wǒ ～ kàn jiàn guò tā 。)"
+    }
+  },
+  {
+    "front": "丈夫",
+    "back": {
+      "hanzi_pinyin": "丈夫 (zhàng fu)",
+      "meaning": "husband",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我～在医院工作。\n(wǒ ～ zài yī yuàn gōng zuò 。)"
+    }
+  },
+  {
+    "front": "找",
+    "back": {
+      "hanzi_pinyin": "找 (zhǎo)",
+      "meaning": "seek; look for",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "他想～一个工作。\n(tā xiǎng ～ yí gè gōng zuò 。)"
+    }
+  },
+  {
+    "front": "着",
+    "back": {
+      "hanzi_pinyin": "着 (zhāo)",
+      "meaning": "used after a verb, indicating that the action starts and continues",
+      "part_of_speech": "sa.",
+      "measure_word": "",
+      "example": "他笑～说：“你不认识我，但是我认识你。”\n(tā xiào ～ shuō ：“ nǐ bù rèn shí wǒ ， dàn shì wǒ rèn shí nǐ 。”)"
+    }
+  },
+  {
+    "front": "真",
+    "back": {
+      "hanzi_pinyin": "真 (zhēn)",
+      "meaning": "indeed; really",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "这个人～高。\n(zhè ge rén ～ gāo 。)"
+    }
+  },
+  {
+    "front": "正在",
+    "back": {
+      "hanzi_pinyin": "正在 (zhèng zài)",
+      "meaning": "be + verb + ing; in the process of; in the course of; in the middle of; in the act of",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "弟弟～打篮球。\n(dì di ～ dǎ lán qiú 。)"
+    }
+  },
+  {
+    "front": "知道",
+    "back": {
+      "hanzi_pinyin": "知道 (zhī dào)",
+      "meaning": "know; be aware of",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我不～他现在在哪里。\n(wǒ bù ～ tā xiàn zài zài nǎ lǐ 。)"
+    }
+  },
+  {
+    "front": "准备",
+    "back": {
+      "hanzi_pinyin": "准备 (zhǔn bèi)",
+      "meaning": "be going to; intend; plan; prepare",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～星期日去北京。\n(wǒ ～ xīng qī rì qù běi jīng 。)"
+    }
+  },
+  {
+    "front": "自行车",
+    "back": {
+      "hanzi_pinyin": "自行车 (zì xíng chē)",
+      "meaning": "bicycle",
+      "part_of_speech": "Noun",
+      "measure_word": "辆 (liàng)",
+      "example": "这是我新买的～。\n(zhè shì wǒ xīn mǎi de ～。)"
+    }
+  },
+  {
+    "front": "走",
+    "back": {
+      "hanzi_pinyin": "走 (zǒu)",
+      "meaning": "walk; go on foot",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我女儿9个月就会～了。\n(wǒ nǚ ér 9 gè yuè jiù huì ～ le 。)"
+    }
+  },
+  {
+    "front": "最",
+    "back": {
+      "hanzi_pinyin": "最 (zuì)",
+      "meaning": "the most",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "她是我～好的朋友。\n(tā shì wǒ ～ hǎo de péng yǒu 。)"
+    }
+  },
+  {
+    "front": "左边",
+    "back": {
+      "hanzi_pinyin": "左边 (zuǒ bian)",
+      "meaning": "left; left side",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "～的那个杯子是你的，右边的是我的。\n(～ de nà ge bēi zi shì nǐ de ， yòu biān de shì wǒ de 。)"
+    }
+  },
+  {
+    "front": "阿姨",
+    "back": {
+      "hanzi_pinyin": "阿姨 (ā yí)",
+      "meaning": "aunt",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "～，附近有地铁站吗？\n(～， fù jìn yǒu dì tiě zhàn ma ？)"
+    }
+  },
+  {
+    "front": "啊",
+    "back": {
+      "hanzi_pinyin": "啊 (ā)",
+      "meaning": "used to express surprise,exclamation or promise",
+      "part_of_speech": "Interjection",
+      "measure_word": "",
+      "example": "～，这儿的环境多么好啊！ 你们家住在哪儿～？ ～，好的，我现在就去。\n(～， zhè ér de huán jìng duō me hǎo a ！  nǐ men jiā zhù zài nǎ ér ～？ ～， hǎo de ， wǒ xiàn zài jiù qù 。)"
+    }
+  },
+  {
+    "front": "矮",
+    "back": {
+      "hanzi_pinyin": "矮 (ǎi)",
+      "meaning": "short, low",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "弟弟的个子比我～。\n(dì di de gè zi bǐ wǒ ～。)"
+    }
+  },
+  {
+    "front": "爱好",
+    "back": {
+      "hanzi_pinyin": "爱好 (ài hào)",
+      "meaning": "hobby; an interest; fancy",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我最大的～就是打篮球。\n(wǒ zuì dà de ～ jiù shì dǎ lán qiú 。)"
+    }
+  },
+  {
+    "front": "安静",
+    "back": {
+      "hanzi_pinyin": "安静 (ān jìng)",
+      "meaning": "noiseless; quiet; calm",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "因为教室里没什么人，所以很～。\n(yīn wèi jiào shì lǐ méi shén me rén ， suǒ yǐ hěn ～。)"
+    }
+  },
+  {
+    "front": "把",
+    "back": {
+      "hanzi_pinyin": "把 (bǎ)",
+      "meaning": "dealing with, used before an object, followed by a transitive verb",
+      "part_of_speech": "Preposition",
+      "measure_word": "",
+      "example": "请～桌子上的铅笔给我。\n(qǐng ～ zhuō zi shàng de qiān bǐ gěi wǒ 。)"
+    }
+  },
+  {
+    "front": "班",
+    "back": {
+      "hanzi_pinyin": "班 (Bān)",
+      "meaning": "class",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我在三年级二～。\n(wǒ zài sān nián jí èr ～。)"
+    }
+  },
+  {
+    "front": "搬",
+    "back": {
+      "hanzi_pinyin": "搬 (bān)",
+      "meaning": "carry; move",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "请帮我把这张桌子～到楼下好吗？\n(qǐng bāng wǒ bǎ zhè zhāng zhuō zi ～ dào lóu xià hǎo ma ？)"
+    }
+  },
+  {
+    "front": "办法",
+    "back": {
+      "hanzi_pinyin": "办法 (bàn fǎ)",
+      "meaning": "way; means; measure; step to take; method; resource",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 条 (tiáo)",
+      "example": "你别急，我们再想想～。\n(nǐ bié jí ， wǒ men zài xiǎng xiǎng ～。)"
+    }
+  },
+  {
+    "front": "办公室",
+    "back": {
+      "hanzi_pinyin": "办公室 (bàn gōng shì)",
+      "meaning": "office",
+      "part_of_speech": "Noun",
+      "measure_word": "间 (jiān)",
+      "example": "请问，校长～怎么走？\n(qǐng wèn ， xiào zhǎng ～ zěn me zǒu ？)"
+    }
+  },
+  {
+    "front": "半",
+    "back": {
+      "hanzi_pinyin": "半 (bàn)",
+      "meaning": "half",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "现在是三点～。\n(xiàn zài shì sān diǎn ～。)"
+    }
+  },
+  {
+    "front": "帮忙",
+    "back": {
+      "hanzi_pinyin": "帮忙 (bāng máng)",
+      "meaning": "help; give a helping hand; do a favor; lend a hand",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "因为有你～，这件事情处理得很好。\n(yīn wèi yǒu nǐ ～， zhè jiàn shì qíng chǔ lǐ dé hěn hǎo 。)"
+    }
+  },
+  {
+    "front": "包",
+    "back": {
+      "hanzi_pinyin": "包 (Bāo)",
+      "meaning": "bag",
+      "part_of_speech": "Noun",
+      "measure_word": "只 (zhǐ), 个 (gè)",
+      "example": "我的～忘在房间里了。\n(wǒ de ～ wàng zài fáng jiān lǐ le 。)"
+    }
+  },
+  {
+    "front": "饱",
+    "back": {
+      "hanzi_pinyin": "饱 (bǎo)",
+      "meaning": "not hungry, full",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我已经吃～了。\n(wǒ yǐ jīng chī ～ le 。)"
+    }
+  },
+  {
+    "front": "北方",
+    "back": {
+      "hanzi_pinyin": "北方 (běi fāng)",
+      "meaning": "north",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "冬天，～比南方冷多了。\n(dōng tiān ，～ bǐ nán fāng lěng duō le 。)"
+    }
+  },
+  {
+    "front": "被",
+    "back": {
+      "hanzi_pinyin": "被 (bèi)",
+      "meaning": "be made or forced, indicating passive voice",
+      "part_of_speech": "Preposition",
+      "measure_word": "",
+      "example": "词典～王老师拿走了。\n(cí diǎn ～ wáng lǎo shī ná zǒu le 。)"
+    }
+  },
+  {
+    "front": "鼻子",
+    "back": {
+      "hanzi_pinyin": "鼻子 (bí zi)",
+      "meaning": "nose",
+      "part_of_speech": "Noun",
+      "measure_word": "只 (zhǐ), 个 (gè)",
+      "example": "姐姐的～很高，很漂亮。\n(jiě jiě de ～ hěn gāo ， hěn piào liàng 。)"
+    }
+  },
+  {
+    "front": "比较",
+    "back": {
+      "hanzi_pinyin": "比较 (bǐ jiào)",
+      "meaning": "fairly; quite",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "今天天气～冷。\n(jīn tiān tiān qì ～ lěng 。)"
+    }
+  },
+  {
+    "front": "比赛",
+    "back": {
+      "hanzi_pinyin": "比赛 (bǐ sài)",
+      "meaning": "competition",
+      "part_of_speech": "Noun",
+      "measure_word": "场 (chǎng), 次 (cì)",
+      "example": "今天晚上有足球～。\n(jīn tiān wǎn shàng yǒu zú qiú ～。)"
+    }
+  },
+  {
+    "front": "笔记本",
+    "back": {
+      "hanzi_pinyin": "笔记本 (bǐjìběn)",
+      "meaning": "notebook",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "老师讲的内容，我都写在～上了。\n(lǎo shī jiǎng de nèi róng ， wǒ dōu xiě zài ～ shàng le 。)"
+    }
+  },
+  {
+    "front": "必须",
+    "back": {
+      "hanzi_pinyin": "必须 (bì xū)",
+      "meaning": "must; have to",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我今天～去上班。\n(wǒ jīn tiān ～ qù shàng bān 。)"
+    }
+  },
+  {
+    "front": "变化",
+    "back": {
+      "hanzi_pinyin": "变化 (biàn huà)",
+      "meaning": "change; variation",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "十年不见，他好像没什么～。\n(shí nián bú jiàn ， tā hǎo xiàng méi shén me ～。)"
+    }
+  },
+  {
+    "front": "别人",
+    "back": {
+      "hanzi_pinyin": "别人 (bié ren)",
+      "meaning": "other people; another person",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "～都走了，为什么你还在这里？\n(～ dōu zǒu le ， wèi shén me nǐ hái zài zhè lǐ ？)"
+    }
+  },
+  {
+    "front": "宾馆",
+    "back": {
+      "hanzi_pinyin": "宾馆 (bīn guǎn)",
+      "meaning": "hotel",
+      "part_of_speech": "Noun",
+      "measure_word": "家 (jiā), 个 (gè)",
+      "example": "这是我们这儿最大的～，可以住300个客人。\n(zhè shì wǒ men zhè ér zuì dà de ～， kě yǐ zhù 300 gè kè rén 。)"
+    }
+  },
+  {
+    "front": "冰箱",
+    "back": {
+      "hanzi_pinyin": "冰箱 (bīng xiāng)",
+      "meaning": "refrigerator",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 台 (tái)",
+      "example": "妈妈把刚买的鱼放进了～。\n(mā mā bǎ gāng mǎi de yú fàng jìn le ～。)"
+    }
+  },
+  {
+    "front": "不但……而且……",
+    "back": {
+      "hanzi_pinyin": "不但……而且…… (búdàn… érqiě…)",
+      "meaning": "moreover; not only… but also…",
+      "part_of_speech": "Conjunction",
+      "measure_word": "",
+      "example": "妹妹～喜欢唱歌，～爱跳舞。\n(mèi mèi ～ xǐ huān chàng gē ，～ ài tiào wǔ 。)"
+    }
+  },
+  {
+    "front": "才",
+    "back": {
+      "hanzi_pinyin": "才 (cái)",
+      "meaning": "late, indicating just happened",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "他30岁～读完大学。\n(tā 30 suì ～ dú wán dà xué 。)"
+    }
+  },
+  {
+    "front": "菜单",
+    "back": {
+      "hanzi_pinyin": "菜单 (cài dān)",
+      "meaning": "menu",
+      "part_of_speech": "Noun",
+      "measure_word": "张 (zhāng), 份 (fèn)",
+      "example": "服务员，请帮我拿一下～。\n(fú wù yuán ， qǐng bāng wǒ ná yī xià ～。)"
+    }
+  },
+  {
+    "front": "参加",
+    "back": {
+      "hanzi_pinyin": "参加 (cān jiā)",
+      "meaning": "join; take part in; attend",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "这次会议有两百多人～。\n(zhè cì huì yì yǒu liǎng bǎi duō rén ～。)"
+    }
+  },
+  {
+    "front": "草",
+    "back": {
+      "hanzi_pinyin": "草 (cǎo)",
+      "meaning": "grass; straw",
+      "part_of_speech": "Noun",
+      "measure_word": "根 (gēn), 株 (zhū), 撮 (cuō), 棵 (kē)",
+      "example": "春天来了，小～绿了。\n(chūn tiān lái le ， xiǎo ～ lǜ le 。)"
+    }
+  },
+  {
+    "front": "层",
+    "back": {
+      "hanzi_pinyin": "层 (céng)",
+      "meaning": "layer, floor, etc.( used for things that have separate levels)",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "我住在三～，306。\n(wǒ zhù zài sān ～，306。)"
+    }
+  },
+  {
+    "front": "差",
+    "back": {
+      "hanzi_pinyin": "差 (chā)",
+      "meaning": "bad; poor",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我这次考试考得很～。\n(wǒ zhè cì kǎo shì kǎo dé hěn ～。)"
+    }
+  },
+  {
+    "front": "超市",
+    "back": {
+      "hanzi_pinyin": "超市 (chāo shì)",
+      "meaning": "supermarket",
+      "part_of_speech": "Noun",
+      "measure_word": "家 (jiā)",
+      "example": "这家～里的东西比较便宜。\n(zhè jiā ～ lǐ de dōng xī bǐ jiào pián yi 。)"
+    }
+  },
+  {
+    "front": "衬衫",
+    "back": {
+      "hanzi_pinyin": "衬衫 (chèn shān)",
+      "meaning": "shirt",
+      "part_of_speech": "Noun",
+      "measure_word": "件 (jiàn)",
+      "example": "今天我穿这件～。\n(jīn tiān wǒ chuān zhè jiàn ～。)"
+    }
+  },
+  {
+    "front": "成绩",
+    "back": {
+      "hanzi_pinyin": "成绩 (chéng jì)",
+      "meaning": "score",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 项 (xiàng)",
+      "example": "我们可以在网上查到考试～。\n(wǒ men kě yǐ zài wǎng shàng chá dào kǎo shì ～。)"
+    }
+  },
+  {
+    "front": "城市",
+    "back": {
+      "hanzi_pinyin": "城市 (chéng shì)",
+      "meaning": "city",
+      "part_of_speech": "Noun",
+      "measure_word": "座 (zuò)",
+      "example": "我已经喜欢上了这个～。\n(wǒ yǐ jīng xǐ huān shàng le zhè ge ～。)"
+    }
+  },
+  {
+    "front": "迟到",
+    "back": {
+      "hanzi_pinyin": "迟到 (chí dào)",
+      "meaning": "be late",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "对不起，我今天又～了。\n(duì bù qǐ ， wǒ jīn tiān yòu ～ le 。)"
+    }
+  },
+  {
+    "front": "出现",
+    "back": {
+      "hanzi_pinyin": "出现 (chū xiàn)",
+      "meaning": "come out , happen; show up; appear",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我们等了他一个小时，他也没有～。 我们工作中～了不少问题。\n(wǒ men děng le tā yí gè xiǎo shí ， tā yě méi yǒu ～。  wǒ men gōng zuò zhōng ～ le bù shǎo wèn tí 。)"
+    }
+  },
+  {
+    "front": "除了",
+    "back": {
+      "hanzi_pinyin": "除了 (chú le)",
+      "meaning": "except (for); besides; in addition to",
+      "part_of_speech": "Preposition",
+      "measure_word": "",
+      "example": "～小王，其他人都来了。\n(～ xiǎo wáng ， qí tā rén dōu lái le 。)"
+    }
+  },
+  {
+    "front": "船",
+    "back": {
+      "hanzi_pinyin": "船 (chuán)",
+      "meaning": "boat; ship",
+      "part_of_speech": "Noun",
+      "measure_word": "艘 (sōu), 只 (zhǐ), 条 (tiáo)",
+      "example": "你可以坐～去上海。\n(nǐ kě yǐ zuò ～ qù shàng hǎi 。)"
+    }
+  },
+  {
+    "front": "春",
+    "back": {
+      "hanzi_pinyin": "春 (chūn)",
+      "meaning": "spring (one of the four seasons)",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "～天是一年的开始。\n(～ tiān shì yī nián de kāi shǐ 。)"
+    }
+  },
+  {
+    "front": "词典",
+    "back": {
+      "hanzi_pinyin": "词典 (cídiǎn)",
+      "meaning": "dictionary",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "这本～对我的学习很有帮助。\n(zhè běn ～ duì wǒ de xué xí hěn yǒu bāng zhù 。)"
+    }
+  },
+  {
+    "front": "聪明",
+    "back": {
+      "hanzi_pinyin": "聪明 (cōng ming)",
+      "meaning": "bright; clever; intelligent",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "弟弟不但很～，而且很爱学习。\n(dì di bù dàn hěn ～， ér qiě hěn ài xué xí 。)"
+    }
+  },
+  {
+    "front": "打扫",
+    "back": {
+      "hanzi_pinyin": "打扫 (dǎ sǎo)",
+      "meaning": "clean; sweep",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我准备周末把房间～一下。\n(wǒ zhǔn bèi zhōu mò bǎ fáng jiān ～ yī xià 。)"
+    }
+  },
+  {
+    "front": "打算",
+    "back": {
+      "hanzi_pinyin": "打算 (dǎ suàn)",
+      "meaning": "be going to do sth.; plan to",
+      "part_of_speech": "Verb",
+      "measure_word": "个 (gè)",
+      "example": "我～下个星期去旅游。\n(wǒ ～ xià gè xīng qī qù lǚ yóu 。)"
+    }
+  },
+  {
+    "front": "带",
+    "back": {
+      "hanzi_pinyin": "带 (dài)",
+      "meaning": "carry; take; bring; bear",
+      "part_of_speech": "Verb",
+      "measure_word": "条 (tiáo)",
+      "example": "我今天忘记～钱包了。\n(wǒ jīn tiān wàng jì ～ qián bāo le 。)"
+    }
+  },
+  {
+    "front": "担心",
+    "back": {
+      "hanzi_pinyin": "担心 (dān xīn)",
+      "meaning": "worry; be anxious; feel concerned",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "爷爷住院了，我很～。\n(yé yé zhù yuàn le ， wǒ hěn ～。)"
+    }
+  },
+  {
+    "front": "蛋糕",
+    "back": {
+      "hanzi_pinyin": "蛋糕 (dàn gāo)",
+      "meaning": "cake",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 块 (kuài)",
+      "example": "你饿了吗？先吃块～吧。\n(nǐ è le ma ？ xiān chī kuài ～ ba 。)"
+    }
+  },
+  {
+    "front": "当然",
+    "back": {
+      "hanzi_pinyin": "当然 (dāng rán)",
+      "meaning": "of course; naturally; certainly",
+      "part_of_speech": "adv..",
+      "measure_word": "",
+      "example": "你生病了，我～要来看看你。\n(nǐ shēng bìng le ， wǒ ～ yào lái kàn kàn nǐ 。)"
+    }
+  },
+  {
+    "front": "灯",
+    "back": {
+      "hanzi_pinyin": "灯 (dēng)",
+      "meaning": "lamp",
+      "part_of_speech": "Noun",
+      "measure_word": "盏 (zhǎn)",
+      "example": "房间里的～怎么不亮了？\n(fáng jiān lǐ de ～ zěn me bù liàng le ？)"
+    }
+  },
+  {
+    "front": "地",
+    "back": {
+      "hanzi_pinyin": "地 (de)",
+      "meaning": "marker of adverbial",
+      "part_of_speech": "sa.",
+      "measure_word": "片 (piàn)",
+      "example": "天慢慢～黑了。\n(tiān màn màn ～ hēi le 。)"
+    }
+  },
+  {
+    "front": "地方",
+    "back": {
+      "hanzi_pinyin": "地方 (dì fāng)",
+      "meaning": "place",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 块 (kuài), 处 (chù)",
+      "example": "这个～我来过三次了。\n(zhè ge ～ wǒ lái guò sān cì le 。)"
+    }
+  },
+  {
+    "front": "地铁",
+    "back": {
+      "hanzi_pinyin": "地铁 (dì tiě)",
+      "meaning": "subway",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我们先坐三站～，再走一会儿就到了。\n(wǒ men xiān zuò sān zhàn ～， zài zǒu yī huì er jiù dào le 。)"
+    }
+  },
+  {
+    "front": "地图",
+    "back": {
+      "hanzi_pinyin": "地图 (dì tú)",
+      "meaning": "map",
+      "part_of_speech": "Noun",
+      "measure_word": "张 (zhāng), 本 (běn)",
+      "example": "我的手机上有电子～。\n(wǒ de shǒu jī shàng yǒu diàn zi ～。)"
+    }
+  },
+  {
+    "front": "电梯",
+    "back": {
+      "hanzi_pinyin": "电梯 (diàn tī)",
+      "meaning": "elevator",
+      "part_of_speech": "Noun",
+      "measure_word": "部 (bù), 台 (tái)",
+      "example": "我们坐～上去吧。\n(wǒ men zuò ～ shàng qù ba 。)"
+    }
+  },
+  {
+    "front": "电子邮件",
+    "back": {
+      "hanzi_pinyin": "电子邮件 (diànzǐyóujiàn)",
+      "meaning": "email",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我晚上再给你发个～。\n(wǒ wǎn shàng zài gěi nǐ fā gè ～。)"
+    }
+  },
+  {
+    "front": "东",
+    "back": {
+      "hanzi_pinyin": "东 (Dōng)",
+      "meaning": "east",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "你一直向～走就到了。\n(nǐ yì zhí xiàng ～ zǒu jiù dào le 。)"
+    }
+  },
+  {
+    "front": "冬",
+    "back": {
+      "hanzi_pinyin": "冬 (dōng)",
+      "meaning": "winter",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "北方的～天很冷。\n(běi fāng de ～ tiān hěn lěng 。)"
+    }
+  },
+  {
+    "front": "动物园",
+    "back": {
+      "hanzi_pinyin": "动物园 (dòngwùyuán)",
+      "meaning": "zoo",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "～里有一百多种动物。\n(～ lǐ yǒu yì bǎi duō zhǒng dòng wù 。)"
+    }
+  },
+  {
+    "front": "短",
+    "back": {
+      "hanzi_pinyin": "短 (duǎn)",
+      "meaning": "short",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这件事在～时间内很难做完。\n(zhè jiàn shì zài ～ shí jiān nèi hěn nán zuò wán 。)"
+    }
+  },
+  {
+    "front": "段",
+    "back": {
+      "hanzi_pinyin": "段 (Duàn)",
+      "meaning": "passage, paragraph (of an article); period (of time); section (of a distance)",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "这～时间我很忙。\n(zhè ～ shí jiān wǒ hěn máng 。)"
+    }
+  },
+  {
+    "front": "锻炼",
+    "back": {
+      "hanzi_pinyin": "锻炼 (duàn liàn)",
+      "meaning": "do physical training; to take exercise",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我每天早上都去～身体。\n(wǒ měi tiān zǎo shàng dōu qù ～ shēn tǐ 。)"
+    }
+  },
+  {
+    "front": "多么",
+    "back": {
+      "hanzi_pinyin": "多么 (duō me)",
+      "meaning": "how (wonderful, etc.)",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "这里～漂亮啊！\n(zhè lǐ ～ piào liàng a ！)"
+    }
+  },
+  {
+    "front": "饿",
+    "back": {
+      "hanzi_pinyin": "饿 (è)",
+      "meaning": "hungry",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我～了，想吃点东西。\n(wǒ ～ le ， xiǎng chī diǎn dōng xī 。)"
+    }
+  },
+  {
+    "front": "耳朵",
+    "back": {
+      "hanzi_pinyin": "耳朵 (ěr duo)",
+      "meaning": "ear",
+      "part_of_speech": "Noun",
+      "measure_word": "对 (duì), 只 (zhǐ), 个 (gè)",
+      "example": "我的～有点疼，要去医院看看。\n(wǒ de ～ yǒu diǎn téng ， yào qù yī yuàn kàn kàn 。)"
+    }
+  },
+  {
+    "front": "发",
+    "back": {
+      "hanzi_pinyin": "发 (fā)",
+      "meaning": "send",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你给我～电子邮件了吗？\n(nǐ gěi wǒ ～ diàn zi yóu jiàn le ma ？)"
+    }
+  },
+  {
+    "front": "发烧",
+    "back": {
+      "hanzi_pinyin": "发烧 (fā shāo)",
+      "meaning": "have a fever",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我身体不舒服，～了。\n(wǒ shēn tǐ bù shū fú ，～ le 。)"
+    }
+  },
+  {
+    "front": "发现",
+    "back": {
+      "hanzi_pinyin": "发现 (fā xiàn)",
+      "meaning": "find out; discover",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～他瘦了很多。\n(wǒ ～ tā shòu le hěn duō 。)"
+    }
+  },
+  {
+    "front": "方便",
+    "back": {
+      "hanzi_pinyin": "方便 (fāng biàn)",
+      "meaning": "convenient",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我坐地铁去上班很～。\n(wǒ zuò dì tiě qù shàng bān hěn ～。)"
+    }
+  },
+  {
+    "front": "放",
+    "back": {
+      "hanzi_pinyin": "放 (fàng)",
+      "meaning": "put; place",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "把书～在桌子上吧。\n(bǎ shū ～ zài zhuō zi shàng ba 。)"
+    }
+  },
+  {
+    "front": "放心",
+    "back": {
+      "hanzi_pinyin": "放心 (fàng xīn)",
+      "meaning": "be assured",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "请～，我会把事情办好的。\n(qǐng ～， wǒ huì bǎ shì qíng bàn hǎo de 。)"
+    }
+  },
+  {
+    "front": "分",
+    "back": {
+      "hanzi_pinyin": "分 (fēn)",
+      "meaning": "minute",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "现在8点30～。\n(xiàn zài 8 diǎn 30～。)"
+    }
+  },
+  {
+    "front": "附近",
+    "back": {
+      "hanzi_pinyin": "附近 (fù jìn)",
+      "meaning": "nearby; neighbour; vicinity; proximity",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "他家就住在公司～。\n(tā jiā jiù zhù zài gōng sī ～。)"
+    }
+  },
+  {
+    "front": "复习",
+    "back": {
+      "hanzi_pinyin": "复习 (fù xí)",
+      "meaning": "review",
+      "part_of_speech": "Verb",
+      "measure_word": "次 (cì)",
+      "example": "考试前要好好地～。\n(kǎo shì qián yào hǎo hǎo dì ～。)"
+    }
+  },
+  {
+    "front": "干净",
+    "back": {
+      "hanzi_pinyin": "干净 (gān jìng)",
+      "meaning": "clean",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我把衣服洗～了。\n(wǒ bǎ yī fú xǐ ～ le 。)"
+    }
+  },
+  {
+    "front": "感冒",
+    "back": {
+      "hanzi_pinyin": "感冒 (gǎn mào)",
+      "meaning": "have/catch a cold",
+      "part_of_speech": "Verb",
+      "measure_word": "场 (chǎng), 次 (cì)",
+      "example": "我～了，要吃点儿药。\n(wǒ ～ le ， yào chī diǎn ér yào 。)"
+    }
+  },
+  {
+    "front": "感兴趣",
+    "back": {
+      "hanzi_pinyin": "感兴趣 (gǎnxìngqù)",
+      "meaning": "interest; taste",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "小王对音乐很～。\n(xiǎo wáng duì yīn yuè hěn ～。)"
+    }
+  },
+  {
+    "front": "刚才",
+    "back": {
+      "hanzi_pinyin": "刚才 (gāng cái)",
+      "meaning": "a moment ago; just now",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "～是谁来的电话？\n(～ shì shuí lái de diàn huà ？)"
+    }
+  },
+  {
+    "front": "个子",
+    "back": {
+      "hanzi_pinyin": "个子 (gèzi)",
+      "meaning": "height",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "哥哥比我～高。\n(gē gē bǐ wǒ ～ gāo 。)"
+    }
+  },
+  {
+    "front": "根据",
+    "back": {
+      "hanzi_pinyin": "根据 (gēn jù)",
+      "meaning": "on the basis of; according to",
+      "part_of_speech": "Preposition",
+      "measure_word": "个 (gè)",
+      "example": "请～这篇文章谈一谈自己的想法。\n(qǐng ～ zhè piān wén zhāng tán yī tán zì jǐ de xiǎng fǎ 。)"
+    }
+  },
+  {
+    "front": "跟",
+    "back": {
+      "hanzi_pinyin": "跟 (gēn)",
+      "meaning": "follow",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "散步的时候，小狗一直～在我身后。\n(sàn bù de shí hòu ， xiǎo gǒu yì zhí ～ zài wǒ shēn hòu 。)"
+    }
+  },
+  {
+    "front": "更",
+    "back": {
+      "hanzi_pinyin": "更 (gēng)",
+      "meaning": "more",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "他比我～喜欢游泳。\n(tā bǐ wǒ ～ xǐ huān yóu yǒng 。)"
+    }
+  },
+  {
+    "front": "公斤",
+    "back": {
+      "hanzi_pinyin": "公斤 (gōng jīn)",
+      "meaning": "kilogram",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "我买了一～鸡蛋。\n(wǒ mǎi le yī ～ jī dàn 。)"
+    }
+  },
+  {
+    "front": "公园",
+    "back": {
+      "hanzi_pinyin": "公园 (gōng yuán)",
+      "meaning": "park",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 座 (zuò)",
+      "example": "我家附近有个～，我常去那里散步。\n(wǒ jiā fù jìn yǒu gè ～， wǒ cháng qù nà lǐ sàn bù 。)"
+    }
+  },
+  {
+    "front": "故事",
+    "back": {
+      "hanzi_pinyin": "故事 (gù shì)",
+      "meaning": "story",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "睡觉前，我都给女儿讲～。\n(shuì jiào qián ， wǒ dōu gěi nǚ ér jiǎng ～。)"
+    }
+  },
+  {
+    "front": "刮风",
+    "back": {
+      "hanzi_pinyin": "刮风 (guāfēng)",
+      "meaning": "blow (of wind)",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "今天～了，别骑自行车了。\n(jīn tiān ～ le ， bié qí zì xíng chē le 。)"
+    }
+  },
+  {
+    "front": "关",
+    "back": {
+      "hanzi_pinyin": "关 (Guān)",
+      "meaning": "close; turn off",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "他～上了门。 我把电视～了。\n(tā ～ shàng le mén 。  wǒ bǎ diàn shì ～ le 。)"
+    }
+  },
+  {
+    "front": "关系",
+    "back": {
+      "hanzi_pinyin": "关系 (guān xi)",
+      "meaning": "relation; relationship",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "这件事和她没有～。\n(zhè jiàn shì hé tā méi yǒu ～。)"
+    }
+  },
+  {
+    "front": "关心",
+    "back": {
+      "hanzi_pinyin": "关心 (guān xīn)",
+      "meaning": "care for; be concerned for",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "爸爸很～我的学习。\n(bà bà hěn ～ wǒ de xué xí 。)"
+    }
+  },
+  {
+    "front": "关于",
+    "back": {
+      "hanzi_pinyin": "关于 (guān yú)",
+      "meaning": "with regard to",
+      "part_of_speech": "Preposition",
+      "measure_word": "",
+      "example": "～这个问题，我们还要再想一想。\n(～ zhè ge wèn tí ， wǒ men hái yào zài xiǎng yī xiǎng 。)"
+    }
+  },
+  {
+    "front": "国家",
+    "back": {
+      "hanzi_pinyin": "国家 (guó jiā)",
+      "meaning": "country",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我爱旅游，去过几十个～。\n(wǒ ài lǚ yóu ， qù guò jǐ shí gè ～。)"
+    }
+  },
+  {
+    "front": "过去",
+    "back": {
+      "hanzi_pinyin": "过去 (guò qù)",
+      "meaning": "in the past",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "奶奶经常给我讲～的事情。\n(nǎi nǎi jīng cháng gěi wǒ jiǎng ～ de shì qíng 。)"
+    }
+  },
+  {
+    "front": "还是",
+    "back": {
+      "hanzi_pinyin": "还是 (hái shi)",
+      "meaning": "still; all the same",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我～在北京，没去其他地方。\n(wǒ ～ zài běi jīng ， méi qù qí tā dì fāng 。)"
+    }
+  },
+  {
+    "front": "害怕",
+    "back": {
+      "hanzi_pinyin": "害怕 (hài pà)",
+      "meaning": "be afraid; be frightened",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～一个人晚上出门。\n(wǒ ～ yí gè rén wǎn shàng chū mén 。)"
+    }
+  },
+  {
+    "front": "航班",
+    "back": {
+      "hanzi_pinyin": "航班 (hángbān)",
+      "meaning": "flight; scheduled flight",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "各位顾客，欢迎您乘坐我们的～。\n(gè wèi gù kè ， huān yíng nín chéng zuò wǒ men de ～。)"
+    }
+  },
+  {
+    "front": "黑板",
+    "back": {
+      "hanzi_pinyin": "黑板 (hēi bǎn)",
+      "meaning": "blackboard",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 块 (kuài)",
+      "example": "请大家看～。\n(qǐng dà jiā kàn ～。)"
+    }
+  },
+  {
+    "front": "后来",
+    "back": {
+      "hanzi_pinyin": "后来 (hòulái)",
+      "meaning": "later; afterwards",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "～我再也没见过他。\n(～ wǒ zài yě méi jiàn guò tā 。)"
+    }
+  },
+  {
+    "front": "护照",
+    "back": {
+      "hanzi_pinyin": "护照 (hù zhào)",
+      "meaning": "passport",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 本 (běn)",
+      "example": "你的～办好了吗？\n(nǐ de ～ bàn hǎo le ma ？)"
+    }
+  },
+  {
+    "front": "花",
+    "back": {
+      "hanzi_pinyin": "花 (Huā)",
+      "meaning": "spend",
+      "part_of_speech": "Verb",
+      "measure_word": "盆 (pén), 簇 (cù), 束 (shù), 朵 (duǒ), 把 (bǎ), 支 (zhī)",
+      "example": "今天我～了不少钱。\n(jīn tiān wǒ ～ le bù shǎo qián 。)"
+    }
+  },
+  {
+    "front": "画",
+    "back": {
+      "hanzi_pinyin": "画 (huà)",
+      "meaning": "draw; paint",
+      "part_of_speech": "Verb",
+      "measure_word": "张 (zhāng), 幅 (fú)",
+      "example": "我从小就喜欢～画儿。\n(wǒ cóng xiǎo jiù xǐ huān ～ huà ér 。)"
+    }
+  },
+  {
+    "front": "坏",
+    "back": {
+      "hanzi_pinyin": "坏 (huài)",
+      "meaning": "bad; evil",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "面包很新鲜，没有～。\n(miàn bāo hěn xīn xiān ， méi yǒu ～。)"
+    }
+  },
+  {
+    "front": "环境",
+    "back": {
+      "hanzi_pinyin": "环境 (huán jìng)",
+      "meaning": "environment; condition; circumstance",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "这里的～很不错，在这里住很舒服。\n(zhè lǐ de ～ hěn bú cuò ， zài zhè lǐ zhù hěn shū fú 。)"
+    }
+  },
+  {
+    "front": "换",
+    "back": {
+      "hanzi_pinyin": "换 (huàn)",
+      "meaning": "change",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你等我一下，我去～件衣服。\n(nǐ děng wǒ yī xià ， wǒ qù ～ jiàn yī fú 。)"
+    }
+  },
+  {
+    "front": "黄河",
+    "back": {
+      "hanzi_pinyin": "黄河 (Huánghé)",
+      "meaning": "the Yellow River",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "～是中国的第二大河。\n(～ shì zhōng guó de dì èr dà hé 。)"
+    }
+  },
+  {
+    "front": "会议",
+    "back": {
+      "hanzi_pinyin": "会议 (huì yì)",
+      "meaning": "meeting",
+      "part_of_speech": "Noun",
+      "measure_word": "场 (chǎng), 届 (jiè)",
+      "example": "我们下午有个～。\n(wǒ men xià wǔ yǒu gè ～。)"
+    }
+  },
+  {
+    "front": "或者",
+    "back": {
+      "hanzi_pinyin": "或者 (huò zhě)",
+      "meaning": "or",
+      "part_of_speech": "Conjunction",
+      "measure_word": "",
+      "example": "你去，～我去，都可以。\n(nǐ qù ，～ wǒ qù ， dōu kě yǐ 。)"
+    }
+  },
+  {
+    "front": "几乎",
+    "back": {
+      "hanzi_pinyin": "几乎 (jī hū)",
+      "meaning": "nearly; almost",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我感动得～要流泪了。\n(wǒ gǎn dòng dé ～ yào liú lèi le 。)"
+    }
+  },
+  {
+    "front": "机会",
+    "back": {
+      "hanzi_pinyin": "机会 (jī huì)",
+      "meaning": "chance; opportunity",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我希望有～参加比赛。\n(wǒ xī wàng yǒu ～ cān jiā bǐ sài 。)"
+    }
+  },
+  {
+    "front": "极",
+    "back": {
+      "hanzi_pinyin": "极 (jí)",
+      "meaning": "extremely; exceedingly",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "他对音乐～感兴趣。 今天的节目好看～了。\n(tā duì yīn yuè ～ gǎn xìng qù 。  jīn tiān de jié mù hǎo kàn ～ le 。)"
+    }
+  },
+  {
+    "front": "记得",
+    "back": {
+      "hanzi_pinyin": "记得 (jì de)",
+      "meaning": "remember; learn by heart",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我不～他住在哪儿了。\n(wǒ bù ～ tā zhù zài nǎ ér le 。)"
+    }
+  },
+  {
+    "front": "季节",
+    "back": {
+      "hanzi_pinyin": "季节 (jì jié)",
+      "meaning": "season",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "一年有四个～。\n(yī nián yǒu sì gè ～。)"
+    }
+  },
+  {
+    "front": "检查",
+    "back": {
+      "hanzi_pinyin": "检查 (jiǎn chá)",
+      "meaning": "inspect; check; examine",
+      "part_of_speech": "Verb",
+      "measure_word": "次 (cì)",
+      "example": "你去医院～一下身体吧。\n(nǐ qù yī yuàn ～ yī xià shēn tǐ ba 。)"
+    }
+  },
+  {
+    "front": "简单",
+    "back": {
+      "hanzi_pinyin": "简单 (jiǎn dān)",
+      "meaning": "easy; simple",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这些题对他来说很～。\n(zhè xiē tí duì tā lái shuō hěn ～。)"
+    }
+  },
+  {
+    "front": "见面",
+    "back": {
+      "hanzi_pinyin": "见面 (jiàn miàn)",
+      "meaning": "meet",
+      "part_of_speech": "Verb",
+      "measure_word": "次 (cì)",
+      "example": "上次和他～，已经是去年了。\n(shàng cì hé tā ～， yǐ jīng shì qù nián le 。)"
+    }
+  },
+  {
+    "front": "健康",
+    "back": {
+      "hanzi_pinyin": "健康 (jiàn kāng)",
+      "meaning": "healthy",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "爸爸的身体特别～。\n(bà bà de shēn tǐ tè bié ～。)"
+    }
+  },
+  {
+    "front": "讲",
+    "back": {
+      "hanzi_pinyin": "讲 (jiǎng)",
+      "meaning": "speak; tell",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "李老师的课～得很有趣。\n(lǐ lǎo shī de kè ～ dé hěn yǒu qù 。)"
+    }
+  },
+  {
+    "front": "降落",
+    "back": {
+      "hanzi_pinyin": "降落 (jiàngluò)",
+      "meaning": "descend; land",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "飞机马上就要～了。\n(fēi jī mǎ shàng jiù yào ～ le 。)"
+    }
+  },
+  {
+    "front": "角",
+    "back": {
+      "hanzi_pinyin": "角 (Jué)",
+      "meaning": "tenth of one Yuan (money)",
+      "part_of_speech": "Measure Word",
+      "measure_word": "个 (gè)",
+      "example": "桌子上有五～钱。\n(zhuō zi shàng yǒu wǔ ～ qián 。)"
+    }
+  },
+  {
+    "front": "脚",
+    "back": {
+      "hanzi_pinyin": "脚 (jiǎo)",
+      "meaning": "foot",
+      "part_of_speech": "Noun",
+      "measure_word": "只 (zhǐ), 双 (shuāng)",
+      "example": "妹妹～上穿着漂亮的红皮鞋。\n(mèi mèi ～ shàng chuān zhe piào liàng de hóng pí xié 。)"
+    }
+  },
+  {
+    "front": "教",
+    "back": {
+      "hanzi_pinyin": "教 (Jiào)",
+      "meaning": "teach",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "李老师～我们数学。\n(lǐ lǎo shī ～ wǒ men shù xué 。)"
+    }
+  },
+  {
+    "front": "接",
+    "back": {
+      "hanzi_pinyin": "接 (jiē)",
+      "meaning": "accept; receive",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "下午我去机场～你。\n(xià wǔ wǒ qù jī chǎng ～ nǐ 。)"
+    }
+  },
+  {
+    "front": "街道",
+    "back": {
+      "hanzi_pinyin": "街道 (jiē dào)",
+      "meaning": "street",
+      "part_of_speech": "Noun",
+      "measure_word": "条 (tiáo)",
+      "example": "这条～很长，有四千多米。\n(zhè tiáo ～ hěn zhǎng ， yǒu sì qiān duō mǐ 。)"
+    }
+  },
+  {
+    "front": "节目",
+    "back": {
+      "hanzi_pinyin": "节目 (jié mù)",
+      "meaning": "show; performance; program",
+      "part_of_speech": "Noun",
+      "measure_word": "套 (tào), 个 (gè), 台 (tái)",
+      "example": "今天我们一共演出12个～。\n(jīn tiān wǒ men yī gòng yǎn chū 12 gè ～。)"
+    }
+  },
+  {
+    "front": "节日",
+    "back": {
+      "hanzi_pinyin": "节日 (jié rì)",
+      "meaning": "holiday; festival",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "祝大家～快乐！\n(zhù dà jiā ～ kuài lè ！)"
+    }
+  },
+  {
+    "front": "结婚",
+    "back": {
+      "hanzi_pinyin": "结婚 (jié hūn)",
+      "meaning": "get married",
+      "part_of_speech": "Verb",
+      "measure_word": "次 (cì)",
+      "example": "我们～10年了。\n(wǒ men ～10 nián le 。)"
+    }
+  },
+  {
+    "front": "结束",
+    "back": {
+      "hanzi_pinyin": "结束 (jié shù)",
+      "meaning": "stop; finish; end; terminate",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "会议马上就要～了。\n(huì yì mǎ shàng jiù yào ～ le 。)"
+    }
+  },
+  {
+    "front": "解决",
+    "back": {
+      "hanzi_pinyin": "解决 (jiě jué)",
+      "meaning": "solve or resolve a problem or an issue",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "这个问题你打算怎么～？\n(zhè ge wèn tí nǐ dǎ suàn zěn me ～？)"
+    }
+  },
+  {
+    "front": "借",
+    "back": {
+      "hanzi_pinyin": "借 (jiè)",
+      "meaning": "borrow; lend",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我从图书馆～了三本书。\n(wǒ cóng tú shū guǎn ～ le sān běn shū 。)"
+    }
+  },
+  {
+    "front": "经常",
+    "back": {
+      "hanzi_pinyin": "经常 (jīng cháng)",
+      "meaning": "often",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我～在学校遇到他。\n(wǒ ～ zài xué xiào yù dào tā 。)"
+    }
+  },
+  {
+    "front": "经过",
+    "back": {
+      "hanzi_pinyin": "经过 (jīng guò)",
+      "meaning": "pass through / by",
+      "part_of_speech": "Verb",
+      "measure_word": "个 (gè)",
+      "example": "上下班的时候，我都要～这条街道。\n(shàng xià bān de shí hòu ， wǒ dōu yào ～ zhè tiáo jiē dào 。)"
+    }
+  },
+  {
+    "front": "经理",
+    "back": {
+      "hanzi_pinyin": "经理 (jīng lǐ)",
+      "meaning": "manager",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi), 名 (míng)",
+      "example": "他是我们公司的～。\n(tā shì wǒ men gōng sī de ～。)"
+    }
+  },
+  {
+    "front": "久",
+    "back": {
+      "hanzi_pinyin": "久 (jiǔ)",
+      "meaning": "old; for a long time",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这个问题我想了很～才明白。\n(zhè ge wèn tí wǒ xiǎng le hěn ～ cái míng bái 。)"
+    }
+  },
+  {
+    "front": "旧",
+    "back": {
+      "hanzi_pinyin": "旧 (jiù)",
+      "meaning": "old; worn",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这件衣服穿了两年，已经～了。\n(zhè jiàn yī fú chuān le liǎng nián ， yǐ jīng ～ le 。)"
+    }
+  },
+  {
+    "front": "句子",
+    "back": {
+      "hanzi_pinyin": "句子 (jù zi)",
+      "meaning": "sentence",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "请用这些词语说几个～。\n(qǐng yòng zhè xiē cí yǔ shuō jǐ gè ～。)"
+    }
+  },
+  {
+    "front": "决定",
+    "back": {
+      "hanzi_pinyin": "决定 (jué dìng)",
+      "meaning": "decide; determine",
+      "part_of_speech": "Verb",
+      "measure_word": "项 (xiàng), 个 (gè)",
+      "example": "这件事是经理～的。\n(zhè jiàn shì shì jīng lǐ ～ de 。)"
+    }
+  },
+  {
+    "front": "可爱",
+    "back": {
+      "hanzi_pinyin": "可爱 (kě ài)",
+      "meaning": "cute; lovable; likeable",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "你的儿子真～。\n(nǐ de ér zi zhēn ～。)"
+    }
+  },
+  {
+    "front": "渴",
+    "back": {
+      "hanzi_pinyin": "渴 (kě)",
+      "meaning": "thirsty",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我～了，想喝点儿水。\n(wǒ ～ le ， xiǎng hē diǎn ér shuǐ 。)"
+    }
+  },
+  {
+    "front": "刻",
+    "back": {
+      "hanzi_pinyin": "刻 (kè)",
+      "meaning": "quarter of an hour; 15 minutes",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "现在是三点一～。\n(xiàn zài shì sān diǎn yī ～。)"
+    }
+  },
+  {
+    "front": "客人",
+    "back": {
+      "hanzi_pinyin": "客人 (kè rén)",
+      "meaning": "guest",
+      "part_of_speech": "Noun",
+      "measure_word": "位 (wèi)",
+      "example": "春节的时候，家里会来很多～。\n(chūn jié de shí hòu ， jiā lǐ huì lái hěn duō ～。)"
+    }
+  },
+  {
+    "front": "空调",
+    "back": {
+      "hanzi_pinyin": "空调 (kōng tiáo)",
+      "meaning": "air conditioner",
+      "part_of_speech": "Noun",
+      "measure_word": "台 (tái)",
+      "example": "太热了，请把～打开。\n(tài rè le ， qǐng bǎ ～ dǎ kāi 。)"
+    }
+  },
+  {
+    "front": "口",
+    "back": {
+      "hanzi_pinyin": "口 (kǒu)",
+      "meaning": "used for people and some animals",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "我们家一共三～人。\n(wǒ men jiā yī gòng sān ～ rén 。)"
+    }
+  },
+  {
+    "front": "哭",
+    "back": {
+      "hanzi_pinyin": "哭 (kū)",
+      "meaning": "cry; weep",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "孩子又～了起来。\n(hái zi yòu ～ le qǐ lái 。)"
+    }
+  },
+  {
+    "front": "裤子",
+    "back": {
+      "hanzi_pinyin": "裤子 (kù zi)",
+      "meaning": "trousers; pants",
+      "part_of_speech": "Noun",
+      "measure_word": "条 (tiáo)",
+      "example": "这条～有点儿短。\n(zhè tiáo ～ yǒu diǎn ér duǎn 。)"
+    }
+  },
+  {
+    "front": "筷子",
+    "back": {
+      "hanzi_pinyin": "筷子 (kuài zi)",
+      "meaning": "chopsticks",
+      "part_of_speech": "Noun",
+      "measure_word": "对 (duì), 双 (shuāng), 根 (gēn), 把 (bǎ)",
+      "example": "我来中国1个月了，已经会用～了。\n(wǒ lái zhōng guó 1 gè yuè le ， yǐ jīng huì yòng ～ le 。)"
+    }
+  },
+  {
+    "front": "蓝",
+    "back": {
+      "hanzi_pinyin": "蓝 (Lán)",
+      "meaning": "blue",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这条～裙子你喜欢吗？\n(zhè tiáo ～ qún zi nǐ xǐ huān ma ？)"
+    }
+  },
+  {
+    "front": "老",
+    "back": {
+      "hanzi_pinyin": "老 (lǎo)",
+      "meaning": "aged; old",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "爷爷六十岁了，但是看起来一点儿也不～。\n(yé yé liù shí suì le ， dàn shì kàn qǐ lái yì diǎn ér yě bù ～。)"
+    }
+  },
+  {
+    "front": "离开",
+    "back": {
+      "hanzi_pinyin": "离开 (lí kāi)",
+      "meaning": "leave; to be away from; part from; separate from",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "下个月我要～一段时间，你好好照顾自己。\n(xià gè yuè wǒ yào ～ yī duàn shí jiān ， nǐ hǎo hǎo zhào gù zì jǐ 。)"
+    }
+  },
+  {
+    "front": "礼物",
+    "back": {
+      "hanzi_pinyin": "礼物 (lǐ wù)",
+      "meaning": "present; gift",
+      "part_of_speech": "Noun",
+      "measure_word": "件 (jiàn), 个 (gè), 份 (fèn)",
+      "example": "过生日的时候，我收到了很多～。\n(guò shēng rì de shí hòu ， wǒ shōu dào le hěn duō ～。)"
+    }
+  },
+  {
+    "front": "历史",
+    "back": {
+      "hanzi_pinyin": "历史 (lì shǐ)",
+      "meaning": "history",
+      "part_of_speech": "Noun",
+      "measure_word": "段 (duàn), 门 (mén)",
+      "example": "这个房子差不多有300年的～了。\n(zhè ge fáng zi chà bu duō yǒu 300 nián de ～ le 。)"
+    }
+  },
+  {
+    "front": "脸",
+    "back": {
+      "hanzi_pinyin": "脸 (liǎn)",
+      "meaning": "face",
+      "part_of_speech": "Noun",
+      "measure_word": "张 (zhāng), 个 (gè)",
+      "example": "女儿的～圆圆的，很可爱。\n(nǚ ér de ～ yuán yuán de ， hěn kě ài 。)"
+    }
+  },
+  {
+    "front": "练习",
+    "back": {
+      "hanzi_pinyin": "练习 (liàn xí)",
+      "meaning": "practice",
+      "part_of_speech": "Verb",
+      "measure_word": "个 (gè)",
+      "example": "学过的东西，要多～才能记住。\n(xué guò de dōng xī ， yào duō ～ cái néng jì zhù 。)"
+    }
+  },
+  {
+    "front": "辆",
+    "back": {
+      "hanzi_pinyin": "辆 (liàng)",
+      "meaning": "used for automobiles",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "这～车，是我新买的。\n(zhè ～ chē ， shì wǒ xīn mǎi de 。)"
+    }
+  },
+  {
+    "front": "聊天",
+    "back": {
+      "hanzi_pinyin": "聊天 (liáotiān)",
+      "meaning": "chat",
+      "part_of_speech": "sv.",
+      "measure_word": "",
+      "example": "我们经常在网上～。\n(wǒ men jīng cháng zài wǎng shàng ～。)"
+    }
+  },
+  {
+    "front": "了解",
+    "back": {
+      "hanzi_pinyin": "了解 (liǎo jiě)",
+      "meaning": "know; understand; comprehend",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我对她～得不多。\n(wǒ duì tā ～ dé bù duō 。)"
+    }
+  },
+  {
+    "front": "邻居",
+    "back": {
+      "hanzi_pinyin": "邻居 (lín jū)",
+      "meaning": "neighbor",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我跟～们的关系非常好。\n(wǒ gēn ～ men de guān xì fēi cháng hǎo 。)"
+    }
+  },
+  {
+    "front": "留学",
+    "back": {
+      "hanzi_pinyin": "留学 (liúxué)",
+      "meaning": "study in a foreign country",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我哥哥在中国～。\n(wǒ gē gē zài zhōng guó ～。)"
+    }
+  },
+  {
+    "front": "楼",
+    "back": {
+      "hanzi_pinyin": "楼 (Lóu)",
+      "meaning": "building",
+      "part_of_speech": "Noun",
+      "measure_word": "座 (zuò), 层 (céng), 栋 (dòng)",
+      "example": "我在你家～下等你。\n(wǒ zài nǐ jiā ～ xià děng nǐ 。)"
+    }
+  },
+  {
+    "front": "绿",
+    "back": {
+      "hanzi_pinyin": "绿 (lu:4)",
+      "meaning": "green",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "春天来了，树和草都～了。\n(chūn tiān lái le ， shù hé cǎo dōu ～ le 。)"
+    }
+  },
+  {
+    "front": "马",
+    "back": {
+      "hanzi_pinyin": "马 (Mǎ)",
+      "meaning": "horse",
+      "part_of_speech": "Noun",
+      "measure_word": "匹 (pǐ)",
+      "example": "我们学会骑～了。\n(wǒ men xué huì qí ～ le 。)"
+    }
+  },
+  {
+    "front": "马上",
+    "back": {
+      "hanzi_pinyin": "马上 (mǎ shàng)",
+      "meaning": "immediately; at once",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我～就到学校，你再等我几分钟。\n(wǒ ～ jiù dào xué xiào ， nǐ zài děng wǒ jǐ fēn zhōng 。)"
+    }
+  },
+  {
+    "front": "满意",
+    "back": {
+      "hanzi_pinyin": "满意 (mǎn yì)",
+      "meaning": "be satisfied",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "经理对他很～。\n(jīng lǐ duì tā hěn ～。)"
+    }
+  },
+  {
+    "front": "帽子",
+    "back": {
+      "hanzi_pinyin": "帽子 (mào zi)",
+      "meaning": "hat; cap",
+      "part_of_speech": "Noun",
+      "measure_word": "顶 (dǐng)",
+      "example": "这个～太小了，有大一点儿的吗？\n(zhè ge ～ tài xiǎo le ， yǒu dà yī diǎn ér de ma ？)"
+    }
+  },
+  {
+    "front": "米",
+    "back": {
+      "hanzi_pinyin": "米 (Mǐ)",
+      "meaning": "meter",
+      "part_of_speech": "Measure Word",
+      "measure_word": "粒 (lì)",
+      "example": "这张桌子有两～长。\n(zhè zhāng zhuō zi yǒu liǎng ～ zhǎng 。)"
+    }
+  },
+  {
+    "front": "面包",
+    "back": {
+      "hanzi_pinyin": "面包 (miàn bāo)",
+      "meaning": "bread",
+      "part_of_speech": "Noun",
+      "measure_word": "片 (piàn), 袋 (dài), 块 (kuài)",
+      "example": "～已经卖完了。\n(～ yǐ jīng mài wán le 。)"
+    }
+  },
+  {
+    "front": "面条",
+    "back": {
+      "hanzi_pinyin": "面条 (miàn tiáo)",
+      "meaning": "noodle",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "服务员，我要一碗～。\n(fú wù yuán ， wǒ yào yī wǎn ～。)"
+    }
+  },
+  {
+    "front": "明白",
+    "back": {
+      "hanzi_pinyin": "明白 (míng bai)",
+      "meaning": "know; understand",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～你的意思了。\n(wǒ ～ nǐ de yì si le 。)"
+    }
+  },
+  {
+    "front": "拿",
+    "back": {
+      "hanzi_pinyin": "拿 (ná)",
+      "meaning": "hold; take",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你手里～的是什么？\n(nǐ shǒu lǐ ～ de shì shén me ？)"
+    }
+  },
+  {
+    "front": "奶奶",
+    "back": {
+      "hanzi_pinyin": "奶奶 (nǎi nai)",
+      "meaning": "grandmother",
+      "part_of_speech": "Noun",
+      "measure_word": "位 (wèi)",
+      "example": "我～住在北京。\n(wǒ ～ zhù zài běi jīng 。)"
+    }
+  },
+  {
+    "front": "南",
+    "back": {
+      "hanzi_pinyin": "南 (Nán)",
+      "meaning": "south",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我家在火车站的～边。\n(wǒ jiā zài huǒ chē zhàn de ～ biān 。)"
+    }
+  },
+  {
+    "front": "难",
+    "back": {
+      "hanzi_pinyin": "难 (nán)",
+      "meaning": "difficult; hard",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这个题很～。\n(zhè ge tí hěn ～。)"
+    }
+  },
+  {
+    "front": "难过",
+    "back": {
+      "hanzi_pinyin": "难过 (nán guò)",
+      "meaning": "have a hard time",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "他要离开了，我很～。\n(tā yào lí kāi le ， wǒ hěn ～。)"
+    }
+  },
+  {
+    "front": "年级",
+    "back": {
+      "hanzi_pinyin": "年级 (nián jí)",
+      "meaning": "grade (in the primary or middle school); year (in college or university)",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "我儿子现在上三～。\n(wǒ ér zi xiàn zài shàng sān ～。)"
+    }
+  },
+  {
+    "front": "年轻",
+    "back": {
+      "hanzi_pinyin": "年轻 (nián qīng)",
+      "meaning": "young",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "妈妈50岁了，看起来还很～。\n(mā mā 50 suì le ， kàn qǐ lái hái hěn ～。)"
+    }
+  },
+  {
+    "front": "鸟",
+    "back": {
+      "hanzi_pinyin": "鸟 (diǎo)",
+      "meaning": "bird",
+      "part_of_speech": "Noun",
+      "measure_word": "只 (zhǐ), 群 (qún)",
+      "example": "树上有很多～在唱歌。\n(shù shàng yǒu hěn duō ～ zài chàng gē 。)"
+    }
+  },
+  {
+    "front": "努力",
+    "back": {
+      "hanzi_pinyin": "努力 (nǔ lì)",
+      "meaning": "hard-working; diligent",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "学生们学习很～。\n(xué shēng men xué xí hěn ～。)"
+    }
+  },
+  {
+    "front": "爬山",
+    "back": {
+      "hanzi_pinyin": "爬山 (pá shān)",
+      "meaning": "climb mountains",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我们决定明天去～。\n(wǒ men jué dìng míng tiān qù ～。)"
+    }
+  },
+  {
+    "front": "盘子",
+    "back": {
+      "hanzi_pinyin": "盘子 (pán zi)",
+      "meaning": "tray; plate; dish",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "～里有鱼，请吃吧。\n(～ lǐ yǒu yú ， qǐng chī ba 。)"
+    }
+  },
+  {
+    "front": "胖",
+    "back": {
+      "hanzi_pinyin": "胖 (pán)",
+      "meaning": "fat",
+      "part_of_speech": "adj",
+      "measure_word": "",
+      "example": "熊猫很～，很可爱。\n(xióng māo hěn ～， hěn kě ài 。)"
+    }
+  },
+  {
+    "front": "皮鞋",
+    "back": {
+      "hanzi_pinyin": "皮鞋 (píxié)",
+      "meaning": "leather shoes",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "他穿着一双黑色的～。\n(tā chuān zhe yī shuāng hēi sè de ～。)"
+    }
+  },
+  {
+    "front": "啤酒",
+    "back": {
+      "hanzi_pinyin": "啤酒 (pí jiǔ)",
+      "meaning": "beer",
+      "part_of_speech": "Noun",
+      "measure_word": "缸 (gāng), 瓶 (píng), 桶 (tǒng), 杯 (bēi), 罐 (guàn)",
+      "example": "爸爸爱喝～。\n(bà bà ài hē ～。)"
+    }
+  },
+  {
+    "front": "普通话",
+    "back": {
+      "hanzi_pinyin": "普通话 (pǔ tōng huà)",
+      "meaning": "Mandarin Chinese",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "你的～说得很好。\n(nǐ de ～ shuō dé hěn hǎo 。)"
+    }
+  },
+  {
+    "front": "其实",
+    "back": {
+      "hanzi_pinyin": "其实 (qí shí)",
+      "meaning": "actually; in fact; as a matter of fact",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我～不太了解他。\n(wǒ ～ bù tài liǎo jiě tā 。)"
+    }
+  },
+  {
+    "front": "其他",
+    "back": {
+      "hanzi_pinyin": "其他 (qí tā)",
+      "meaning": "other; else",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "只有小明在教室里，～人都回家了。\n(zhǐ yǒu xiǎo míng zài jiào shì lǐ ，～ rén dōu huí jiā le 。)"
+    }
+  },
+  {
+    "front": "奇怪",
+    "back": {
+      "hanzi_pinyin": "奇怪 (qí guài)",
+      "meaning": "odd; queer; strange; unusual; peculiar",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我觉得这个问题很～。\n(wǒ jué de zhè ge wèn tí hěn ～。)"
+    }
+  },
+  {
+    "front": "骑",
+    "back": {
+      "hanzi_pinyin": "骑 (jì)",
+      "meaning": "ride (an animal or bicycle); sit on the back of",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "今天我～自行车去学校。\n(jīn tiān wǒ ～ zì xíng chē qù xué xiào 。)"
+    }
+  },
+  {
+    "front": "起飞",
+    "back": {
+      "hanzi_pinyin": "起飞 (qǐfēi)",
+      "meaning": "(of aircraft) take off; lift off; launch",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "各位乘客，飞机马上就要～了。\n(gè wèi chéng kè ， fēi jī mǎ shàng jiù yào ～ le 。)"
+    }
+  },
+  {
+    "front": "清楚",
+    "back": {
+      "hanzi_pinyin": "清楚 (qīng chu)",
+      "meaning": "clear; distinct",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "他把这件事儿说得很～了。\n(tā bǎ zhè jiàn shì ér shuō dé hěn ～ le 。)"
+    }
+  },
+  {
+    "front": "秋",
+    "back": {
+      "hanzi_pinyin": "秋 (Qiū)",
+      "meaning": "fall; autumn",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "～天最舒服，不冷也不热。\n(～ tiān zuì shū fú ， bù lěng yě bù rè 。)"
+    }
+  },
+  {
+    "front": "裙子",
+    "back": {
+      "hanzi_pinyin": "裙子 (qún zi)",
+      "meaning": "skirt",
+      "part_of_speech": "Noun",
+      "measure_word": "条 (tiáo)",
+      "example": "姐姐穿着漂亮的～。\n(jiě jiě chuān zhe piào liàng de ～。)"
+    }
+  },
+  {
+    "front": "然后",
+    "back": {
+      "hanzi_pinyin": "然后 (rán hòu)",
+      "meaning": "then; after that; afterwards",
+      "part_of_speech": "Conjunction",
+      "measure_word": "",
+      "example": "我要先写完作业，～再看电视。\n(wǒ yào xiān xiě wán zuò yè ，～ zài kàn diàn shì 。)"
+    }
+  },
+  {
+    "front": "热情",
+    "back": {
+      "hanzi_pinyin": "热情 (rè qíng)",
+      "meaning": "fervent; warm",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我们～地欢迎客人。\n(wǒ men ～ dì huān yíng kè rén 。)"
+    }
+  },
+  {
+    "front": "认为",
+    "back": {
+      "hanzi_pinyin": "认为 (rèn wéi)",
+      "meaning": "think; consider",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你～他会来吗？\n(nǐ ～ tā huì lái ma ？)"
+    }
+  },
+  {
+    "front": "认真",
+    "back": {
+      "hanzi_pinyin": "认真 (rèn zhēn)",
+      "meaning": "conscientious; earnest; serious",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这个同学学习很～，很努力。\n(zhè ge tóng xué xué xí hěn ～， hěn nǔ lì 。)"
+    }
+  },
+  {
+    "front": "容易",
+    "back": {
+      "hanzi_pinyin": "容易 (róng yì)",
+      "meaning": "easy; ready",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这个问题很～回答。\n(zhè ge wèn tí hěn ～ huí dá 。)"
+    }
+  },
+  {
+    "front": "如果",
+    "back": {
+      "hanzi_pinyin": "如果 (rú guǒ)",
+      "meaning": "if; in case; in the event of; supposing that",
+      "part_of_speech": "Conjunction",
+      "measure_word": "",
+      "example": "～你去，我就和你一起去。\n(～ nǐ qù ， wǒ jiù hé nǐ yì qǐ qù 。)"
+    }
+  },
+  {
+    "front": "伞",
+    "back": {
+      "hanzi_pinyin": "伞 (sǎn)",
+      "meaning": "umbrella",
+      "part_of_speech": "Noun",
+      "measure_word": "把 (bǎ)",
+      "example": "下雨了，别忘了带～。\n(xià yǔ le ， bié wàng le dài ～。)"
+    }
+  },
+  {
+    "front": "上网",
+    "back": {
+      "hanzi_pinyin": "上网 (shàng wǎng)",
+      "meaning": "get online",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～去看看新闻。\n(wǒ ～ qù kàn kàn xīn wén 。)"
+    }
+  },
+  {
+    "front": "生气",
+    "back": {
+      "hanzi_pinyin": "生气 (shēng qì)",
+      "meaning": "take offence; be/get angry; be offended",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "请别～，是我错了，对不起。\n(qǐng bié ～， shì wǒ cuò le ， duì bù qǐ 。)"
+    }
+  },
+  {
+    "front": "声音",
+    "back": {
+      "hanzi_pinyin": "声音 (shēng yīn)",
+      "meaning": "sound; voice",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "你听，这是什么～？\n(nǐ tīng ， zhè shì shén me ～？)"
+    }
+  },
+  {
+    "front": "世界",
+    "back": {
+      "hanzi_pinyin": "世界 (shì jiè)",
+      "meaning": "the world; the earth; the globe; the universe",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "～上有很多国家。\n(～ shàng yǒu hěn duō guó jiā 。)"
+    }
+  },
+  {
+    "front": "试",
+    "back": {
+      "hanzi_pinyin": "试 (shì)",
+      "meaning": "try",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我想～一下那件红色的。\n(wǒ xiǎng ～ yī xià nà jiàn hóng sè de 。)"
+    }
+  },
+  {
+    "front": "瘦",
+    "back": {
+      "hanzi_pinyin": "瘦 (shòu)",
+      "meaning": "thin; emaciated; lean",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "姐姐现在很～，只有45公斤。\n(jiě jiě xiàn zài hěn ～， zhǐ yǒu 45 gōng jīn 。)"
+    }
+  },
+  {
+    "front": "叔叔",
+    "back": {
+      "hanzi_pinyin": "叔叔 (shū shu)",
+      "meaning": "uncle (referring to a man younger than one’s father)",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "～，你喜欢这本书吗？\n(～， nǐ xǐ huān zhè běn shū ma ？)"
+    }
+  },
+  {
+    "front": "舒服",
+    "back": {
+      "hanzi_pinyin": "舒服 (shū fu)",
+      "meaning": "pleased; comfortable",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "坐在这里，真～。\n(zuò zài zhè lǐ ， zhēn ～。)"
+    }
+  },
+  {
+    "front": "树",
+    "back": {
+      "hanzi_pinyin": "树 (shù)",
+      "meaning": "tree",
+      "part_of_speech": "Noun",
+      "measure_word": "棵 (kē)",
+      "example": "我们学校里有很多～。\n(wǒ men xué xiào lǐ yǒu hěn duō ～。)"
+    }
+  },
+  {
+    "front": "数学",
+    "back": {
+      "hanzi_pinyin": "数学 (shù xué)",
+      "meaning": "mathematics",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我的～成绩很好。\n(wǒ de ～ chéng jì hěn hǎo 。)"
+    }
+  },
+  {
+    "front": "刷牙",
+    "back": {
+      "hanzi_pinyin": "刷牙 (shuāyá)",
+      "meaning": "clean one's teeth; brush one's teeth",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "睡觉前要～。\n(shuì jiào qián yào ～。)"
+    }
+  },
+  {
+    "front": "双",
+    "back": {
+      "hanzi_pinyin": "双 (Shuāng)",
+      "meaning": "pair; couple",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "我今天想去买～鞋。\n(wǒ jīn tiān xiǎng qù mǎi ～ xié 。)"
+    }
+  },
+  {
+    "front": "水平",
+    "back": {
+      "hanzi_pinyin": "水平 (shuǐ píng)",
+      "meaning": "standard; level (of skill, ability and knowledge, etc.)",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "他的汉语～很高。\n(tā de hàn yǔ ～ hěn gāo 。)"
+    }
+  },
+  {
+    "front": "司机",
+    "back": {
+      "hanzi_pinyin": "司机 (sī jī)",
+      "meaning": "driver",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "这位～开出租车5年多了。\n(zhè wèi ～ kāi chū zū chē 5 nián duō le 。)"
+    }
+  },
+  {
+    "front": "太阳",
+    "back": {
+      "hanzi_pinyin": "太阳 (tài yang)",
+      "meaning": "the Sun",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "你看，～出来了。\n(nǐ kàn ，～ chū lái le 。)"
+    }
+  },
+  {
+    "front": "特别",
+    "back": {
+      "hanzi_pinyin": "特别 (tè bié)",
+      "meaning": "very; exceptionally; particularly; specially",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我～想跟你一起去。\n(wǒ ～ xiǎng gēn nǐ yì qǐ qù 。)"
+    }
+  },
+  {
+    "front": "疼",
+    "back": {
+      "hanzi_pinyin": "疼 (téng)",
+      "meaning": "ache; hurt",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我的腿有点儿～。\n(wǒ de tuǐ yǒu diǎn ér ～。)"
+    }
+  },
+  {
+    "front": "提高",
+    "back": {
+      "hanzi_pinyin": "提高 (tí gāo)",
+      "meaning": "lift; raise; heighten; enhance; increase; improve; advance",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "你数学成绩～了不少。\n(nǐ shù xué chéng jì ～ le bù shǎo 。)"
+    }
+  },
+  {
+    "front": "体育",
+    "back": {
+      "hanzi_pinyin": "体育 (tǐ yù)",
+      "meaning": "sports; sports activities",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我很喜欢～运动。\n(wǒ hěn xǐ huān ～ yùn dòng 。)"
+    }
+  },
+  {
+    "front": "甜",
+    "back": {
+      "hanzi_pinyin": "甜 (tián)",
+      "meaning": "sweet",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这个西瓜真～啊！\n(zhè ge xī guā zhēn ～ a ！)"
+    }
+  },
+  {
+    "front": "条",
+    "back": {
+      "hanzi_pinyin": "条 (tiáo)",
+      "meaning": "used for long and slender things",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "这～裤子有点儿长。\n(zhè ～ kù zi yǒu diǎn ér zhǎng 。)"
+    }
+  },
+  {
+    "front": "同事",
+    "back": {
+      "hanzi_pinyin": "同事 (tóng shì)",
+      "meaning": "colleague",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi)",
+      "example": "这是我们的新～，李华。\n(zhè shì wǒ men de xīn ～， lǐ huá 。)"
+    }
+  },
+  {
+    "front": "同意",
+    "back": {
+      "hanzi_pinyin": "同意 (tóng yì)",
+      "meaning": "agree; approve; assent to; consent to; accede to",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我不太～他的想法。\n(wǒ bù tài ～ tā de xiǎng fǎ 。)"
+    }
+  },
+  {
+    "front": "头发",
+    "back": {
+      "hanzi_pinyin": "头发 (tóu fa)",
+      "meaning": "hair",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "妈妈的～又黑又亮。\n(mā mā de ～ yòu hēi yòu liàng 。)"
+    }
+  },
+  {
+    "front": "突然",
+    "back": {
+      "hanzi_pinyin": "突然 (tū rán)",
+      "meaning": "sudden; abrupt; unexpected",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "他～站了起来。\n(tā ～ zhàn le qǐ lái 。)"
+    }
+  },
+  {
+    "front": "图书馆",
+    "back": {
+      "hanzi_pinyin": "图书馆 (tú shū guǎn)",
+      "meaning": "library",
+      "part_of_speech": "Noun",
+      "measure_word": "家 (jiā), 个 (gè)",
+      "example": "我从～借来了两本书。\n(wǒ cóng ～ jiè lái le liǎng běn shū 。)"
+    }
+  },
+  {
+    "front": "腿",
+    "back": {
+      "hanzi_pinyin": "腿 (tuǐ)",
+      "meaning": "leg",
+      "part_of_speech": "Noun",
+      "measure_word": "条 (tiáo)",
+      "example": "你的～还疼吗？\n(nǐ de ～ hái téng ma ？)"
+    }
+  },
+  {
+    "front": "完成",
+    "back": {
+      "hanzi_pinyin": "完成 (wán chéng)",
+      "meaning": "accomplish; complete; finish; achieve; fulfill",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "这件事，在周末前必须～。\n(zhè jiàn shì ， zài zhōu mò qián bì xū ～。)"
+    }
+  },
+  {
+    "front": "碗",
+    "back": {
+      "hanzi_pinyin": "碗 (wǎn)",
+      "meaning": "bowl",
+      "part_of_speech": "Noun",
+      "measure_word": "只 (zhǐ), 个 (gè)",
+      "example": "把米饭放在这个～里吧。\n(bǎ mǐ fàn fàng zài zhè ge ～ lǐ ba 。)"
+    }
+  },
+  {
+    "front": "万",
+    "back": {
+      "hanzi_pinyin": "万 (mò)",
+      "meaning": "ten thousand",
+      "part_of_speech": "Numeral",
+      "measure_word": "",
+      "example": "我们学校有一～名学生。\n(wǒ men xué xiào yǒu yī ～ míng xué shēng 。)"
+    }
+  },
+  {
+    "front": "忘记",
+    "back": {
+      "hanzi_pinyin": "忘记 (wàng jì)",
+      "meaning": "forget; erase; drop (or fade, slip) from memory; go out of one's mind",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～今天是他的生日了。\n(wǒ ～ jīn tiān shì tā de shēng rì le 。)"
+    }
+  },
+  {
+    "front": "为",
+    "back": {
+      "hanzi_pinyin": "为 (wéi)",
+      "meaning": "for",
+      "part_of_speech": "Preposition",
+      "measure_word": "",
+      "example": "这些菜都是～你准备的。\n(zhè xiē cài dōu shì ～ nǐ zhǔn bèi de 。)"
+    }
+  },
+  {
+    "front": "为了",
+    "back": {
+      "hanzi_pinyin": "为了 (wèi le)",
+      "meaning": "for",
+      "part_of_speech": "Preposition",
+      "measure_word": "",
+      "example": "～身体健康，我每天都去运动。\n(～ shēn tǐ jiàn kāng ， wǒ měi tiān dōu qù yùn dòng 。)"
+    }
+  },
+  {
+    "front": "位",
+    "back": {
+      "hanzi_pinyin": "位 (wèi)",
+      "meaning": "used for people",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "他真是一～好老师。\n(tā zhēn shì yī ～ hǎo lǎo shī 。)"
+    }
+  },
+  {
+    "front": "文化",
+    "back": {
+      "hanzi_pinyin": "文化 (wén huà)",
+      "meaning": "culture; civilization",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 种 (zhǒng)",
+      "example": "我对中国～很感兴趣。\n(wǒ duì zhōng guó ～ hěn gǎn xìng qù 。)"
+    }
+  },
+  {
+    "front": "西",
+    "back": {
+      "hanzi_pinyin": "西 (Xī)",
+      "meaning": "west",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "火车站在～边，你走错了。\n(huǒ chē zhàn zài ～ biān ， nǐ zǒu cuò le 。)"
+    }
+  },
+  {
+    "front": "习惯",
+    "back": {
+      "hanzi_pinyin": "习惯 (xí guàn)",
+      "meaning": "be accustomed to; be/get used to",
+      "part_of_speech": "Verb",
+      "measure_word": "个 (gè)",
+      "example": "他已经～了一个人生活。\n(tā yǐ jīng ～ le yí gè rén shēng huó 。)"
+    }
+  },
+  {
+    "front": "洗手间",
+    "back": {
+      "hanzi_pinyin": "洗手间 (xǐ shǒu jiān)",
+      "meaning": "toilet; washroom; bathroom",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我去一下～。\n(wǒ qù yī xià ～。)"
+    }
+  },
+  {
+    "front": "洗澡",
+    "back": {
+      "hanzi_pinyin": "洗澡 (xǐ zǎo)",
+      "meaning": "take a bath; bathe; take a shower",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "太热了，我先去～。\n(tài rè le ， wǒ xiān qù ～。)"
+    }
+  },
+  {
+    "front": "夏",
+    "back": {
+      "hanzi_pinyin": "夏 (Xià)",
+      "meaning": "summer",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "今年～天太热了。\n(jīn nián ～ tiān tài rè le 。)"
+    }
+  },
+  {
+    "front": "先",
+    "back": {
+      "hanzi_pinyin": "先 (xiān)",
+      "meaning": "first",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "你～去，我一个小时后再去。\n(nǐ ～ qù ， wǒ yí gè xiǎo shí hòu zài qù 。)"
+    }
+  },
+  {
+    "front": "相信",
+    "back": {
+      "hanzi_pinyin": "相信 (xiāng xìn)",
+      "meaning": "believe in; be convinced of; have faith in; place reliance on; put one's trust in",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我完全～你说的话。\n(wǒ wán quán ～ nǐ shuō de huà 。)"
+    }
+  },
+  {
+    "front": "香蕉",
+    "back": {
+      "hanzi_pinyin": "香蕉 (xiāng jiāo)",
+      "meaning": "banana",
+      "part_of_speech": "Noun",
+      "measure_word": "枝 (zhī), 个 (gè), 根 (gēn), 把 (bǎ)",
+      "example": "你想吃～吗？\n(nǐ xiǎng chī ～ ma ？)"
+    }
+  },
+  {
+    "front": "向",
+    "back": {
+      "hanzi_pinyin": "向 (Xiàng)",
+      "meaning": "to; towards",
+      "part_of_speech": "Preposition",
+      "measure_word": "",
+      "example": "～东走，就可以看到那个学校了。\n(～ dōng zǒu ， jiù kě yǐ kàn dào nà ge xué xiào le 。)"
+    }
+  },
+  {
+    "front": "像",
+    "back": {
+      "hanzi_pinyin": "像 (xiàng)",
+      "meaning": "look alike",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "他长得～他爸爸。\n(tā zhǎng dé ～ tā bà bà 。)"
+    }
+  },
+  {
+    "front": "小心",
+    "back": {
+      "hanzi_pinyin": "小心 (xiǎo xīn)",
+      "meaning": "take care; look out",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "请～，路上有很多水。\n(qǐng ～， lù shàng yǒu hěn duō shuǐ 。)"
+    }
+  },
+  {
+    "front": "校长",
+    "back": {
+      "hanzi_pinyin": "校长 (xiào zhǎng)",
+      "meaning": "(of a secondary or elementary school) principal; headmaster; (of a university or college) president; chancellor",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 位 (wèi), 名 (míng)",
+      "example": "～已经同意了我们的计划。\n(～ yǐ jīng tóng yì le wǒ men de jì huà 。)"
+    }
+  },
+  {
+    "front": "新闻",
+    "back": {
+      "hanzi_pinyin": "新闻 (xīn wén)",
+      "meaning": "news",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 条 (tiáo)",
+      "example": "我每天晚上七点都看～。\n(wǒ měi tiān wǎn shàng qī diǎn dōu kàn ～。)"
+    }
+  },
+  {
+    "front": "新鲜",
+    "back": {
+      "hanzi_pinyin": "新鲜 (xīn xiān)",
+      "meaning": "fresh",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这些都是～水果。\n(zhè xiē dōu shì ～ shuǐ guǒ 。)"
+    }
+  },
+  {
+    "front": "信用卡",
+    "back": {
+      "hanzi_pinyin": "信用卡 (xìnyòngkǎ)",
+      "meaning": "credit card",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我想去银行办一张～。\n(wǒ xiǎng qù yín háng bàn yī zhāng ～。)"
+    }
+  },
+  {
+    "front": "行李箱",
+    "back": {
+      "hanzi_pinyin": "行李箱 (xíng li xiāng)",
+      "meaning": "trunk; baggage",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "请把～打开。\n(qǐng bǎ ～ dǎ kāi 。)"
+    }
+  },
+  {
+    "front": "熊猫",
+    "back": {
+      "hanzi_pinyin": "熊猫 (xióng māo)",
+      "meaning": "panda",
+      "part_of_speech": "Noun",
+      "measure_word": "只 (zhǐ)",
+      "example": "我特别喜欢到动物园去看大～。\n(wǒ tè bié xǐ huān dào dòng wù yuán qù kàn dà ～。)"
+    }
+  },
+  {
+    "front": "需要",
+    "back": {
+      "hanzi_pinyin": "需要 (xū yào)",
+      "meaning": "need; claim; demand; want",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我们～一些帮助。\n(wǒ men ～ yī xiē bāng zhù 。)"
+    }
+  },
+  {
+    "front": "选择",
+    "back": {
+      "hanzi_pinyin": "选择 (xuǎn zé)",
+      "meaning": "choose; select; pick",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "今年夏天你～去哪儿旅游？\n(jīn nián xià tiān nǐ ～ qù nǎ ér lǚ yóu ？)"
+    }
+  },
+  {
+    "front": "要求",
+    "back": {
+      "hanzi_pinyin": "要求 (yāo qiú)",
+      "meaning": "ask; request; demand",
+      "part_of_speech": "Verb",
+      "measure_word": "点 (diǎn)",
+      "example": "老师～我们把这些题做完。\n(lǎo shī ～ wǒ men bǎ zhè xiē tí zuò wán 。)"
+    }
+  },
+  {
+    "front": "爷爷",
+    "back": {
+      "hanzi_pinyin": "爷爷 (yé ye)",
+      "meaning": "grandfather, also used as a title of respect for an old man",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "～，请您坐这儿吧。\n(～， qǐng nín zuò zhè ér ba 。)"
+    }
+  },
+  {
+    "front": "一定",
+    "back": {
+      "hanzi_pinyin": "一定 (yī dìng)",
+      "meaning": "surely; certainly; necessarily",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "明天的会议，请大家～要参加。\n(míng tiān de huì yì ， qǐng dà jiā ～ yào cān jiā 。)"
+    }
+  },
+  {
+    "front": "一共",
+    "back": {
+      "hanzi_pinyin": "一共 (yī gòng)",
+      "meaning": "altogether; in all; all told",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我们班～有20名学生。\n(wǒ men bān ～ yǒu 20 míng xué shēng 。)"
+    }
+  },
+  {
+    "front": "一会儿",
+    "back": {
+      "hanzi_pinyin": "一会儿 (yī huì r)",
+      "meaning": "a moment",
+      "part_of_speech": "",
+      "measure_word": "",
+      "example": "我看～电视就睡觉。\n(wǒ kàn ～ diàn shì jiù shuì jiào 。)"
+    }
+  },
+  {
+    "front": "一样",
+    "back": {
+      "hanzi_pinyin": "一样 (yī yàng)",
+      "meaning": "the same",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "他跟爸爸长得～。\n(tā gēn bà bà zhǎng dé ～。)"
+    }
+  },
+  {
+    "front": "一般",
+    "back": {
+      "hanzi_pinyin": "一般 (yī bān)",
+      "meaning": "usually; generally; habitually; ordinarily",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我～7点钟起床。\n(wǒ ～7 diǎn zhōng qǐ chuáng 。)"
+    }
+  },
+  {
+    "front": "一边",
+    "back": {
+      "hanzi_pinyin": "一边 (yī biān)",
+      "meaning": "while; as; at the same time; simultaneously",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "他喜欢～看书，～听音乐。\n(tā xǐ huān ～ kàn shū ，～ tīng yīn yuè 。)"
+    }
+  },
+  {
+    "front": "一直",
+    "back": {
+      "hanzi_pinyin": "一直 (yī zhí)",
+      "meaning": "all the time",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我～不明白这句话的意思。\n(wǒ ～ bù míng bái zhè jù huà de yì si 。)"
+    }
+  },
+  {
+    "front": "以前",
+    "back": {
+      "hanzi_pinyin": "以前 (yǐ qián)",
+      "meaning": "before (a point of time); back; ago; previously; formerly",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我们看电影～，先去吃个饭吧。\n(wǒ men kàn diàn yǐng ～， xiān qù chī gè fàn ba 。)"
+    }
+  },
+  {
+    "front": "音乐",
+    "back": {
+      "hanzi_pinyin": "音乐 (yīn yuè)",
+      "meaning": "music",
+      "part_of_speech": "Noun",
+      "measure_word": "张 (zhāng), 段 (duàn), 曲 (qū)",
+      "example": "她最喜欢看～节目。\n(tā zuì xǐ huān kàn ～ jié mù 。)"
+    }
+  },
+  {
+    "front": "银行",
+    "back": {
+      "hanzi_pinyin": "银行 (yín háng)",
+      "meaning": "bank",
+      "part_of_speech": "Noun",
+      "measure_word": "家 (jiā), 个 (gè)",
+      "example": "～下午5点关门。\n(～ xià wǔ 5 diǎn guān mén 。)"
+    }
+  },
+  {
+    "front": "饮料",
+    "back": {
+      "hanzi_pinyin": "饮料 (yǐnliào)",
+      "meaning": "beverage; drink",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "冰箱里还有～吗？\n(bīng xiāng lǐ hái yǒu ～ ma ？)"
+    }
+  },
+  {
+    "front": "应该",
+    "back": {
+      "hanzi_pinyin": "应该 (yīng gāi)",
+      "meaning": "should; have to; ought to; must",
+      "part_of_speech": "Auxiliary Verb",
+      "measure_word": "",
+      "example": "8点了，～去上班了。\n(8 diǎn le ，～ qù shàng bān le 。)"
+    }
+  },
+  {
+    "front": "影响",
+    "back": {
+      "hanzi_pinyin": "影响 (yǐng xiǎng)",
+      "meaning": "influence; affect; concern; work upon",
+      "part_of_speech": "Verb",
+      "measure_word": "股 (gǔ)",
+      "example": "请不要～别人休息。\n(qǐng bú yào ～ bié rén xiū xī 。)"
+    }
+  },
+  {
+    "front": "用",
+    "back": {
+      "hanzi_pinyin": "用 (yòng)",
+      "meaning": "use",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我～了两个小时打扫房间。\n(wǒ ～ le liǎng gè xiǎo shí dǎ sǎo fáng jiān 。)"
+    }
+  },
+  {
+    "front": "游戏",
+    "back": {
+      "hanzi_pinyin": "游戏 (yóu xì)",
+      "meaning": "game; play; recreation",
+      "part_of_speech": "Noun",
+      "measure_word": "场 (chǎng)",
+      "example": "这是孩子们最喜欢玩儿的～。\n(zhè shì hái zi men zuì xǐ huān wán ér de ～。)"
+    }
+  },
+  {
+    "front": "有名",
+    "back": {
+      "hanzi_pinyin": "有名 (yǒu míng)",
+      "meaning": "famous",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这本书很～。\n(zhè běn shū hěn ～。)"
+    }
+  },
+  {
+    "front": "又",
+    "back": {
+      "hanzi_pinyin": "又 (yòu)",
+      "meaning": "again; once more",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我们休息了一会儿，～开始工作了。\n(wǒ men xiū xī le yī huì er ，～ kāi shǐ gōng zuò le 。)"
+    }
+  },
+  {
+    "front": "遇到",
+    "back": {
+      "hanzi_pinyin": "遇到 (yù dào)",
+      "meaning": "meet",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "刚才我在街上～了张先生。\n(gāng cái wǒ zài jiē shàng ～ le zhāng xiān shēng 。)"
+    }
+  },
+  {
+    "front": "元",
+    "back": {
+      "hanzi_pinyin": "元 (Yuán)",
+      "meaning": "RMB Yuan",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "这块手表600～。\n(zhè kuài shǒu biǎo 600～。)"
+    }
+  },
+  {
+    "front": "愿意",
+    "back": {
+      "hanzi_pinyin": "愿意 (yuàn yì)",
+      "meaning": "be willing; wish; like; want",
+      "part_of_speech": "Auxiliary Verb",
+      "measure_word": "",
+      "example": "他很～帮助别人。\n(tā hěn ～ bāng zhù bié rén 。)"
+    }
+  },
+  {
+    "front": "月亮",
+    "back": {
+      "hanzi_pinyin": "月亮 (yuè liang)",
+      "meaning": "the Moon",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "今晚的～真圆！\n(jīn wǎn de ～ zhēn yuán ！)"
+    }
+  },
+  {
+    "front": "越",
+    "back": {
+      "hanzi_pinyin": "越 (Yuè)",
+      "meaning": "the more…the more…",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "他～说～高兴。\n(tā ～ shuō ～ gāo xìng 。)"
+    }
+  },
+  {
+    "front": "站",
+    "back": {
+      "hanzi_pinyin": "站 (zhàn)",
+      "meaning": "stand",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "爸爸～在我的身边。\n(bà bà ～ zài wǒ de shēn biān 。)"
+    }
+  },
+  {
+    "front": "张",
+    "back": {
+      "hanzi_pinyin": "张 (Zhāng)",
+      "meaning": "used for paper, bed, table,face, etc.",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "请给我一～纸。\n(qǐng gěi wǒ yī ～ zhǐ 。)"
+    }
+  },
+  {
+    "front": "照顾",
+    "back": {
+      "hanzi_pinyin": "照顾 (zhào gu)",
+      "meaning": "look after; take care",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "我生病了，妈妈一直～我。\n(wǒ shēng bìng le ， mā mā yì zhí ～ wǒ 。)"
+    }
+  },
+  {
+    "front": "照片",
+    "back": {
+      "hanzi_pinyin": "照片 (zhào piàn)",
+      "meaning": "photo",
+      "part_of_speech": "Noun",
+      "measure_word": "张 (zhāng), 套 (tào), 幅 (fú)",
+      "example": "这是我小时候的～。\n(zhè shì wǒ xiǎo shí hòu de ～。)"
+    }
+  },
+  {
+    "front": "照相机",
+    "back": {
+      "hanzi_pinyin": "照相机 (zhào xiàng jī)",
+      "meaning": "camera",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè), 架 (jià), 只 (zhǐ), 部 (bù), 台 (tái)",
+      "example": "我新买了一个～。\n(wǒ xīn mǎi le yí gè ～。)"
+    }
+  },
+  {
+    "front": "只",
+    "back": {
+      "hanzi_pinyin": "只 (zhǐ)",
+      "meaning": "one of a pair; for animals, furnitures, boats or ships",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "我有一～鞋找不到了。 树上有一～小猫。\n(wǒ yǒu yī ～ xié zhǎo bú dào le 。  shù shàng yǒu yī ～ xiǎo māo 。)"
+    }
+  },
+  {
+    "front": "中间",
+    "back": {
+      "hanzi_pinyin": "中间 (zhōng jiān)",
+      "meaning": "center; middle",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我站在～，旁边的是我的同学。\n(wǒ zhàn zài ～， páng biān de shì wǒ de tóng xué 。)"
+    }
+  },
+  {
+    "front": "中文",
+    "back": {
+      "hanzi_pinyin": "中文 (Zhōngwén)",
+      "meaning": "Chinese language",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "我会用～写文章。\n(wǒ huì yòng ～ xiě wén zhāng 。)"
+    }
+  },
+  {
+    "front": "终于",
+    "back": {
+      "hanzi_pinyin": "终于 (zhōng yú)",
+      "meaning": "at last; finally",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "春天～来了。\n(chūn tiān ～ lái le 。)"
+    }
+  },
+  {
+    "front": "种",
+    "back": {
+      "hanzi_pinyin": "种 (zhǒng)",
+      "meaning": "kind; sort; type",
+      "part_of_speech": "Measure Word",
+      "measure_word": "",
+      "example": "超市里有很多～新鲜水果。\n(chāo shì lǐ yǒu hěn duō ～ xīn xiān shuǐ guǒ 。)"
+    }
+  },
+  {
+    "front": "重要",
+    "back": {
+      "hanzi_pinyin": "重要 (zhòng yào)",
+      "meaning": "important",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "我忘了一件～的事情。\n(wǒ wàng le yī jiàn ～ de shì qíng 。)"
+    }
+  },
+  {
+    "front": "周末",
+    "back": {
+      "hanzi_pinyin": "周末 (zhōu mò)",
+      "meaning": "weekend",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "这个～你有什么安排？\n(zhè ge ～ nǐ yǒu shén me ān pái ？)"
+    }
+  },
+  {
+    "front": "主要",
+    "back": {
+      "hanzi_pinyin": "主要 (zhǔ yào)",
+      "meaning": "major; main",
+      "part_of_speech": "Adjective",
+      "measure_word": "",
+      "example": "这本书～讲了些什么？\n(zhè běn shū ～ jiǎng le xiē shén me ？)"
+    }
+  },
+  {
+    "front": "注意",
+    "back": {
+      "hanzi_pinyin": "注意 (zhù yì)",
+      "meaning": "pay attention to; to keep an eye on; take notice of",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "请～安全。\n(qǐng ～ ān quán 。)"
+    }
+  },
+  {
+    "front": "着急",
+    "back": {
+      "hanzi_pinyin": "着急 (zháo jí)",
+      "meaning": "worry; feel anxious",
+      "part_of_speech": "Verb",
+      "measure_word": "",
+      "example": "遇到事情，不要～。\n(yù dào shì qíng ， bú yào ～。)"
+    }
+  },
+  {
+    "front": "自己",
+    "back": {
+      "hanzi_pinyin": "自己 (zì jǐ)",
+      "meaning": "oneself; self; one's own",
+      "part_of_speech": "Pronoun",
+      "measure_word": "",
+      "example": "我喜欢～一个人旅游。\n(wǒ xǐ huān ～ yí gè rén lǚ yóu 。)"
+    }
+  },
+  {
+    "front": "总是",
+    "back": {
+      "hanzi_pinyin": "总是 (zǒng shì)",
+      "meaning": "always",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "他～很早起床。\n(tā ～ hěn zǎo qǐ chuáng 。)"
+    }
+  },
+  {
+    "front": "嘴",
+    "back": {
+      "hanzi_pinyin": "嘴 (zuǐ)",
+      "meaning": "mouth",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "妹妹的～边有一粒米。\n(mèi mèi de ～ biān yǒu yī lì mǐ 。)"
+    }
+  },
+  {
+    "front": "最近",
+    "back": {
+      "hanzi_pinyin": "最近 (zuì jìn)",
+      "meaning": "recently; of late; lately",
+      "part_of_speech": "Adverb",
+      "measure_word": "",
+      "example": "我～很忙。\n(wǒ ～ hěn máng 。)"
+    }
+  },
+  {
+    "front": "作业",
+    "back": {
+      "hanzi_pinyin": "作业 (zuò yè)",
+      "meaning": "school assignment; study assignment",
+      "part_of_speech": "Noun",
+      "measure_word": "个 (gè)",
+      "example": "今天的～你写完了吗？\n(jīn tiān de ～ nǐ xiě wán le ma ？)"
+    }
+  },
+  {
+    "front": "作用",
+    "back": {
+      "hanzi_pinyin": "作用 (zuò yòng)",
+      "meaning": "an effect; an influence",
+      "part_of_speech": "Noun",
+      "measure_word": "",
+      "example": "这种感冒药对我没什么～。\n(zhè zhǒng gǎn mào yào duì wǒ méi shén me ～。)"
+    }
+  }
+]
