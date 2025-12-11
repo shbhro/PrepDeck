@@ -20,10 +20,6 @@ const getBestVoice = () => {
         "Google Chinese",  // Chrome Fallback
         "Lili",            // macOS (Natural)
         "Ting-Ting",       // macOS
-        "Microsoft Huihui Online (Natural)", // Windows
-        "Microsoft Yaoyao Online",            // Windows Fallback
-        "Zhiyu",           // Android
-        "Sin-Ji",          // iOS
     ];
     for (const name of priorityList) {
         const found = voices.find(v => v.name.includes(name) || v.lang === name);
@@ -95,7 +91,7 @@ const Menu = () => {
             >
                 PrepDeck
             </motion.h1>
-            <p className="text-gray-600 dark:text-gray-400 mb-12 relative z-10 font-medium tracking-wide">Master HSK Vocab • {vocab.length} Words Loaded</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-12 relative z-10 font-medium tracking-wide">Master HSK Vocab</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl w-full relative z-10">
                 
