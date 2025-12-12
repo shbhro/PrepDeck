@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
-import { Play, BookOpen, RotateCcw, Check, X, Trophy, Moon, Sun, Volume2 } from 'lucide-react';
+import { Play, BookOpen, RotateCcw, Check, X, Trophy, Moon, Sun, Volume2, RefreshCw } from 'lucide-react';
 import { useStore } from './store';
 
 // --- SMART AUDIO ENGINE ---
@@ -60,7 +60,6 @@ const ThemeToggle = () => {
     );
 };
 
-// Unified Exit Button for both modes
 const ExitButton = ({ onClick }) => (
     <div className="absolute top-4 left-4 md:top-6 md:left-6 z-20">
         <button 
@@ -105,7 +104,6 @@ const Menu = () => {
                     <h2 className="text-2xl md:text-3xl font-bold mb-2 text-gray-800 dark:text-white">Speed Quiz</h2>
                     <p className="text-gray-500 dark:text-gray-400 text-xs md:text-sm mb-6 md:mb-8">Test your memory against the clock.</p>
                     
-                    {/* SLIDER RESTORED HERE */}
                     <div className="mb-6 md:mb-8">
                         <div className="flex justify-between mb-2">
                             <span className="text-xs md:text-sm font-bold text-gray-600 dark:text-gray-300">Words:</span>
@@ -182,21 +180,17 @@ const QuizMode = () => {
 
     return (
         <div className="flex-grow flex flex-col items-center justify-center p-4 md:p-6 relative w-full max-w-4xl mx-auto">
-            {/* Unified Exit Button */}
             <ExitButton onClick={() => setMode('menu')} />
 
-            {/* Progress */}
             <div className="absolute top-0 left-0 w-full h-1 md:h-2 bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
                 <motion.div className="h-full bg-blue-500 dark:bg-cyan-400 shadow-[0_0_10px_rgba(59,130,246,0.5)]" initial={{ width: 0 }} animate={{ width: `${progress}%` }} transition={{ duration: 0.5 }} />
             </div>
 
-            {/* Stats */}
             <div className="w-full flex justify-between items-center mb-8 md:mb-12 mt-16 md:mt-20 font-mono text-gray-800 dark:text-white font-bold text-sm md:text-base px-2">
                 <div>SCORE: {score} <span className="mx-2 text-gray-300">|</span> STREAK: {streak}x</div>
                 <div>{index + 1} / {currentDeck.length}</div>
             </div>
 
-            {/* Question */}
             <motion.div key={currentCard.id} initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="mb-8 md:mb-12 text-center w-full px-2">
                 <div className={`${getFontSize(currentCard.front)} font-bold mb-4 md:mb-6 font-sans text-gray-900 dark:text-white drop-shadow-xl transition-all duration-300 break-words`}>
                     {currentCard.front}
@@ -204,7 +198,6 @@ const QuizMode = () => {
                 <div className="text-lg md:text-xl font-mono tracking-[0.2em] uppercase text-blue-500 dark:text-cyan-400 font-bold">Select Meaning</div>
             </motion.div>
 
-            {/* Options */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 w-full">
                 {options.map((opt) => (
                     <motion.button
@@ -230,6 +223,25 @@ const FlashcardMode = () => {
     const [isFlipped, setIsFlipped] = useState(false);
     
     const current = currentDeck[index];
+
+    useEffect(() => {
+        const handleKeyDown = (e) => {
+            if (e.code === 'Space') {
+                e.preventDefault(); 
+                setIsFlipped(prev => !prev);
+            }
+            if (e.code === 'ArrowRight') {
+                setIndex((prev) => (prev + 1) % currentDeck.length);
+                setIsFlipped(false);
+            }
+            if (e.code === 'ArrowLeft') {
+                setIndex((prev) => Math.max(0, prev - 1));
+                setIsFlipped(false);
+            }
+        };
+        window.addEventListener('keydown', handleKeyDown);
+        return () => window.removeEventListener('keydown', handleKeyDown);
+    }, [currentDeck.length]);
 
     const parseExample = (exStr) => {
         if (!exStr) return { hanzi: "", pinyin: "" };
@@ -271,11 +283,8 @@ const FlashcardMode = () => {
 
     return (
         <div className="flex-grow flex flex-col items-center justify-center p-4 md:p-6 cursor-pointer w-full relative z-10" onClick={() => setIsFlipped(!isFlipped)}>
-            
-            {/* Unified Exit Button */}
             <ExitButton onClick={() => setMode('menu')} />
 
-            {/* CARD CONTAINER */}
             <div className="relative w-full max-w-[20rem] md:max-w-sm h-[450px] md:h-[600px] group" style={{ perspective: "1000px" }}>
                 <motion.div
                     initial={false}
@@ -284,7 +293,6 @@ const FlashcardMode = () => {
                     className="w-full h-full relative"
                     style={{ transformStyle: 'preserve-3d' }}
                 >
-                    {/* FRONT */}
                     <div className="absolute top-0 left-0 w-full h-full bg-white dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 border border-gray-200 dark:border-gray-700 rounded-3xl flex flex-col items-center justify-center shadow-2xl overflow-hidden px-2" 
                          style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>
                         
@@ -299,7 +307,6 @@ const FlashcardMode = () => {
                         <p className="text-gray-400 text-xs md:text-sm mt-8 uppercase tracking-[0.3em] font-bold">Tap to flip</p>
                     </div>
 
-                    {/* BACK */}
                     <div className="absolute top-0 left-0 w-full h-full bg-blue-50 dark:bg-gradient-to-br dark:from-cyan-950 dark:to-slate-900 border border-blue-100 dark:border-cyan-800 rounded-3xl flex flex-col p-4 md:p-6 shadow-2xl overflow-y-auto"
                         style={{ transform: 'rotateX(180deg)', backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}
                     >
@@ -348,7 +355,8 @@ const FlashcardMode = () => {
 
 // --- SUMMARY SCREEN ---
 const Summary = () => {
-    const { score, setMode, quizLog } = useStore();
+    const { score, setMode, quizLog, startWeaknessReview } = useStore();
+    const wrongCount = quizLog.filter(x => !x.isCorrect).length;
     
     return (
         <div className="flex-grow flex flex-col items-center justify-center p-4 md:p-6 relative w-full max-w-4xl mx-auto overflow-hidden">
@@ -385,9 +393,18 @@ const Summary = () => {
                 </div>
             </div>
 
-            <button onClick={() => setMode('menu')} className="bg-blue-600 text-white px-8 md:px-12 py-3 md:py-4 rounded-2xl font-bold shadow-xl hover:bg-blue-500 dark:bg-cyan-600 dark:hover:bg-cyan-500 transition-all transform hover:-translate-y-1 text-sm md:text-base">
-                Return to Menu
-            </button>
+            <div className="flex gap-4">
+                <button onClick={() => setMode('menu')} className="bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 dark:bg-gray-700 dark:text-white dark:border-transparent px-8 py-3 rounded-2xl font-bold shadow-md transition-all">
+                    Menu
+                </button>
+                
+                {wrongCount > 0 && (
+                    <button onClick={startWeaknessReview} className="flex items-center gap-2 bg-amber-500 text-white px-8 py-3 rounded-2xl font-bold shadow-xl hover:bg-amber-600 transition-all transform hover:-translate-y-1">
+                        <RefreshCw size={20} />
+                        Retry Mistakes ({wrongCount})
+                    </button>
+                )}
+            </div>
         </div>
     );
 };

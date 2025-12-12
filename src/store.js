@@ -53,6 +53,27 @@ export const useStore = create(
                 });
             },
 
+            // --- NEW: WEAKNESS REVIEW ACTION ---
+            startWeaknessReview: () => {
+                const { quizLog } = get();
+                // 1. Filter only the words the user got WRONG
+                const wrongAnswers = quizLog.filter(item => !item.isCorrect);
+                
+                if (wrongAnswers.length === 0) return; // Should not happen if button is hidden, but safety first
+
+                // 2. Shuffle them for the new round
+                const shuffled = [...wrongAnswers].sort(() => 0.5 - Math.random());
+
+                // 3. Start a new Quiz session with ONLY these words
+                set({
+                    currentDeck: shuffled,
+                    gameMode: 'quiz', // Re-enter quiz mode
+                    score: 0,
+                    streak: 0,
+                    quizLog: [] // Reset log for this new session
+                });
+            },
+
             submitAnswer: (wordId, isCorrect) => {
                 const { vocab, quizLog } = get();
                 const word = vocab.find(w => w.id === wordId);
@@ -77,7 +98,7 @@ export const useStore = create(
             setMode: (mode) => set({ gameMode: mode }),
         }),
         {
-            name: 'hsk-storage', // Saves to localStorage
+            name: 'hsk-storage',
             partialize: (state) => ({ 
                 score: state.score, 
                 streak: state.streak, 
