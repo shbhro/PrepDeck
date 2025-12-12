@@ -67,7 +67,6 @@ const ThemeToggle = () => {
 };
 
 // --- FOOTER COMPONENT ---
-// Fixed: Added padding and proper spacing
 const Footer = () => (
     <footer className="w-full text-center py-8 mt-auto z-10">
         <p className="text-xs font-mono text-gray-400 dark:text-gray-600 flex items-center justify-center gap-1 opacity-60">
@@ -90,7 +89,7 @@ const Menu = () => {
             >
                 PrepDeck
             </motion.h1>
-            <p className="text-gray-600 dark:text-gray-400 mb-12 font-medium tracking-wide">Master HSK Vocab</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-12 font-medium tracking-wide">Master HSK Vocab • {vocab.length} Words Loaded</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
                 <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-white dark:border-gray-700 transition-all hover:shadow-blue-500/20 hover:border-blue-500/30 group">
@@ -201,6 +200,7 @@ const QuizMode = () => {
 
     return (
         <div className="flex-grow flex flex-col items-center justify-center p-6 relative w-full max-w-4xl mx-auto">
+            {/* Progress Bar */}
             <div className="absolute top-0 left-0 w-full h-2 bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
                 <motion.div 
                     className="h-full bg-blue-500 dark:bg-cyan-400 shadow-[0_0_10px_rgba(59,130,246,0.5)]"
@@ -210,7 +210,15 @@ const QuizMode = () => {
                 />
             </div>
 
-            <div className="w-full flex justify-between items-center mb-12 mt-8 font-mono text-gray-800 dark:text-white font-bold">
+            {/* EXIT BUTTON (Exact match to Flashcard) */}
+            <div className="absolute top-6 left-6 z-20">
+                <button onClick={() => setMode('menu')} className="flex items-center gap-2 hover:text-cyan-600 text-gray-600 dark:text-white dark:hover:text-cyan-400 font-bold bg-white/50 dark:bg-black/20 p-2 rounded-lg backdrop-blur-sm">
+                    <RotateCcw size={20} /> Exit
+                </button>
+            </div>
+
+            {/* SCORE DISPLAY (Moved down to accommodate Exit button) */}
+            <div className="w-full flex justify-between items-center mb-12 mt-20 font-mono text-gray-800 dark:text-white font-bold px-6">
                 <div>SCORE: {score} <span className="mx-2 text-gray-300">|</span> STREAK: {streak}x</div>
                 <div>{index + 1} / {currentDeck.length}</div>
             </div>
@@ -248,7 +256,7 @@ const QuizMode = () => {
     );
 };
 
-// --- FLASHCARD MODE (FIXED 3D) ---
+// --- FLASHCARD MODE ---
 const FlashcardMode = () => {
     const { currentDeck, setMode } = useStore();
     const [index, setIndex] = useState(0);
@@ -285,7 +293,7 @@ const FlashcardMode = () => {
         return "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200 border-gray-200 dark:border-gray-600";
     };
 
-    // FIXED: Dynamic Font Sizing for Flashcard
+    // Dynamic Font Sizing for Flashcard
     const getFontSize = (text) => {
         if (!text) return "text-8xl";
         if (text.length > 3) return "text-6xl"; 
@@ -305,16 +313,16 @@ const FlashcardMode = () => {
                 </button>
             </div>
 
-            {/* CARD CONTAINER - Height increased to 600px */}
+            {/* CARD CONTAINER - 3D BUG FIX: ABSOLUTE POSITIONING */}
             <div className="relative w-full max-w-sm h-[600px] group" style={{ perspective: "1000px" }}>
                 <motion.div
                     initial={false}
                     animate={{ rotateX: isFlipped ? 180 : 0 }}
                     transition={{ duration: 0.6, type: "spring", stiffness: 260, damping: 20 }}
-                    className="w-full h-full relative" // 'relative' here is for the flipper wrapper itself
+                    className="w-full h-full relative"
                     style={{ transformStyle: 'preserve-3d' }}
                 >
-                    {/* FRONT - FIXED: Removed 'relative', now 'absolute' to prevent collision */}
+                    {/* FRONT: Absolute positioning to fix flip glitch */}
                     <div className="absolute top-0 left-0 w-full h-full bg-white dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 border border-gray-200 dark:border-gray-700 rounded-3xl flex flex-col items-center justify-center shadow-2xl overflow-hidden" 
                          style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>
                         
@@ -335,7 +343,7 @@ const FlashcardMode = () => {
                         <p className="text-gray-400 text-sm mt-8 uppercase tracking-[0.3em] font-bold">Tap to flip</p>
                     </div>
 
-                    {/* BACK - FIXED: Strictly 'absolute' */}
+                    {/* BACK: Absolute positioning to fix flip glitch */}
                     <div 
                         className="absolute top-0 left-0 w-full h-full bg-blue-50 dark:bg-gradient-to-br dark:from-cyan-950 dark:to-slate-900 border border-blue-100 dark:border-cyan-800 rounded-3xl flex flex-col p-6 shadow-2xl overflow-y-auto"
                         style={{ transform: 'rotateX(180deg)', backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}
@@ -470,7 +478,6 @@ export default function App() {
         
     }, []);
 
-    // FIX: Main container is now Flex Column with min-h-screen
     return (
         <div className={darkMode ? 'dark' : ''}>
             <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 font-sans selection:bg-blue-200 dark:selection:bg-cyan-900 flex flex-col relative overflow-hidden">
