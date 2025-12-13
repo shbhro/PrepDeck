@@ -44,3 +44,25 @@ dist-ssr
 
 # MacOS system files
 .DS_Store
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.tmp
+*.temp
+
+# Yarn
+yarn-error.log
+.yarn-integrity
+
+# pnpm
+pnpm-debug.log*
+.pnpm-store

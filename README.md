@@ -1,16 +1,128 @@
-# React + Vite
+# PrepDeck - HSK3 Quiz & Flashcards 🇨🇳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive Chinese vocabulary learning app focused on HSK Level 3, featuring quiz mode and flashcards with spaced repetition.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Speed Quiz Mode** - Test your vocabulary against the clock with multiple-choice questions
+- **Flashcard Mode** - Study at your own pace with detailed word information
+- **Spaced Repetition** - Smart algorithm tracks your progress for better retention
+- **Text-to-Speech** - Native Chinese pronunciation for all vocabulary
+- **Dark Mode** - Easy on the eyes for extended study sessions
+- **Progress Tracking** - Review your quiz results and retry mistakes
+- **Responsive Design** - Works seamlessly on desktop and mobile
 
-## React Compiler
+## Tech Stack 🛠️
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** - Modern UI framework
+- **Vite** - Lightning-fast build tool
+- **Zustand** - Lightweight state management with persistence
+- **Framer Motion** - Smooth animations and transitions
+- **Tailwind CSS** - Utility-first styling
+- **Canvas Confetti** - Celebration effects for correct answers
 
-## Expanding the ESLint configuration
+## Getting Started 🚀
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js 18+ and npm
+
+### Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Project Structure 📁
+
+```
+├── public/
+│   ├── hsk3_master.json    # Main vocabulary database
+│   └── hsk3_vocab.json     # Additional vocab data
+├── src/
+│   ├── App.jsx             # Main application component
+│   ├── store.js            # Zustand state management
+│   ├── main.jsx            # App entry point
+│   └── index.css           # Global styles
+└── package.json
+```
+
+## Vocabulary Data Format 📝
+
+The app uses JSON files with the following structure:
+
+```json
+{
+  "front": "汉字",
+  "back": {
+    "hanzi_pinyin": "hànzì",
+    "meaning": "Chinese characters",
+    "part_of_speech": "noun",
+    "measure_word": "个",
+    "example": "这个汉字很难写。\nZhège hànzì hěn nán xiě."
+  }
+}
+```
+
+## Features in Detail 📚
+
+### Quiz Mode
+
+- Customizable quiz length (5-50 words)
+- Multiple-choice format with randomized options
+- Real-time score and streak tracking
+- Immediate feedback with visual/audio cues
+- Review sheet with all answers
+
+### Flashcard Mode
+
+- Front: Chinese characters with large, readable font
+- Back: Pinyin, meaning, part of speech, measure word, example sentence
+- Keyboard navigation (Space to flip, Arrow keys to navigate)
+- One-tap pronunciation playback
+
+### Spaced Repetition
+
+- Tracks individual word progress
+- Adjusts review intervals based on performance
+- Stores learning data locally
+
+## Keyboard Shortcuts ⌨️
+
+**Flashcard Mode:**
+
+- `Space` - Flip card
+- `→` - Next card
+- `←` - Previous card
+
+## Browser Compatibility 🌐
+
+- Chrome/Edge 90+
+- Firefox 88+
+- Safari 14+
+
+## Contributing 🤝
+
+Contributions are welcome! Feel free to:
+
+- Report bugs
+- Suggest new features
+- Submit pull requests
+
+## License 📄
+
+MIT License - feel free to use this project for your own learning!
+
+## Acknowledgments 🙏
+
+Powered by **Laddu** - Making language learning accessible and fun.

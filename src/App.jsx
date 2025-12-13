@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
 import { Play, BookOpen, RotateCcw, Check, X, Trophy, Moon, Sun, Volume2, RefreshCw } from 'lucide-react';
@@ -52,7 +52,9 @@ const ThemeToggle = () => {
     const { darkMode, toggleTheme } = useStore();
     return (
         <button 
-            onClick={toggleTheme} 
+            onClick={toggleTheme}
+            aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+            title={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
             className="absolute top-4 right-4 md:top-6 md:right-6 p-2 md:p-3 rounded-full bg-white dark:bg-gray-800 text-gray-800 dark:text-yellow-400 transition-all z-50 shadow-md hover:scale-110 border border-gray-200 dark:border-gray-700"
         >
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
@@ -63,7 +65,8 @@ const ThemeToggle = () => {
 const ExitButton = ({ onClick }) => (
     <div className="absolute top-4 left-4 md:top-6 md:left-6 z-20">
         <button 
-            onClick={(e) => { e.stopPropagation(); onClick(); }} 
+            onClick={(e) => { e.stopPropagation(); onClick(); }}
+            aria-label="Exit to menu"
             className="flex items-center gap-2 hover:text-cyan-600 text-gray-600 dark:text-white dark:hover:text-cyan-400 font-bold bg-white/50 dark:bg-black/20 p-2 rounded-lg backdrop-blur-sm text-xs md:text-sm shadow-sm transition-all"
         >
             <RotateCcw size={16} /> <span className="hidden md:inline">Exit</span>
@@ -116,7 +119,7 @@ const Menu = () => {
                         />
                     </div>
 
-                    <button onClick={() => startQuiz(quizCount)} className="w-full py-3 md:py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold text-base md:text-lg shadow-lg transition-all transform hover:-translate-y-1">Start Quiz</button>
+                    <button onClick={() => startQuiz(quizCount)} aria-label={`Start quiz with ${quizCount} words`} className="w-full py-3 md:py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold text-base md:text-lg shadow-lg transition-all transform hover:-translate-y-1">Start Quiz</button>
                 </div>
 
                 {/* Flashcard Card */}
@@ -127,7 +130,7 @@ const Menu = () => {
                     <h2 className="text-2xl md:text-3xl font-bold mb-2 text-gray-800 dark:text-white">Flashcards</h2>
                     <p className="text-gray-500 dark:text-gray-400 text-xs md:text-sm mb-6 md:mb-8">Relaxed study mode. Randomized order.</p>
                     <div className="mt-auto">
-                        <button onClick={() => startFlashcards()} className="w-full py-3 md:py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-bold text-base md:text-lg shadow-lg transition-all transform hover:-translate-y-1">Open Deck</button>
+                        <button onClick={() => startFlashcards()} aria-label="Open flashcard deck" className="w-full py-3 md:py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-bold text-base md:text-lg shadow-lg transition-all transform hover:-translate-y-1">Open Deck</button>
                     </div>
                 </div>
             </div>
@@ -144,12 +147,12 @@ const QuizMode = () => {
 
     const currentCard = currentDeck[index];
 
-    const getFontSize = (text) => {
+    const getFontSize = useCallback((text) => {
         if (!text) return "text-6xl md:text-8xl";
         if (text.length > 3) return "text-4xl md:text-6xl";
         if (text.length === 3) return "text-5xl md:text-7xl";
         return "text-7xl md:text-9xl";
-    };
+    }, []);
 
     useEffect(() => {
         if (!currentCard) return;
@@ -162,7 +165,7 @@ const QuizMode = () => {
         setOptions(allOptions);
     }, [index, currentCard]);
 
-    const handleAnswer = (selectedCard) => {
+    const handleAnswer = useCallback((selectedCard) => {
         if (showResult) return;
         const isCorrect = selectedCard.id === currentCard.id;
         if (isCorrect) speak(currentCard.front); 
@@ -173,7 +176,7 @@ const QuizMode = () => {
             if (index < currentDeck.length - 1) { setIndex(index + 1); setShowResult(null); } 
             else { setMode('summary'); }
         }, 1500);
-    };
+    }, [showResult, currentCard, index, currentDeck.length, submitAnswer, setMode]);
 
     if (!currentCard) return <div className="text-center mt-20 text-gray-500">Loading...</div>;
     const progress = (quizLog.length / currentDeck.length) * 100;
@@ -252,31 +255,31 @@ const FlashcardMode = () => {
     const highlightWord = (text) => {
         if (!text) return null;
         return text.split('～').map((part, i, arr) => (
-            <React.Fragment key={i}>
+            <span key={i}>
                 {part}
                 {i < arr.length - 1 && (
                     <span className="text-blue-600 dark:text-cyan-300 font-bold border-b-2 border-blue-400 dark:border-cyan-500 mx-1 px-1">
                         {current.front}
                     </span>
                 )}
-            </React.Fragment>
+            </span>
         ));
     };
 
-    const getPosColor = (pos) => {
+    const getPosColor = useCallback((pos) => {
         const p = pos?.toLowerCase() || "";
         if (p.includes('verb')) return "bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-200 border-red-200 dark:border-red-800";
         if (p.includes('noun')) return "bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-200 border-blue-200 dark:border-blue-800";
         if (p.includes('adj')) return "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200 border-amber-200 dark:border-amber-800";
         return "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200 border-gray-200 dark:border-gray-600";
-    };
+    }, []);
 
-    const getFontSize = (text) => {
+    const getFontSize = useCallback((text) => {
         if (!text) return "text-7xl md:text-8xl";
         if (text.length > 3) return "text-5xl md:text-6xl"; 
         if (text.length === 3) return "text-6xl md:text-7xl";
         return "text-7xl md:text-9xl"; 
-    };
+    }, []);
 
     if (!current) return <div className="text-center mt-20 text-gray-500 dark:text-white">Loading Deck...</div>;
     const exampleObj = parseExample(current.back.example);
@@ -296,7 +299,7 @@ const FlashcardMode = () => {
                     <div className="absolute top-0 left-0 w-full h-full bg-white dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 border border-gray-200 dark:border-gray-700 rounded-3xl flex flex-col items-center justify-center shadow-2xl overflow-hidden px-2" 
                          style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>
                         
-                        <button onClick={(e) => { e.stopPropagation(); speak(current.front); }} className="absolute top-4 right-4 md:top-6 md:right-6 p-2 md:p-3 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-600 hover:text-blue-600 dark:bg-gray-700 dark:hover:bg-cyan-900/50 dark:text-gray-300 dark:hover:text-cyan-400 transition-colors z-20 shadow-sm">
+                        <button onClick={(e) => { e.stopPropagation(); speak(current.front); }} aria-label="Play pronunciation" className="absolute top-4 right-4 md:top-6 md:right-6 p-2 md:p-3 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-600 hover:text-blue-600 dark:bg-gray-700 dark:hover:bg-cyan-900/50 dark:text-gray-300 dark:hover:text-cyan-400 transition-colors z-20 shadow-sm">
                             <Volume2 size={24} />
                         </button>
 
@@ -311,7 +314,7 @@ const FlashcardMode = () => {
                         style={{ transform: 'rotateX(180deg)', backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}
                     >
                         <div className="text-center border-b border-blue-200 dark:border-cyan-800 pb-4 mb-4 relative">
-                            <button onClick={(e) => { e.stopPropagation(); speak(current.front); }} className="absolute top-0 right-0 p-2 text-blue-400 hover:text-blue-600 dark:text-cyan-600 dark:hover:text-cyan-300 transition-colors">
+                            <button onClick={(e) => { e.stopPropagation(); speak(current.front); }} aria-label="Play pronunciation" className="absolute top-0 right-0 p-2 text-blue-400 hover:text-blue-600 dark:text-cyan-600 dark:hover:text-cyan-300 transition-colors">
                                 <Volume2 size={20} />
                             </button>
                             <h3 className="text-3xl md:text-4xl text-blue-600 dark:text-cyan-400 font-medium font-sans mb-2">{current.back.hanzi_pinyin}</h3>
@@ -385,7 +388,7 @@ const Summary = () => {
                                 </div>
                                 <p className="text-gray-600 dark:text-gray-300 text-xs md:text-sm truncate">{log.back.meaning}</p>
                             </div>
-                            <button onClick={() => speak(log.front)} className="p-2 text-gray-400 hover:text-blue-500 dark:hover:text-cyan-400 transition-colors shrink-0">
+                            <button onClick={() => speak(log.front)} aria-label={`Play pronunciation for ${log.front}`} className="p-2 text-gray-400 hover:text-blue-500 dark:hover:text-cyan-400 transition-colors shrink-0">
                                 <Volume2 size={20} className="md:w-6 md:h-6" />
                             </button>
                         </div>
@@ -412,13 +415,73 @@ const Summary = () => {
 // --- MAIN APP ---
 export default function App() {
     const { gameMode, setVocab, darkMode } = useStore();
+    const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch('/hsk3_master.json').then(res => res.json()).then(data => setVocab(data)).catch(err => console.error(err));
-        const loadVoices = () => { if (window.speechSynthesis.getVoices().length > 0) getBestVoice(); };
+        const loadData = async () => {
+            try {
+                const response = await fetch('/hsk3_master.json');
+                if (!response.ok) {
+                    throw new Error(`Failed to load vocabulary: ${response.status}`);
+                }
+                const data = await response.json();
+                if (!Array.isArray(data) || data.length === 0) {
+                    throw new Error('Invalid vocabulary data format');
+                }
+                setVocab(data);
+                setError(null);
+            } catch (err) {
+                console.error('Error loading vocabulary:', err);
+                setError(err.message || 'Failed to load vocabulary data');
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        loadData();
+        
+        const loadVoices = () => { 
+            if (window.speechSynthesis.getVoices().length > 0) getBestVoice(); 
+        };
         loadVoices();
-        if (window.speechSynthesis.onvoiceschanged !== undefined) window.speechSynthesis.onvoiceschanged = loadVoices;
-    }, []);
+        if (window.speechSynthesis.onvoiceschanged !== undefined) {
+            window.speechSynthesis.onvoiceschanged = loadVoices;
+        }
+    }, [setVocab]);
+
+    if (isLoading) {
+        return (
+            <div className={darkMode ? 'dark' : ''}>
+                <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
+                    <div className="text-center">
+                        <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 dark:border-cyan-400 mx-auto mb-4"></div>
+                        <p className="text-gray-600 dark:text-gray-400 font-medium">Loading vocabulary...</p>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    if (error) {
+        return (
+            <div className={darkMode ? 'dark' : ''}>
+                <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center p-4">
+                    <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 max-w-md shadow-xl border border-gray-200 dark:border-gray-700">
+                        <div className="text-red-500 text-5xl mb-4 text-center">⚠️</div>
+                        <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2 text-center">Error Loading App</h2>
+                        <p className="text-gray-600 dark:text-gray-400 mb-6 text-center">{error}</p>
+                        <button 
+                            onClick={() => window.location.reload()} 
+                            className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-colors"
+                        >
+                            Retry
+                        </button>
+                    </div>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div className={darkMode ? 'dark' : ''}>

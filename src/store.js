@@ -4,8 +4,8 @@ import { persist } from 'zustand/middleware';
 // Spaced Repetition Logic (0=Wrong, 1=Right)
 const calculateNextReview = (rating, previousInterval) => {
     if (rating === 0) return 1; 
-    if (rating === 1) return previousInterval * 1.5;
-    return previousInterval * 2.5; 
+    if (rating === 1) return Math.round(previousInterval * 1.5);
+    return Math.round(previousInterval * 2.5); 
 };
 
 export const useStore = create(
@@ -21,9 +21,13 @@ export const useStore = create(
             darkMode: true,
 
             setVocab: (data) => {
+                if (!Array.isArray(data)) {
+                    console.error('Invalid vocab data: expected array');
+                    return;
+                }
                 const dataWithIds = data.map((item, index) => ({
                     ...item,
-                    id: index 
+                    id: item.id ?? index 
                 }));
                 set({ vocab: dataWithIds });
             },
@@ -32,14 +36,20 @@ export const useStore = create(
 
             startFlashcards: () => {
                 const { vocab } = get();
-                if (!vocab || vocab.length === 0) return;
+                if (!vocab || vocab.length === 0) {
+                    console.warn('No vocabulary available for flashcards');
+                    return;
+                }
                 const shuffled = [...vocab].sort(() => 0.5 - Math.random());
                 set({ currentDeck: shuffled, gameMode: 'flashcards' });
             },
 
             startQuiz: (count) => {
                 const { vocab } = get();
-                if (!vocab || vocab.length === 0) return;
+                if (!vocab || vocab.length === 0) {
+                    console.warn('No vocabulary available for quiz');
+                    return;
+                }
                 
                 const safeCount = Math.max(1, Math.min(count, vocab.length));
                 const shuffled = [...vocab].sort(() => 0.5 - Math.random());
@@ -59,7 +69,10 @@ export const useStore = create(
                 // 1. Filter only the words the user got WRONG
                 const wrongAnswers = quizLog.filter(item => !item.isCorrect);
                 
-                if (wrongAnswers.length === 0) return; // Should not happen if button is hidden, but safety first
+                if (wrongAnswers.length === 0) {
+                    console.warn('No wrong answers to review');
+                    return;
+                }
 
                 // 2. Shuffle them for the new round
                 const shuffled = [...wrongAnswers].sort(() => 0.5 - Math.random());
@@ -77,6 +90,11 @@ export const useStore = create(
             submitAnswer: (wordId, isCorrect) => {
                 const { vocab, quizLog } = get();
                 const word = vocab.find(w => w.id === wordId);
+                
+                if (!word) {
+                    console.error(`Word with id ${wordId} not found`);
+                    return;
+                }
 
                 set((state) => {
                     const progress = state.userProgress[wordId] || { interval: 1, reviews: 0 };
