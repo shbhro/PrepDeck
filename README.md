@@ -2,6 +2,8 @@
 
 An interactive Chinese vocabulary learning app focused on HSK Level 3, featuring quiz mode and flashcards with spaced repetition.
 
+**🌐 [Live Demo](https://chic-truffle-27b2b7.netlify.app/)**
+
 ## Features ✨
 
 - **Speed Quiz Mode** - Test your vocabulary against the clock with multiple-choice questions
