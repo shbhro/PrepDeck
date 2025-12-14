@@ -29,6 +29,10 @@ const getBestVoice = () => {
 
 const speak = (text) => {
     if (!text) return;
+    
+    const { audioEnabled } = useStore.getState();
+    if (!audioEnabled) return;
+    
     const synth = window.speechSynthesis;
     if (synth.speaking) synth.cancel();
 
@@ -58,6 +62,20 @@ const ThemeToggle = () => {
             className="absolute top-4 right-4 md:top-6 md:right-6 p-2 md:p-3 rounded-full bg-white dark:bg-gray-800 text-gray-800 dark:text-yellow-400 transition-all z-50 shadow-md hover:scale-110 border border-gray-200 dark:border-gray-700"
         >
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
+        </button>
+    );
+};
+
+const AudioToggle = () => {
+    const { audioEnabled, toggleAudio } = useStore();
+    return (
+        <button 
+            onClick={toggleAudio}
+            aria-label={audioEnabled ? 'Mute audio' : 'Unmute audio'}
+            title={audioEnabled ? 'Mute audio' : 'Unmute audio'}
+            className="absolute top-4 right-16 md:top-6 md:right-20 p-2 md:p-3 rounded-full bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 transition-all z-50 shadow-md hover:scale-110 border border-gray-200 dark:border-gray-700"
+        >
+            {audioEnabled ? <Volume2 size={20} /> : <X size={20} className="text-red-500" />}
         </button>
     );
 };
@@ -494,6 +512,7 @@ export default function App() {
                 <div className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] bg-blue-500/10 dark:bg-blue-500/5 rounded-full blur-[120px] pointer-events-none" />
                 <div className="absolute bottom-[-20%] right-[-10%] w-[500px] h-[500px] bg-emerald-500/10 dark:bg-emerald-500/5 rounded-full blur-[100px] pointer-events-none" />
                 <ThemeToggle />
+                <AudioToggle />
                 <main className="flex-grow flex flex-col items-center justify-center w-full z-10">
                     {gameMode === 'menu' && <Menu />}
                     {gameMode === 'quiz' && <QuizMode />}

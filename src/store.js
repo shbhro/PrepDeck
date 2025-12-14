@@ -19,6 +19,7 @@ export const useStore = create(
             score: 0,
             streak: 0,
             darkMode: true,
+            audioEnabled: true,
 
             setVocab: (data) => {
                 if (!Array.isArray(data)) {
@@ -33,6 +34,7 @@ export const useStore = create(
             },
             
             toggleTheme: () => set((state) => ({ darkMode: !state.darkMode })),
+            toggleAudio: () => set((state) => ({ audioEnabled: !state.audioEnabled })),
 
             startFlashcards: () => {
                 const { vocab } = get();
@@ -121,7 +123,8 @@ export const useStore = create(
                 score: state.score, 
                 streak: state.streak, 
                 userProgress: state.userProgress,
-                darkMode: state.darkMode
+                darkMode: state.darkMode,
+                audioEnabled: state.audioEnabled
             }),
         }
     )
