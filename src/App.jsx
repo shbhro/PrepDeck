@@ -96,7 +96,7 @@ const Menu = () => {
             >
                 PrepDeck
             </motion.h1>
-            <p className="text-gray-600 dark:text-gray-400 mb-8 md:mb-12 font-medium tracking-wide text-sm md:text-base">Master HSK Vocab • {vocab.length} Words Loaded</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-8 md:mb-12 font-medium tracking-wide text-sm md:text-base">Master HSK Vocabs </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full max-w-md md:max-w-4xl">
                 {/* Quiz Card */}
