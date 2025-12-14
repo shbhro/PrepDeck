@@ -8,6 +8,7 @@ const calculateNextReview = (rating, previousInterval) => {
     return Math.round(previousInterval * 2.5); 
 };
 
+
 export const useStore = create(
     persist(
         (set, get) => ({

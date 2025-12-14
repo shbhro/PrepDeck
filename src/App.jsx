@@ -27,6 +27,31 @@ const getBestVoice = () => {
     return null;
 };
 
+// --- HAPTIC FEEDBACK ---
+const triggerHaptic = (style = 'light') => {
+    if ('vibrate' in navigator) {
+        switch(style) {
+            case 'light':
+                navigator.vibrate(10);
+                break;
+            case 'medium':
+                navigator.vibrate(20);
+                break;
+            case 'heavy':
+                navigator.vibrate(50);
+                break;
+            case 'success':
+                navigator.vibrate([10, 50, 10]);
+                break;
+            case 'error':
+                navigator.vibrate([50, 30, 50]);
+                break;
+            default:
+                navigator.vibrate(10);
+        }
+    }
+};
+
 const speak = (text) => {
     if (!text) return;
     
@@ -137,7 +162,15 @@ const Menu = () => {
                         />
                     </div>
 
-                    <button onClick={() => startQuiz(quizCount)} aria-label={`Start quiz with ${quizCount} words`} className="w-full py-3 md:py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold text-base md:text-lg shadow-lg transition-all transform hover:-translate-y-1">Start Quiz</button>
+                    <motion.button 
+                        onClick={() => { triggerHaptic('medium'); startQuiz(quizCount); }} 
+                        aria-label={`Start quiz with ${quizCount} words`}
+                        whileHover={{ scale: 1.02, y: -2 }}
+                        whileTap={{ scale: 0.98 }}
+                        className="w-full py-3 md:py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold text-base md:text-lg shadow-lg transition-all"
+                    >
+                        Start Quiz
+                    </motion.button>
                 </div>
 
                 {/* Flashcard Card */}
@@ -148,7 +181,15 @@ const Menu = () => {
                     <h2 className="text-2xl md:text-3xl font-bold mb-2 text-gray-800 dark:text-white">Flashcards</h2>
                     <p className="text-gray-500 dark:text-gray-400 text-xs md:text-sm mb-6 md:mb-8">Relaxed study mode. Randomized order.</p>
                     <div className="mt-auto">
-                        <button onClick={() => startFlashcards()} aria-label="Open flashcard deck" className="w-full py-3 md:py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-bold text-base md:text-lg shadow-lg transition-all transform hover:-translate-y-1">Open Deck</button>
+                        <motion.button 
+                            onClick={() => { triggerHaptic('medium'); startFlashcards(); }} 
+                            aria-label="Open flashcard deck"
+                            whileHover={{ scale: 1.02, y: -2 }}
+                            whileTap={{ scale: 0.98 }}
+                            className="w-full py-3 md:py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-bold text-base md:text-lg shadow-lg transition-all"
+                        >
+                            Open Deck
+                        </motion.button>
                     </div>
                 </div>
             </div>
@@ -185,8 +226,14 @@ const QuizMode = () => {
 
     const handleAnswer = useCallback((selectedCard) => {
         if (showResult) return;
+        triggerHaptic('medium');
         const isCorrect = selectedCard.id === currentCard.id;
-        if (isCorrect) speak(currentCard.front); 
+        if (isCorrect) {
+            speak(currentCard.front);
+            triggerHaptic('success');
+        } else {
+            triggerHaptic('error');
+        }
         setShowResult(isCorrect ? 'correct' : 'wrong');
         submitAnswer(currentCard.id, isCorrect);
         if (isCorrect) confetti({ particleCount: 50, spread: 60, origin: { y: 0.7 } });
@@ -226,7 +273,11 @@ const QuizMode = () => {
                     
                     return (
                         <motion.button
-                            key={opt.id} whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} onClick={() => handleAnswer(opt)}
+                            key={opt.id} 
+                            whileHover={{ scale: 1.02, y: -2 }} 
+                            whileTap={{ scale: 0.96 }} 
+                            transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                            onClick={() => handleAnswer(opt)}
                             className={`
                                 p-4 md:p-6 rounded-2xl border-2 text-base md:text-lg font-medium transition-all shadow-md text-center relative overflow-hidden
                                 ${showResult && opt.id === currentCard.id ? 'bg-green-100 border-green-500 text-green-900 dark:bg-green-900/50 dark:border-green-400 dark:text-green-100' : ''}
@@ -257,10 +308,12 @@ const FlashcardMode = () => {
                 setIsFlipped(prev => !prev);
             }
             if (e.code === 'ArrowRight') {
+                triggerHaptic('light');
                 setIndex((prev) => (prev + 1) % currentDeck.length);
                 setIsFlipped(false);
             }
             if (e.code === 'ArrowLeft') {
+                triggerHaptic('light');
                 setIndex((prev) => Math.max(0, prev - 1));
                 setIsFlipped(false);
             }
@@ -308,14 +361,37 @@ const FlashcardMode = () => {
     const exampleObj = parseExample(current.back.example);
 
     return (
-        <div className="flex-grow flex flex-col items-center justify-center p-4 md:p-6 cursor-pointer w-full relative z-10" onClick={() => setIsFlipped(!isFlipped)}>
+        <div className="flex-grow flex flex-col items-center justify-center p-4 md:p-6 cursor-grab active:cursor-grabbing w-full relative z-10" onClick={() => { triggerHaptic('light'); setIsFlipped(!isFlipped); }}>
             <ExitButton onClick={() => setMode('menu')} />
 
-            <div className="relative w-full max-w-[20rem] md:max-w-sm h-[450px] md:h-[600px] group" style={{ perspective: "1000px" }}>
+            <div className="relative w-full max-w-[20rem] md:max-w-sm h-[450px] md:h-[600px] group" style={{ perspective: "2000px" }}>
                 <motion.div
-                    initial={false}
-                    animate={{ rotateX: isFlipped ? 180 : 0 }}
-                    transition={{ duration: 0.6, type: "spring", stiffness: 260, damping: 20 }}
+                    key={index}
+                    initial={{ opacity: 0, rotateY: -90 }}
+                    animate={{ opacity: 1, rotateY: 0, rotateX: isFlipped ? 180 : 0 }}
+                    exit={{ opacity: 0, rotateY: 90 }}
+                    transition={{ 
+                        default: { duration: 0.6, type: "spring", stiffness: 260, damping: 20 },
+                        rotateX: { duration: 0.6, type: "spring", stiffness: 260, damping: 20 }
+                    }}
+                    drag="x"
+                    dragElastic={0.3}
+                    dragConstraints={{ left: -100, right: 100 }}
+                    whileDrag={{ 
+                        scale: 0.95,
+                        boxShadow: "0 20px 40px rgba(0, 0, 0, 0.3)"
+                    }}
+                    onDragEnd={(e, info) => {
+                        if (info.offset.x > 50) {
+                            triggerHaptic('light');
+                            setIndex((prev) => Math.max(0, prev - 1));
+                            setIsFlipped(false);
+                        } else if (info.offset.x < -50) {
+                            triggerHaptic('light');
+                            setIndex((prev) => (prev + 1) % currentDeck.length);
+                            setIsFlipped(false);
+                        }
+                    }}
                     className="w-full h-full relative"
                     style={{ transformStyle: 'preserve-3d' }}
                 >
@@ -372,8 +448,22 @@ const FlashcardMode = () => {
             </div>
             
             <div className="mt-6 md:mt-8 flex gap-4 w-full max-w-[20rem] md:max-w-sm">
-                <button onClick={(e) => { e.stopPropagation(); setIndex((prev) => Math.max(0, prev - 1)); setIsFlipped(false); }} className="flex-1 py-3 bg-white text-gray-800 border border-gray-300 hover:bg-gray-50 dark:bg-gray-700 dark:text-white dark:border-transparent rounded-xl shadow-sm font-bold text-sm md:text-base">Prev</button>
-                <button onClick={(e) => { e.stopPropagation(); setIndex((prev) => (prev + 1) % currentDeck.length); setIsFlipped(false); }} className="flex-1 py-3 bg-blue-600 text-white hover:bg-blue-500 dark:bg-cyan-600 dark:hover:bg-cyan-500 rounded-xl shadow-lg font-bold text-sm md:text-base">Next</button>
+                <motion.button 
+                    onClick={(e) => { e.stopPropagation(); triggerHaptic('light'); setIndex((prev) => Math.max(0, prev - 1)); setIsFlipped(false); }} 
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="flex-1 py-3 bg-white text-gray-800 border border-gray-300 hover:bg-gray-50 dark:bg-gray-700 dark:text-white dark:border-transparent rounded-xl shadow-sm font-bold text-sm md:text-base"
+                >
+                    Prev
+                </motion.button>
+                <motion.button 
+                    onClick={(e) => { e.stopPropagation(); triggerHaptic('light'); setIndex((prev) => (prev + 1) % currentDeck.length); setIsFlipped(false); }} 
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="flex-1 py-3 bg-blue-600 text-white hover:bg-blue-500 dark:bg-cyan-600 dark:hover:bg-cyan-500 rounded-xl shadow-lg font-bold text-sm md:text-base"
+                >
+                    Next
+                </motion.button>
             </div>
         </div>
     );
@@ -420,15 +510,25 @@ const Summary = () => {
             </div>
 
             <div className="flex gap-4">
-                <button onClick={() => setMode('menu')} className="bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 dark:bg-gray-700 dark:text-white dark:border-transparent px-8 py-3 rounded-2xl font-bold shadow-md transition-all">
+                <motion.button 
+                    onClick={() => { triggerHaptic('light'); setMode('menu'); }} 
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 dark:bg-gray-700 dark:text-white dark:border-transparent px-8 py-3 rounded-2xl font-bold shadow-md transition-all"
+                >
                     Menu
-                </button>
+                </motion.button>
                 
                 {wrongCount > 0 && (
-                    <button onClick={startWeaknessReview} className="flex items-center gap-2 bg-amber-500 text-white px-8 py-3 rounded-2xl font-bold shadow-xl hover:bg-amber-600 transition-all transform hover:-translate-y-1">
+                    <motion.button 
+                        onClick={() => { triggerHaptic('medium'); startWeaknessReview(); }} 
+                        whileHover={{ scale: 1.02, y: -2 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="flex items-center gap-2 bg-amber-500 text-white px-8 py-3 rounded-2xl font-bold shadow-xl hover:bg-amber-600 transition-all"
+                    >
                         <RefreshCw size={20} />
                         Retry Mistakes ({wrongCount})
-                    </button>
+                    </motion.button>
                 )}
             </div>
         </div>
