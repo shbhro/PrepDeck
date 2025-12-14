@@ -202,18 +202,23 @@ const QuizMode = () => {
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 w-full">
-                {options.map((opt) => (
-                    <motion.button
-                        key={opt.id} whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} onClick={() => handleAnswer(opt)}
-                        className={`
-                            p-4 md:p-6 rounded-2xl border-2 text-base md:text-lg font-medium transition-all shadow-md text-left relative overflow-hidden
-                            ${showResult && opt.id === currentCard.id ? 'bg-green-100 border-green-500 text-green-900 dark:bg-green-900/50 dark:border-green-400 dark:text-green-100' : ''}
-                            ${showResult === 'wrong' && opt.id !== currentCard.id ? 'opacity-50' : 'bg-white border-gray-200 text-gray-700 hover:border-blue-400 hover:shadow-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200 dark:hover:border-cyan-500'}
-                        `}
-                    >
-                        {opt.back.meaning.split(';')[0].substring(0, 60)}...
-                    </motion.button>
-                ))}
+                {options.map((opt) => {
+                    const meaning = opt.back.meaning.split(';')[0];
+                    const displayText = meaning.length > 60 ? meaning.substring(0, 60) + '...' : meaning;
+                    
+                    return (
+                        <motion.button
+                            key={opt.id} whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} onClick={() => handleAnswer(opt)}
+                            className={`
+                                p-4 md:p-6 rounded-2xl border-2 text-base md:text-lg font-medium transition-all shadow-md text-center relative overflow-hidden
+                                ${showResult && opt.id === currentCard.id ? 'bg-green-100 border-green-500 text-green-900 dark:bg-green-900/50 dark:border-green-400 dark:text-green-100' : ''}
+                                ${showResult === 'wrong' && opt.id !== currentCard.id ? 'opacity-50' : 'bg-white border-gray-200 text-gray-700 hover:border-blue-400 hover:shadow-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200 dark:hover:border-cyan-500'}
+                            `}
+                        >
+                            {displayText}
+                        </motion.button>
+                    );
+                })}
             </div>
         </div>
     );
