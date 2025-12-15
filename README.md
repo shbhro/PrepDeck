@@ -6,10 +6,12 @@ An interactive Chinese vocabulary learning app focused on HSK Level 3, featuring
 
 ## Features ✨
 
+- **600 Official HSK 3 Words** - Complete vocabulary from the official HSK Level 3 list
 - **Speed Quiz Mode** - Test your vocabulary against the clock with multiple-choice questions
 - **Flashcard Mode** - Study at your own pace with detailed word information
-- **Spaced Repetition** - Smart algorithm tracks your progress for better retention
+- **Progressive Web App (PWA)** - Install on any device, works offline after first load
 - **Text-to-Speech** - Native Chinese pronunciation for all vocabulary
+- **Haptic Feedback** - Subtle vibrations on mobile for better interaction
 - **Dark Mode** - Easy on the eyes for extended study sessions
 - **Progress Tracking** - Review your quiz results and retry mistakes
 - **Responsive Design** - Works seamlessly on desktop and mobile
@@ -17,7 +19,8 @@ An interactive Chinese vocabulary learning app focused on HSK Level 3, featuring
 ## Tech Stack 🛠️
 
 - **React 19** - Modern UI framework
-- **Vite** - Lightning-fast build tool
+- **Vite 7** - Lightning-fast build tool
+- **Vite PWA Plugin** - Progressive Web App support with service workers
 - **Zustand** - Lightweight state management with persistence
 - **Framer Motion** - Smooth animations and transitions
 - **Tailwind CSS** - Utility-first styling
@@ -49,31 +52,37 @@ npm run preview
 
 ```
 ├── public/
-│   ├── hsk3_master.json    # Main vocabulary database
-│   └── hsk3_vocab.json     # Additional vocab data
+│   ├── hsk3_master.json    # Main vocabulary database (600 words)
+│   ├── hsk3_vocab.json     # Synced vocab data
+│   └── icons/              # PWA icons
+│       ├── pwa-192.svg
+│       └── pwa-512.svg
 ├── src/
 │   ├── App.jsx             # Main application component
 │   ├── store.js            # Zustand state management
 │   ├── main.jsx            # App entry point
 │   └── index.css           # Global styles
+├── vite.config.js          # Vite + PWA configuration
 └── package.json
 ```
 
 ## Vocabulary Data Format 📝
 
-The app uses JSON files with the following structure:
-
-```json
-{
-  "front": "汉字",
-  "back": {
-    "hanzi_pinyin": "hànzì",
-    "meaning": "Chinese characters",
-    "part_of_speech": "noun",
-    "measure_word": "个",
-    "example": "这个汉字很难写。\nZhège hànzì hěn nán xiě."
-  }
+Theid": 1,
+"word": "汉字",
+"pinyin": "hàn zì",
+"pos": "n",
+"meaning": "Chinese characters",
+"measure_word": "个",
+"measure_word_pinyin": "gè",
+"example": "这个～很难写。",
+"example_pinyin": "zhè gè ～ hěn nán xiě 。" "meaning": "Chinese characters",
+"part_of_speech": "noun",
+"measure_word": "个",
+"example": "这个汉字很难写。\nZhège hànzì hěn nán xiě."
 }
+}
+
 ```
 
 ## Features in Detail 📚
@@ -128,3 +137,4 @@ MIT License - feel free to use this project for your own learning!
 ## Acknowledgments 🙏
 
 Powered by **Laddu** - Making language learning accessible and fun.
+```
