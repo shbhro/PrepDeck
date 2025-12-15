@@ -6543,5 +6543,60 @@
     "measure_word_pinyin": "",
     "example": "今天妈妈～了很多菜。",
     "example_pinyin": "jīn tiān mā mā ～ le hěn duō cài 。"
+  },
+  {
+    "id": 596,
+    "word": "那",
+    "pinyin": "nà",
+    "pos": "pron",
+    "meaning": "that; those; then (referring to something farther away or previously mentioned)",
+    "measure_word": "",
+    "measure_word_pinyin": "",
+    "example": "～本书是我的。",
+    "example_pinyin": "nà běn shū shì wǒ de 。"
+  },
+  {
+    "id": 597,
+    "word": "这",
+    "pinyin": "zhè",
+    "pos": "pron",
+    "meaning": "this; these (referring to something nearby or just mentioned)",
+    "measure_word": "",
+    "measure_word_pinyin": "",
+    "example": "～是我最喜欢的电影。",
+    "example_pinyin": "zhè shì wǒ zuì xǐ huān de diàn yǐng 。"
+  },
+  {
+    "id": 598,
+    "word": "虽然……但是……",
+    "pinyin": "suīrán... dànshì...",
+    "pos": "conj",
+    "meaning": "although… but… (expresses contrast)",
+    "measure_word": "",
+    "measure_word_pinyin": "",
+    "example": "～下雨了，～我们还是去了学校。",
+    "example_pinyin": "suī rán xià yǔ le ， dàn shì wǒ men hái shì qù le xué xiào 。"
+  },
+  {
+    "id": 599,
+    "word": "因为……所以……",
+    "pinyin": "yīnwèi... suǒyǐ...",
+    "pos": "conj",
+    "meaning": "because… so… (expresses cause and result)",
+    "measure_word": "",
+    "measure_word_pinyin": "",
+    "example": "～他生病了，～今天没来。",
+    "example_pinyin": "yīn wèi tā shēng bìng le ， suǒ yǐ jīn tiān méi lái 。"
+  },
+  {
+    "id": 600,
+    "word": "不但……而且……",
+    "pinyin": "bùdàn... érqiě...",
+    "pos": "conj",
+    "meaning": "not only… but also… (adds emphasis)",
+    "measure_word": "",
+    "measure_word_pinyin": "",
+    "example": "他～会说中文，～会说英语。",
+    "example_pinyin": "tā bù dàn huì shuō zhōng wén ， ér qiě huì shuō yīng yǔ 。"
   }
 ]
