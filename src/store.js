@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import { fisherYatesShuffle } from './utils/shuffle';
 
 // Spaced Repetition Logic (0=Wrong, 1=Right)
 const calculateNextReview = (rating, previousInterval) => {
@@ -43,7 +44,7 @@ export const useStore = create(
                     console.warn('No vocabulary available for flashcards');
                     return;
                 }
-                const shuffled = [...vocab].sort(() => 0.5 - Math.random());
+                const shuffled = fisherYatesShuffle(vocab);
                 set({ currentDeck: shuffled, gameMode: 'flashcards' });
             },
 
@@ -55,7 +56,7 @@ export const useStore = create(
                 }
                 
                 const safeCount = Math.max(1, Math.min(count, vocab.length));
-                const shuffled = [...vocab].sort(() => 0.5 - Math.random());
+                const shuffled = fisherYatesShuffle(vocab);
                 
                 set({ 
                     currentDeck: shuffled.slice(0, safeCount), 
@@ -78,7 +79,7 @@ export const useStore = create(
                 }
 
                 // 2. Shuffle them for the new round
-                const shuffled = [...wrongAnswers].sort(() => 0.5 - Math.random());
+                const shuffled = fisherYatesShuffle(wrongAnswers);
 
                 // 3. Start a new Quiz session with ONLY these words
                 set({
